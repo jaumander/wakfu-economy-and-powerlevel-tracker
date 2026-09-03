@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recetario — Proyecto Wakfu Leveling</title>
+<style>
+  :root{
+    --bg:#14171a;
+    --bg-elevated:#191d20;
+    --panel:#1e2225;
+    --panel-alt:#22262a;
+    --border:#2c3236;
+    --border-soft:#252a2e;
+    --text:#e9e6dd;
+    --text-dim:#97a09a;
+    --text-faint:#5f6b66;
+    --accent:#d9954a;
+    --accent-strong:#e8a95c;
+    --accent-soft:rgba(217,149,74,0.14);
+    --green:#7fae6a;
+    --green-soft:rgba(127,174,106,0.14);
+    --red:#c1594f;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --radius: 5px;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  body{
+    margin:0; background:var(--bg); color:var(--text); font-family:var(--sans);
+    font-size:14px; line-height:1.45;
+  }
+  ::selection{ background:var(--accent-soft); }
+  :focus-visible{ outline:2px solid var(--accent-strong); outline-offset:1px; }
+  input[type="checkbox"]{ accent-color:var(--accent); }
+
+  header{
+    padding:22px 28px 16px; border-bottom:1px solid var(--border);
+    background:var(--bg-elevated);
+  }
+  header h1{ margin:0; font-size:22px; font-weight:650; letter-spacing:0.2px; color:var(--text); }
+  header h1 span{ color:var(--accent-strong); }
+  header .subtitle{ margin:4px 0 0; color:var(--text-dim); font-size:13px; }
+
+  .databar{
+    display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+    padding:12px 28px; background:var(--bg-elevated); border-bottom:1px solid var(--border);
+  }
+  .file-btn{
+    position:relative; display:inline-flex; align-items:center; gap:8px;
+    padding:8px 14px; background:var(--accent); color:#1a1408; font-weight:600;
+    border-radius:var(--radius); cursor:pointer; font-size:13px;
+  }
+  .file-btn:hover{ background:var(--accent-strong); }
+  .file-btn input{ position:absolute; inset:0; opacity:0; cursor:pointer; }
+  .loaded-sources{ display:flex; gap:8px; flex-wrap:wrap; flex:1; }
+  .source-chip{
+    display:inline-flex; align-items:center; gap:6px; padding:4px 10px;
+    background:var(--panel-alt); border:1px solid var(--border); border-radius:999px;
+    color:var(--text-dim); font-size:12px;
+  }
+  .source-chip b{ color:var(--text); font-weight:600; }
+  .ghost-btn{
+    padding:7px 13px; background:transparent; color:var(--text-dim);
+    border:1px solid var(--border); border-radius:var(--radius); cursor:pointer; font-size:13px;
+  }
+  .ghost-btn:hover{ color:var(--text); border-color:var(--text-faint); }
+  .mini-btn{
+    padding:4px 10px; background:transparent; color:var(--text-dim);
+    border:1px solid var(--border); border-radius:4px; cursor:pointer; font-size:11px;
+  }
+  .mini-btn:hover{ color:var(--accent-strong); border-color:var(--accent); }
+
+  main.columns{
+    display:grid; grid-template-columns:1.05fr 0.9fr 1.25fr; gap:1px;
+    background:var(--border); min-height:calc(100vh - 150px);
+  }
+  @media (max-width: 1040px){ main.columns{ grid-template-columns:1fr; } }
+  .panel{ background:var(--panel); padding:18px 20px 22px; display:flex; flex-direction:column; min-height:320px; }
+  .panel h2{ margin:0; font-size:14px; font-weight:650; border-left:3px solid var(--accent); padding-left:9px; }
+  .panel-header-row{ display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+  h3.subheading{ font-size:12px; color:var(--text-faint); margin:0; font-weight:600; }
+
+  .search-controls{ display:flex; flex-direction:column; gap:8px; margin:14px 0 8px; }
+  .level-range{ display:flex; align-items:center; gap:8px; color:var(--text-dim); }
+  .level-range span{ font-family:var(--mono); }
+  input[type="number"], input[type="text"], select{
+    background:var(--panel-alt); border:1px solid var(--border); color:var(--text);
+    padding:7px 9px; border-radius:var(--radius); font-size:13px; font-family:var(--sans);
+  }
+  input[type="number"]{ width:84px; font-family:var(--mono); }
+  select{ width:100%; }
+  input[type="text"]{ width:100%; }
+
+  .results-count, .selection-count, .shopping-count{
+    color:var(--text-faint); font-size:12px; margin:6px 0 8px; font-family:var(--mono);
+  }
+
+  ul{ list-style:none; margin:0; padding:0; overflow-y:auto; }
+  .results-list{ max-height:520px; flex:1; }
+  .selection-list{ max-height:420px; }
+  .subrecipe-list{ max-height:190px; margin:8px 0 4px; }
+  .shopping-list{ max-height:280px; }
+
+  .icon{
+    width:22px; height:22px; object-fit:contain; border-radius:3px;
+    background:var(--panel-alt); flex:none; display:block;
+  }
+  .icon.icon-missing{ visibility:hidden; }
+
+  .result-row{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:8px 0; border-bottom:1px solid var(--border-soft);
+  }
+  .result-row .left{ display:flex; align-items:center; gap:9px; min-width:0; }
+  .result-row .info{ min-width:0; }
+  .result-row .name{ font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .result-row .meta{ color:var(--text-faint); font-size:12px; margin-top:1px; }
+  .add-btn{
+    flex:none; padding:5px 11px; background:var(--panel-alt); color:var(--accent-strong);
+    border:1px solid var(--border); border-radius:var(--radius); cursor:pointer; font-size:12px; font-weight:600;
+  }
+  .add-btn:hover{ background:var(--accent-soft); border-color:var(--accent); }
+
+  .selection-row{
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
+    padding:8px 0; border-bottom:1px solid var(--border-soft);
+  }
+  .selection-row .left{ display:flex; align-items:center; gap:9px; min-width:0; }
+  .selection-row .info{ min-width:0; }
+  .selection-row .name{ font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .selection-row .meta{ color:var(--text-faint); font-size:12px; }
+  .qty-input{ width:52px; text-align:center; }
+  .remove-btn{
+    flex:none; width:24px; height:24px; border-radius:50%; border:1px solid var(--border);
+    background:transparent; color:var(--text-faint); cursor:pointer; font-size:14px; line-height:1;
+  }
+  .remove-btn:hover{ color:var(--red); border-color:var(--red); }
+  .row-controls{ display:flex; align-items:center; gap:8px; flex:none; }
+
+  .xp-total{ margin-top:12px; padding-top:12px; border-top:1px solid var(--border); color:var(--text-dim); font-size:13px; }
+  .xp-total b{ color:var(--accent-strong); font-family:var(--mono); }
+
+  .subrecipe-row{ padding:8px 0; border-bottom:1px solid var(--border-soft); }
+  .subrecipe-row .head{ display:flex; align-items:center; gap:8px; }
+  .subrecipe-row label.check{ display:flex; align-items:center; gap:8px; min-width:0; flex:1; cursor:pointer; }
+  .subrecipe-row .name{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-weight:600; font-size:13px; }
+  .variant-select{ width:100%; margin-top:6px; font-size:12px; }
+  .variant-materials{ color:var(--text-faint); font-size:11.5px; margin-top:5px; padding-left:30px; }
+
+  .shopping-row{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:7px 0; border-bottom:1px solid var(--border-soft); font-size:13px;
+  }
+  .shopping-row .left{ display:flex; align-items:center; gap:9px; min-width:0; }
+  .shopping-row .name{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .shopping-row .qty{ color:var(--accent-strong); font-weight:600; font-family:var(--mono); flex:none; }
+
+  .surplus-box{ margin-top:10px; font-size:12px; color:var(--text-faint); }
+  .surplus-box .surplus-title{ color:var(--green); font-weight:600; }
+
+  .actions{ display:flex; gap:8px; margin-top:14px; }
+
+  .empty-state{ color:var(--text-faint); font-size:13px; padding:14px 4px; line-height:1.6; }
+  .empty-state code{ background:var(--panel-alt); padding:1px 5px; border-radius:3px; font-family:var(--mono); color:var(--text-dim); }
+
+  footer{ padding:14px 28px; color:var(--text-faint); font-size:12px; border-top:1px solid var(--border); background:var(--bg-elevated); }
+  footer code{ color:var(--text-dim); }
+  footer a{ color:var(--text-dim); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Recetari<span>o</span></h1>
+  <p class="subtitle">Explorador de recetas y lista de compra para el proyecto de leveo — funciona sin conexión, sobre tus propios datos</p>
+</header>
+
+<section class="databar">
+  <label class="file-btn">
+    Cargar datos (.json)
+    <input type="file" id="fileInput" multiple accept=".json">
+  </label>
+  <div class="loaded-sources" id="loadedSources"></div>
+  <button class="ghost-btn" id="clearDataBtn">Vaciar datos cargados</button>
+</section>
+
+<main class="columns">
+
+  <section class="panel" id="panelBuscar">
+    <h2>Buscar</h2>
+    <div class="search-controls">
+      <select id="filterProfesion"><option value="">Todas las profesiones</option></select>
+      <div class="level-range">
+        <input type="number" id="filterMin" min="0" value="0"> <span>–</span>
+        <input type="number" id="filterMax" min="0" value="200">
+      </div>
+      <input type="text" id="searchText" placeholder="Buscar por nombre de receta…">
+    </div>
+    <div class="results-count" id="resultsCount">0 resultados</div>
+    <ul class="results-list" id="resultsList"></ul>
+  </section>
+
+  <section class="panel" id="panelSeleccion">
+    <h2>Recetas seleccionadas</h2>
+    <div class="selection-count" id="selectionCount">0 recetas</div>
+    <ul class="selection-list" id="selectionList"></ul>
+    <div class="xp-total" id="xpTotal"></div>
+  </section>
+
+  <section class="panel" id="panelCompras">
+    <h2>Lista de compra</h2>
+
+    <div class="panel-header-row" style="margin-top:14px;">
+      <h3 class="subheading">Sub-recetas detectadas — qué se está expandiendo</h3>
+      <div style="display:flex; gap:6px;">
+        <button class="mini-btn" id="expandAllBtn">Expandir todo</button>
+        <button class="mini-btn" id="collapseAllBtn">No expandir nada</button>
+      </div>
+    </div>
+    <ul class="subrecipe-list" id="subrecipeList"></ul>
+
+    <h3 class="subheading" style="margin-top:10px;">Materiales finales</h3>
+    <div class="shopping-count" id="shoppingCount">0 recursos</div>
+    <ul class="shopping-list" id="shoppingList"></ul>
+    <div class="surplus-box" id="surplusBox"></div>
+
+    <div class="actions">
+      <button class="ghost-btn" id="copyBtn">Copiar lista</button>
+      <button class="ghost-btn" id="clearSelectionBtn">Vaciar selección</button>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Nada sale de tu navegador: los datos se cargan desde los archivos <code>*_recetas_completas.json</code> e
+  <code>iconos.json</code> generados por <code>wakfu_recipe_extractor.py</code>. Iconos servidos desde el
+  repositorio comunitario <a href="https://github.com/Vertylo/wakassets" target="_blank" rel="noopener">Vertylo/wakassets</a>
+  (si uno falla, el hueco queda vacío en vez de romper la fila). Punto de partida pensado para extenderse
+  con precios y coste neto más adelante.
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---------- estado ----------
+  let allRecipes = [];             // recetas deduplicadas (todas las fuentes cargadas)
+  let resultIndex = new Map();     // nombre normalizado -> [recetas] que lo producen, ordenadas por preferencia
+  let iconMap = new Map();         // nombre normalizado -> gfxId
+  let loadedSources = new Map();   // etiqueta -> { count, type: 'recetas'|'iconos' }
+  const selection = new Map();     // recipeId -> { recipe, qty }
+  const expansionEnabled = new Map(); // nombre normalizado -> bool (por defecto true si no está presente)
+  const variantChoice = new Map();    // nombre normalizado -> recipeId elegido manualmente
+
+  const ICON_BASE = 'https://raw.githubusercontent.com/Vertylo/wakassets/master/items/';
+
+  const els = {};
+  ['fileInput','loadedSources','clearDataBtn','filterProfesion','filterMin','filterMax','searchText',
+   'resultsCount','resultsList','selectionCount','selectionList','xpTotal','shoppingCount','shoppingList',
+   'surplusBox','copyBtn','clearSelectionBtn','subrecipeList','expandAllBtn','collapseAllBtn'
+  ].forEach(id => els[id] = document.getElementById(id));
+
+  // ---------- utilidades ----------
+  function normalize(s){
+    return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+  }
+
+  function parseItemString(str){
+    if(!str) return [];
+    return String(str).split(';').map(s=>s.trim()).filter(Boolean).map(seg=>{
+      const m = seg.match(/^(.*)\s+x(\d+)$/);
+      if(m) return { name: m[1].trim(), qty: parseInt(m[2],10) };
+      return { name: seg, qty: 1 };
+    });
+  }
+
+  function deriveSourceLabel(filename){
+    let base = filename.replace(/\.json$/i, '');
+    base = base.replace(/_recetas_completas$/i, '').replace(/^util_/i, '');
+    base = base.replace(/_/g, ' ');
+    return base.replace(/\b\w/g, c => c.toUpperCase());
+  }
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function iconImg(name){
+    const gfx = iconMap.get(normalize(name));
+    if(!gfx) return `<span class="icon icon-missing"></span>`;
+    return `<img class="icon" src="${ICON_BASE}${gfx}.png" alt="" loading="lazy" onerror="this.classList.add('icon-missing')">`;
+  }
+
+  function materialsSummary(recipe){
+    return recipe.materialesParsed.map(m=>`${m.name} x${m.qty}`).join(', ');
+  }
+
+  // ---------- carga de datos ----------
+  els.fileInput.addEventListener('change', (e)=>{
+    const files = Array.from(e.target.files || []);
+    let pending = files.length;
+    if(!pending) return;
+    files.forEach(file=>{
+      const reader = new FileReader();
+      reader.onload = () => {
+        try{
+          const raw = JSON.parse(reader.result);
+          if(Array.isArray(raw)){
+            ingestRecipes(raw, deriveSourceLabel(file.name));
+          } else if(raw && typeof raw === 'object'){
+            ingestIcons(raw, deriveSourceLabel(file.name));
+          } else {
+            throw new Error('formato no reconocido');
+          }
+        }catch(err){
+          alert('No se pudo leer "'+file.name+'": '+err.message);
+        }finally{
+          pending--;
+          if(pending === 0){
+            rebuildIndex();
+            renderSourceChips();
+            renderProfesionOptions();
+            runSearch();
+            renderSelection();
+          }
+        }
+      };
+      reader.readAsText(file, 'utf-8');
+    });
+    els.fileInput.value = '';
+  });
+
+  function ingestRecipes(rows, source){
+    let added = 0, skipped = 0;
+    const seen = new Set(allRecipes.map(r=>r.recipeId));
+    rows.forEach(r=>{
+      if(seen.has(r.recipeId)){ skipped++; return; }
+      seen.add(r.recipeId);
+      const resultadoParsed = parseItemString(r.resultado);
+      const materialesParsed = parseItemString(r.materiales);
+      allRecipes.push({
+        recipeId: r.recipeId, nivel: r.nivel, xp: r.xp,
+        resultado: r.resultado, materiales: r.materiales,
+        resultadoParsed, materialesParsed,
+        primary: resultadoParsed[0] || { name: r.resultado || '?', qty: 1 },
+        numMat: r.num_materiales_distintos != null ? r.num_materiales_distintos : materialesParsed.length,
+        source
+      });
+      added++;
+    });
+    const prev = loadedSources.get(source);
+    loadedSources.set(source, { count: (prev?prev.count:0) + added, type:'recetas' });
+    if(skipped) console.info(`(${source}) ${skipped} recetas duplicadas omitidas`);
+  }
+
+  function ingestIcons(obj, source){
+    let added = 0;
+    Object.keys(obj).forEach(name=>{
+      iconMap.set(normalize(name), obj[name]);
+      added++;
+    });
+    loadedSources.set(source, { count: added, type:'iconos' });
+  }
+
+  function rebuildIndex(){
+    resultIndex = new Map();
+    allRecipes.forEach(r=>{
+      const key = normalize(r.primary.name);
+      if(!resultIndex.has(key)) resultIndex.set(key, []);
+      resultIndex.get(key).push(r);
+    });
+    resultIndex.forEach(list => list.sort((a,b)=> (a.numMat-b.numMat) || (a.recipeId-b.recipeId)));
+  }
+
+  function pickPreferred(name){
+    const key = normalize(name);
+    const list = resultIndex.get(key);
+    if(!list) return null;
+    if(variantChoice.has(key)){
+      const found = list.find(r => r.recipeId === variantChoice.get(key));
+      if(found) return found;
+    }
+    return list[0];
+  }
+
+  els.clearDataBtn.addEventListener('click', ()=>{
+    allRecipes = []; resultIndex = new Map(); loadedSources = new Map(); iconMap = new Map();
+    selection.clear(); expansionEnabled.clear(); variantChoice.clear();
+    renderSourceChips(); renderProfesionOptions(); runSearch(); renderSelection();
+  });
+
+  function renderSourceChips(){
+    if(loadedSources.size === 0){
+      els.loadedSources.innerHTML = '<span style="color:var(--text-faint);font-size:12px;">Sin datos cargados todavía</span>';
+      return;
+    }
+    els.loadedSources.innerHTML = [...loadedSources.entries()].map(([name,info])=>
+      `<span class="source-chip"><b>${escapeHtml(name)}</b> · ${info.count} ${info.type}</span>`
+    ).join('');
+  }
+
+  function renderProfesionOptions(){
+    const current = els.filterProfesion.value;
+    const sources = [...new Set(allRecipes.map(r=>r.source))].sort();
+    els.filterProfesion.innerHTML = '<option value="">Todas las profesiones</option>' +
+      sources.map(s=>`<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
+    if(sources.includes(current)) els.filterProfesion.value = current;
+  }
+
+  // ---------- búsqueda ----------
+  [els.filterProfesion, els.filterMin, els.filterMax, els.searchText].forEach(el=>{
+    el.addEventListener('input', runSearch);
+  });
+
+  function runSearch(){
+    const prof = els.filterProfesion.value;
+    const min = parseInt(els.filterMin.value,10); const minOk = !isNaN(min);
+    const max = parseInt(els.filterMax.value,10); const maxOk = !isNaN(max);
+    const q = normalize(els.searchText.value);
+
+    const filtered = allRecipes.filter(r=>{
+      if(prof && r.source !== prof) return false;
+      if(minOk && r.nivel < min) return false;
+      if(maxOk && r.nivel > max) return false;
+      if(q && !normalize(r.primary.name).includes(q)) return false;
+      return true;
+    }).sort((a,b)=> a.nivel - b.nivel || a.primary.name.localeCompare(b.primary.name));
+
+    els.resultsCount.textContent = `${filtered.length} resultado${filtered.length===1?'':'s'}`;
+
+    if(allRecipes.length === 0){
+      els.resultsList.innerHTML = `<li class="empty-state">Carga uno o más archivos <code>*_recetas_completas.json</code>
+        y, si quieres iconos, <code>iconos.json</code> (todos generados por <code>wakfu_recipe_extractor.py</code>)
+        para empezar a buscar.</li>`;
+      return;
+    }
+    if(filtered.length === 0){
+      els.resultsList.innerHTML = `<li class="empty-state">Ninguna receta coincide con este filtro.</li>`;
+      return;
+    }
+
+    els.resultsList.innerHTML = filtered.slice(0, 400).map(r=>{
+      return `<li class="result-row" data-id="${r.recipeId}">
+        <div class="left">
+          ${iconImg(r.primary.name)}
+          <div class="info">
+            <div class="name">${escapeHtml(r.primary.name)}</div>
+            <div class="meta">Niv. ${r.nivel} · ${escapeHtml(r.source)} · ${r.xp} XP</div>
+          </div>
+        </div>
+        <button class="add-btn" data-add="${r.recipeId}">+ Añadir</button>
+      </li>`;
+    }).join('');
+  }
+
+  els.resultsList.addEventListener('click', (e)=>{
+    const btn = e.target.closest('[data-add]');
+    if(!btn) return;
+    addToSelection(parseInt(btn.dataset.add,10));
+  });
+
+  // ---------- selección ----------
+  function addToSelection(recipeId){
+    const recipe = allRecipes.find(r=>r.recipeId === recipeId);
+    if(!recipe) return;
+    if(selection.has(recipeId)) selection.get(recipeId).qty += 1;
+    else selection.set(recipeId, { recipe, qty: 1 });
+    renderSelection();
+  }
+
+  function renderSelection(){
+    els.selectionCount.textContent = `${selection.size} receta${selection.size===1?'':'s'}`;
+    if(selection.size === 0){
+      els.selectionList.innerHTML = `<li class="empty-state">Añade recetas desde el buscador de la izquierda.</li>`;
+      els.xpTotal.textContent = '';
+    } else {
+      els.selectionList.innerHTML = [...selection.entries()].map(([id, entry])=>{
+        const r = entry.recipe;
+        return `<li class="selection-row" data-id="${id}">
+          <div class="left">
+            ${iconImg(r.primary.name)}
+            <div class="info">
+              <div class="name">${escapeHtml(r.primary.name)}</div>
+              <div class="meta">Niv. ${r.nivel} · ${escapeHtml(r.source)} · ${r.xp} XP</div>
+            </div>
+          </div>
+          <div class="row-controls">
+            <input type="number" class="qty-input" min="1" value="${entry.qty}" data-qty="${id}">
+            <button class="remove-btn" data-remove="${id}" aria-label="Quitar">×</button>
+          </div>
+        </li>`;
+      }).join('');
+      let totalXp = 0;
+      selection.forEach(e => totalXp += e.qty * e.recipe.xp);
+      els.xpTotal.innerHTML = `XP total de la selección: <b>${totalXp.toLocaleString('es-ES')}</b>`;
+    }
+    refreshComprasPanel();
+  }
+
+  els.selectionList.addEventListener('input', (e)=>{
+    const inp = e.target.closest('[data-qty]');
+    if(!inp) return;
+    const id = parseInt(inp.dataset.qty,10);
+    let v = parseInt(inp.value,10);
+    if(isNaN(v) || v < 1) v = 1;
+    if(selection.has(id)) selection.get(id).qty = v;
+    renderSelection();
+  });
+  els.selectionList.addEventListener('click', (e)=>{
+    const btn = e.target.closest('[data-remove]');
+    if(!btn) return;
+    selection.delete(parseInt(btn.dataset.remove,10));
+    renderSelection();
+  });
+  els.clearSelectionBtn.addEventListener('click', ()=>{
+    selection.clear(); renderSelection();
+  });
+
+  // ---------- descubrimiento de sub-recetas (para el panel + selector de variante) ----------
+  function discoverExpandables(){
+    const discovered = new Map(); // key normalizado -> { name, options, depth }
+    function walk(name, visiting, depth){
+      const key = normalize(name);
+      const options = resultIndex.get(key);
+      if(!options || options.length === 0 || visiting.has(key)) return;
+      const existing = discovered.get(key);
+      if(!existing) discovered.set(key, { name: options[0].primary.name, options, depth });
+      else if(depth < existing.depth) existing.depth = depth;
+      const chosen = pickPreferred(name);
+      if(!chosen) return;
+      const nextVisiting = new Set(visiting); nextVisiting.add(key);
+      chosen.materialesParsed.forEach(m => walk(m.name, nextVisiting, depth + 1));
+    }
+    selection.forEach(entry=>{
+      entry.recipe.materialesParsed.forEach(m => walk(m.name, new Set(), 0));
+    });
+    return discovered;
+  }
+
+  function renderSubrecipes(){
+    const discovered = discoverExpandables();
+    const rows = [...discovered.values()].sort((a,b)=> a.depth - b.depth || a.name.localeCompare(b.name));
+
+    if(selection.size === 0){
+      els.subrecipeList.innerHTML = `<li class="empty-state">Aparecerán aquí en cuanto añadas recetas con materiales que a su vez sean craftables.</li>`;
+      return;
+    }
+    if(rows.length === 0){
+      els.subrecipeList.innerHTML = `<li class="empty-state">Ninguno de los materiales de la selección actual tiene receta propia en los datos cargados — la lista de compra ya muestra materiales base.</li>`;
+      return;
+    }
+
+    els.subrecipeList.innerHTML = rows.map(({name, options, depth})=>{
+      const key = normalize(name);
+      const enabled = expansionEnabled.has(key) ? expansionEnabled.get(key) : true;
+      const chosen = pickPreferred(name);
+      let body;
+      if(options.length > 1){
+        body = `<select class="variant-select" data-variant="${escapeHtml(key)}">` +
+          options.map(o => `<option value="${o.recipeId}" ${o.recipeId===chosen.recipeId?'selected':''}>${escapeHtml(materialsSummary(o))}</option>`).join('') +
+          `</select>`;
+      } else {
+        body = `<div class="variant-materials">→ ${escapeHtml(materialsSummary(chosen))}</div>`;
+      }
+      return `<li class="subrecipe-row">
+        <div class="head">
+          <label class="check">
+            <input type="checkbox" data-expand="${escapeHtml(key)}" ${enabled?'checked':''}>
+            ${iconImg(name)}
+            <span class="name">${escapeHtml(name)}</span>
+          </label>
+          ${options.length>1 ? `<span style="color:var(--text-faint);font-size:11px;flex:none;">${options.length} variantes</span>` : ''}
+        </div>
+        ${options.length>1 ? body : `<div class="variant-materials">→ ${escapeHtml(materialsSummary(chosen))}</div>`}
+      </li>`;
+    }).join('');
+  }
+
+  els.subrecipeList.addEventListener('change', (e)=>{
+    const chk = e.target.closest('[data-expand]');
+    if(chk){
+      expansionEnabled.set(chk.dataset.expand, chk.checked);
+      renderShoppingList();
+      return;
+    }
+    const sel = e.target.closest('[data-variant]');
+    if(sel){
+      variantChoice.set(sel.dataset.variant, parseInt(sel.value,10));
+      refreshComprasPanel();
+    }
+  });
+
+  els.expandAllBtn.addEventListener('click', ()=>{
+    discoverExpandables().forEach((v,k)=> expansionEnabled.set(k, true));
+    refreshComprasPanel();
+  });
+  els.collapseAllBtn.addEventListener('click', ()=>{
+    discoverExpandables().forEach((v,k)=> expansionEnabled.set(k, false));
+    refreshComprasPanel();
+  });
+
+  function refreshComprasPanel(){
+    renderSubrecipes();
+    renderShoppingList();
+  }
+
+  // ---------- lista de compra (con expansión recursiva controlable) ----------
+  function computeShoppingList(){
+    const totals = new Map();
+    const surplus = new Map();
+
+    function addNeed(name, qty, visiting){
+      const key = normalize(name);
+      const enabled = expansionEnabled.has(key) ? expansionEnabled.get(key) : true;
+      const chosen = enabled ? pickPreferred(name) : null;
+      if(chosen && !visiting.has(key)){
+        const outQty = chosen.primary.qty || 1;
+        const craftsNeeded = Math.ceil(qty / outQty);
+        const produced = craftsNeeded * outQty;
+        const leftover = produced - qty;
+        if(leftover > 0) surplus.set(name, (surplus.get(name)||0) + leftover);
+        const nextVisiting = new Set(visiting); nextVisiting.add(key);
+        chosen.materialesParsed.forEach(m => addNeed(m.name, m.qty * craftsNeeded, nextVisiting));
+      } else {
+        totals.set(name, (totals.get(name)||0) + qty);
+      }
+    }
+
+    selection.forEach(entry=>{
+      entry.recipe.materialesParsed.forEach(m=>{
+        addNeed(m.name, m.qty * entry.qty, new Set());
+      });
+    });
+
+    return { totals, surplus };
+  }
+
+  function renderShoppingList(){
+    const { totals, surplus } = computeShoppingList();
+    const rows = [...totals.entries()].sort((a,b)=> a[0].localeCompare(b[0]));
+    const sumQty = rows.reduce((s,[,q])=>s+q, 0);
+
+    els.shoppingCount.textContent = `${sumQty} recursos · ${rows.length} distinto${rows.length===1?'':'s'}`;
+
+    if(selection.size === 0){
+      els.shoppingList.innerHTML = `<li class="empty-state">La lista de compra se genera automáticamente al añadir recetas.</li>`;
+      els.surplusBox.innerHTML = '';
+      return;
+    }
+
+    els.shoppingList.innerHTML = rows.map(([name, qty])=>
+      `<li class="shopping-row">
+        <span class="left"><span>${iconImg(name)}</span><span class="name">${escapeHtml(name)}</span></span>
+        <span class="qty">x${qty}</span>
+      </li>`
+    ).join('');
+
+    if(surplus.size){
+      const items = [...surplus.entries()].sort((a,b)=>a[0].localeCompare(b[0]))
+        .map(([n,q])=>`${escapeHtml(n)} x${q}`).join(', ');
+      els.surplusBox.innerHTML = `<span class="surplus-title">Excedente vendible</span> (crafteos de sub-recetas que sobran, ver sección 8.9 del handoff): ${items}`;
+    } else {
+      els.surplusBox.innerHTML = '';
+    }
+  }
+
+  els.copyBtn.addEventListener('click', ()=>{
+    const { totals } = computeShoppingList();
+    const rows = [...totals.entries()].sort((a,b)=> a[0].localeCompare(b[0]));
+    const text = rows.map(([n,q])=>`${n} x${q}`).join('\n');
+    if(!text){ return; }
+    navigator.clipboard.writeText(text).then(()=>{
+      const old = els.copyBtn.textContent;
+      els.copyBtn.textContent = 'Copiado ✓';
+      setTimeout(()=>{ els.copyBtn.textContent = old; }, 1400);
+    }).catch(()=>{
+      window.prompt('Copia manualmente (Ctrl+C):', text);
+    });
+  });
+
+  // ---------- estado inicial ----------
+  renderSourceChips();
+  renderProfesionOptions();
+  runSearch();
+  renderSelection();
+})();
+</script>
+</body>
+</html>
