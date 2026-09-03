@@ -1,0 +1,714 @@
+[
+  {
+    "recipeId": 2047,
+    "nivel": 0,
+    "xp": 300,
+    "resultado": "Pan de Farle x4",
+    "materiales": "Harina tosca x1; Cubo de agua x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2479,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Tronquito de Nawidad x1",
+    "materiales": "Kamas de chocolate de Nawidad x4; Rama de acebo x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2492,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Galleta de trébol x1",
+    "materiales": "Trébol de cuatro hojas x6; Harina tosca x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2852,
+    "nivel": 0,
+    "xp": 300,
+    "resultado": "Pan de molde x4",
+    "materiales": "Cubo de agua x5; Aceite tosco x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3600,
+    "nivel": 0,
+    "xp": 450,
+    "resultado": "Aceite tosco x1",
+    "materiales": "Cardo borriquero x5; Flor de irys x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3839,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Härinosos x1",
+    "materiales": "Ärenä finä x5; Flor de sal x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2052,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Jalapán x1",
+    "materiales": "Leleche x5; Harina tosca x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2178,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Bolsita de brutzels x1",
+    "materiales": "Avellana x2; Aceite tosco x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2225,
+    "nivel": 5,
+    "xp": 600,
+    "resultado": "Pan de Xav el panadero x4",
+    "materiales": "Aceite tosco x1; Harina tosca x1; Cubo de agua x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2053,
+    "nivel": 10,
+    "xp": 300,
+    "resultado": "Pan redondo x4",
+    "materiales": "Harina rudimentaria x1; Cubo de agua x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2616,
+    "nivel": 10,
+    "xp": 300,
+    "resultado": "Pan con Avellanella x4",
+    "materiales": "Aceite rudimentario x1; Cubo de agua x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3879,
+    "nivel": 10,
+    "xp": 450,
+    "resultado": "Aceite rudimentario x1",
+    "materiales": "Hoja de menta x5; Flor de lino x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2048,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Panpío x1",
+    "materiales": "Harina rudimentaria x1; Leleche x10",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2054,
+    "nivel": 15,
+    "xp": 600,
+    "resultado": "Bizcocho pequeño x4",
+    "materiales": "Cubo de agua x10; Harina rudimentaria x1; Aceite rudimentario x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2389,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Compota x1",
+    "materiales": "Ñiamzama x2; Aceite rudimentario x1; Castaña x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2403,
+    "nivel": 20,
+    "xp": 300,
+    "resultado": "Pan integral x4",
+    "materiales": "Cubo de agua x3; Harina imperfecta x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4574,
+    "nivel": 20,
+    "xp": 450,
+    "resultado": "Aceite imperfecto x1",
+    "materiales": "Trébol perfumado x5; Flor de orquídea x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 5015,
+    "nivel": 20,
+    "xp": 1500,
+    "resultado": "Focaccia x4",
+    "materiales": "Cubo de agua x15; Aceite imperfecto x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2057,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Cruasangre x1",
+    "materiales": "Espiga de trigo dorado x1; Harina imperfecta x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2402,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Towta de Wey x1",
+    "materiales": "Aceite imperfecto x1; Zanahowia x15",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2859,
+    "nivel": 25,
+    "xp": 600,
+    "resultado": "Pan baza x4",
+    "materiales": "Cubo de agua x3; Harina imperfecta x1; Aceite imperfecto x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2861,
+    "nivel": 30,
+    "xp": 300,
+    "resultado": "Pan de salvado de avena x4",
+    "materiales": "Cubo de agua x3; Harina frágil x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2863,
+    "nivel": 30,
+    "xp": 300,
+    "resultado": "Palmerita x4",
+    "materiales": "Cubo de agua x3; Aceite frágil x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4575,
+    "nivel": 30,
+    "xp": 450,
+    "resultado": "Aceite frágil x1",
+    "materiales": "Alga narina x5; Hoja de helecho lecho x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2058,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Pan lewdo x1",
+    "materiales": "Castaña x6; Harina frágil x1; Aceite frágil x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2059,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Chamustarta x1",
+    "materiales": "Kokoleche x1; Alga narina x15; Harina frágil x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2865,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Manjugo x4",
+    "materiales": "Cubo de agua x3; Harina frágil x1; Aceite frágil x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2867,
+    "nivel": 40,
+    "xp": 300,
+    "resultado": "Pan de centeno x4",
+    "materiales": "Cubo de agua x3; Harina rústica x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2869,
+    "nivel": 40,
+    "xp": 300,
+    "resultado": "Torta de arroz x4",
+    "materiales": "Cubo de agua x3; Aceite rústico x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4576,
+    "nivel": 40,
+    "xp": 450,
+    "resultado": "Aceite rústico x1",
+    "materiales": "Tallo de caña x5; Baya de gárgolo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2056,
+    "nivel": 45,
+    "xp": 600,
+    "resultado": "Hogaza rubia x4",
+    "materiales": "Cubo de agua x3; Harina rústica x1; Aceite rústico x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2175,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Falucha Libre x1",
+    "materiales": "Aceite rústico x1; Harina rústica x3; Hilo rústico x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2794,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Jalarepa x1",
+    "materiales": "Champiñón veteado x15; Aceite rústico x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2873,
+    "nivel": 50,
+    "xp": 300,
+    "resultado": "Pan de cereales x4",
+    "materiales": "Cubo de agua x3; Harina bruta x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2881,
+    "nivel": 50,
+    "xp": 300,
+    "resultado": "Sandipán x4",
+    "materiales": "Cubo de agua x3; Aceite bruto x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4577,
+    "nivel": 50,
+    "xp": 450,
+    "resultado": "Aceite bruto x1",
+    "materiales": "Lengua de muuugresa x5; Flor de rododendro x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2176,
+    "nivel": 55,
+    "xp": 375,
+    "resultado": "Bizcocho dorado x1",
+    "materiales": "Aceite bruto x1; Mucosidad brizlona x10",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2872,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Petisú x1",
+    "materiales": "Harina bruta x3; Encantártaro bruto x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2875,
+    "nivel": 55,
+    "xp": 600,
+    "resultado": "Pan de maíz x4",
+    "materiales": "Cubo de agua x3; Harina bruta x1; Aceite bruto x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2877,
+    "nivel": 60,
+    "xp": 300,
+    "resultado": "Pan de melón x4",
+    "materiales": "Harina sólida x1; Cubo de agua x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2879,
+    "nivel": 60,
+    "xp": 300,
+    "resultado": "Pan sol x4",
+    "materiales": "Cubo de agua x3; Aceite sólido x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4578,
+    "nivel": 60,
+    "xp": 450,
+    "resultado": "Aceite sólido x1",
+    "materiales": "Edelweiss x5; Flor de algodonudo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2404,
+    "nivel": 65,
+    "xp": 600,
+    "resultado": "Pan de cementeno x4",
+    "materiales": "Cubo de agua x3; Aceite sólido x1; Harina sólida x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2406,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Capitán Brioch x1",
+    "materiales": "Puro arabraca x1; Flor de sal x15; Bananaranja x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2753,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Pan de monjes x1",
+    "materiales": "Maíz casado x1; Ranciedad x30; Campana x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2408,
+    "nivel": 70,
+    "xp": 300,
+    "resultado": "Pan Dala x4",
+    "materiales": "Cubo de agua x3; Harina duradera x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3500,
+    "nivel": 70,
+    "xp": 300,
+    "resultado": "Pantrufa x4",
+    "materiales": "Cubo de agua x3; Aceite duradero x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4579,
+    "nivel": 70,
+    "xp": 450,
+    "resultado": "Aceite duradero x1",
+    "materiales": "Hoja de aloa vero x5; Booleto x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2405,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Tristepán x1",
+    "materiales": "Harina de hueso x3; Aceite duradero x1; Sandía de abundancia x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2760,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Yema de santa Teresa x1",
+    "materiales": "Maíz casado x1; Campana x6; Aceite duradero x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 5719,
+    "nivel": 75,
+    "xp": 600,
+    "resultado": "Pan planchado x4",
+    "materiales": "Cubo de agua x3; Aceite duradero x1; Harina duradera x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3502,
+    "nivel": 80,
+    "xp": 300,
+    "resultado": "Pan luminoso x4",
+    "materiales": "Cubo de agua x3; Aceite refinado x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4580,
+    "nivel": 80,
+    "xp": 450,
+    "resultado": "Aceite refinado x1",
+    "materiales": "Trampa de dionea x5; Clavo Fetada x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 5720,
+    "nivel": 80,
+    "xp": 300,
+    "resultado": "Pan negwo x4",
+    "materiales": "Cubo de agua x3; Harina refinada x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2407,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Taharta x1",
+    "materiales": "Patarina x3; Booleto x5; Encantártaro refinado x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2892,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Pan Dala secreto x1",
+    "materiales": "Aceite refinado x1; Harina bruta x1; Maíz casado x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 5721,
+    "nivel": 85,
+    "xp": 600,
+    "resultado": "Pan parapán x4",
+    "materiales": "Cubo de agua x3; Aceite refinado x1; Harina refinada x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3538,
+    "nivel": 90,
+    "xp": 300,
+    "resultado": "Pan de Sramvil x4",
+    "materiales": "Cubo de agua x3; Harina preciosa x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3567,
+    "nivel": 90,
+    "xp": 300,
+    "resultado": "Pan sobao x4",
+    "materiales": "Cubo de agua x3; Aceite precioso x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4581,
+    "nivel": 90,
+    "xp": 450,
+    "resultado": "Aceite precioso x1",
+    "materiales": "Pulsatila azufrada x5; Flor de kamamila x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2409,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Fab'huritu con nata x1",
+    "materiales": "Judía follonera x1; Aceite precioso x2; Harina preciosa x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3504,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Cactrufa x1",
+    "materiales": "Tela de cacterro x3; Aceite precioso x1; Pitahaya x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 5722,
+    "nivel": 95,
+    "xp": 600,
+    "resultado": "Pan divino x4",
+    "materiales": "Cubo de agua x3; Aceite precioso x1; Harina preciosa x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3505,
+    "nivel": 100,
+    "xp": 375,
+    "resultado": "Rollo con mermelada de luciseta x1",
+    "materiales": "Lámina de negraspora x3; Aceite exquisito x1; Levadura esporulada x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3672,
+    "nivel": 100,
+    "xp": 300,
+    "resultado": "Pan temporal x4",
+    "materiales": "Aceite exquisito x1; Cubo de agua x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3677,
+    "nivel": 100,
+    "xp": 300,
+    "resultado": "Pan intemporal x4",
+    "materiales": "Cubo de agua x3; Harina exquisita x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4582,
+    "nivel": 100,
+    "xp": 450,
+    "resultado": "Aceite exquisito x1",
+    "materiales": "Amanita x5; Éter x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 5723,
+    "nivel": 105,
+    "xp": 600,
+    "resultado": "Pan semitemporal x4",
+    "materiales": "Cubo de agua x3; Aceite exquisito x1; Harina exquisita x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3778,
+    "nivel": 110,
+    "xp": 300,
+    "resultado": "Taguela x4",
+    "materiales": "Cubo de agua x3; Harina mística x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4583,
+    "nivel": 110,
+    "xp": 450,
+    "resultado": "Aceite místico x1",
+    "materiales": "Gracia del día x5; Flor de tahitariana x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 5021,
+    "nivel": 110,
+    "xp": 300,
+    "resultado": "Pan cetta x4",
+    "materiales": "Cubo de agua x3; Aceite místico x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 5724,
+    "nivel": 115,
+    "xp": 600,
+    "resultado": "Pan vudú x4",
+    "materiales": "Cubo de agua x3; Aceite místico x1; Harina mística x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4584,
+    "nivel": 120,
+    "xp": 450,
+    "resultado": "Aceite eterno x1",
+    "materiales": "Hoja de ortiga x5; Mumusgo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4661,
+    "nivel": 120,
+    "xp": 300,
+    "resultado": "Pan Elf'Hico x4",
+    "materiales": "Cubo de agua x3; Harina eterna x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 5684,
+    "nivel": 120,
+    "xp": 300,
+    "resultado": "Pan dracónico x4",
+    "materiales": "Cubo de agua x3; Aceite eterno x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 5725,
+    "nivel": 125,
+    "xp": 600,
+    "resultado": "Pan del Zinit x4",
+    "materiales": "Cubo de agua x3; Aceite eterno x1; Harina eterna x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 7168,
+    "nivel": 130,
+    "xp": 375,
+    "resultado": "Tarta de moras x1",
+    "materiales": "Harina eterna x3; Aceite eterno x1; Moras x20",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8391,
+    "nivel": 130,
+    "xp": 450,
+    "resultado": "Aceite divino x1",
+    "materiales": "Delfhiniom x5; Flor-copo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8403,
+    "nivel": 130,
+    "xp": 300,
+    "resultado": "Pan de Osamosa x4",
+    "materiales": "Cubo de agua x3; Harina divina x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8404,
+    "nivel": 130,
+    "xp": 300,
+    "resultado": "Pikatoste x4",
+    "materiales": "Cubo de agua x3; Aceite divino x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8405,
+    "nivel": 135,
+    "xp": 600,
+    "resultado": "Craipe x4",
+    "materiales": "Cubo de agua x3; Aceite divino x1; Harina divina x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8665,
+    "nivel": 140,
+    "xp": 450,
+    "resultado": "Aceite infernal x1",
+    "materiales": "Galinsoga demoníaca x5; Cardominador x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8888,
+    "nivel": 140,
+    "xp": 300,
+    "resultado": "Pan tagrama x4",
+    "materiales": "Cubo de agua x3; Harina infernal x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8889,
+    "nivel": 140,
+    "xp": 300,
+    "resultado": "Pan infernal x4",
+    "materiales": "Cubo de agua x3; Aceite infernal x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9870,
+    "nivel": 145,
+    "xp": 600,
+    "resultado": "Serapán x4",
+    "materiales": "Cubo de agua x3; Aceite infernal x1; Harina infernal x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 9774,
+    "nivel": 150,
+    "xp": 450,
+    "resultado": "Aceite ancestral x1",
+    "materiales": "Primaniola x5; Rosen x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9866,
+    "nivel": 150,
+    "xp": 300,
+    "resultado": "Pan granaje x4",
+    "materiales": "Cubo de agua x3; Aceite ancestral x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9867,
+    "nivel": 150,
+    "xp": 300,
+    "resultado": "Pang-pong x4",
+    "materiales": "Cubo de agua x3; Harina ancestral x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9871,
+    "nivel": 155,
+    "xp": 600,
+    "resultado": "Pansalva x4",
+    "materiales": "Cubo de agua x3; Aceite ancestral x1; Harina ancestral x1",
+    "num_materiales_distintos": 3
+  }
+]

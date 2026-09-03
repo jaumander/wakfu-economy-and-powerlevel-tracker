@@ -1,0 +1,394 @@
+[
+  {
+    "recipeId": 3866,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Esencia tosca x1",
+    "materiales": "Moco de larva x5; pelos de miaumiau x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3868,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Esencia tosca x1",
+    "materiales": "Pluma de tofu x5; Lana de jalató x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3810,
+    "nivel": 15,
+    "xp": 3600,
+    "resultado": "Machete x1",
+    "materiales": "Esencia rudimentaria x10; Baba de mimic x4",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3867,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Esencia rudimentaria x1",
+    "materiales": "Tezcorteza de abrakno x5; Pluma de pío x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2400,
+    "nivel": 20,
+    "xp": 150,
+    "resultado": "Bálsamo de babas x1",
+    "materiales": "Lana de jalató x20",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 3342,
+    "nivel": 20,
+    "xp": 3000,
+    "resultado": "Jaula de bolsillo x1",
+    "materiales": "Kokosavia x25; Esencia rudimentaria x15; Esencia imperfecta x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4637,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Esencia imperfecta x1",
+    "materiales": "Boñiga seca x5; Moho vegetal x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9292,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Esencia imperfecta x1",
+    "materiales": "Muestra de stasis x5; Cenizas de fallecinerado x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4371,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Esencia frágil x1",
+    "materiales": "Sangre de eskualo x5; Mejillón fresco x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4641,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Esencia frágil x1",
+    "materiales": "Nozdekoko x5; Baba de cangwejo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6902,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Esencia frágil x1",
+    "materiales": "Baba Dera x10",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 9293,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Esencia frágil x1",
+    "materiales": "Bálsamo taponano x5; Baba Dera x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3811,
+    "nivel": 45,
+    "xp": 3600,
+    "resultado": "Machete Rider x1",
+    "materiales": "Sangre de tofu x3; Esencia frágil x10; Baba de mimic x3; Machete x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4638,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Esencia rústica x1",
+    "materiales": "Pelos de rata vieja x5; Pluma de cuerbok x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4640,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Esencia rústica x1",
+    "materiales": "Seda de arakna x5; Pelos de milubo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7371,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Esencia rústica x1",
+    "materiales": "Pelos de balí x5; Pluma de pestruz x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4372,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Esencia bruta x1",
+    "materiales": "Mucosidad brizlona x5; Piel granulosa x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4642,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Esencia bruta x1",
+    "materiales": "Ranciedad x5; pelo mortuorio x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7372,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Esencia bruta x1",
+    "materiales": "Harina de hueso x5; Soplido de azufre x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4643,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Esencia sólida x1",
+    "materiales": "Ojo de hielo x5; Pluma susurrada x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4644,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Esencia sólida x1",
+    "materiales": "Baba fea x5; Musgo fosilizado x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4373,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Esencia duradera x1",
+    "materiales": "Aceite de motor x5; Resina samarciosa x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4645,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Esencia duradera x1",
+    "materiales": "Columna vertebral x5; Baba espesa x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7373,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Esencia duradera x1",
+    "materiales": "Toroquila x5; Aceite de pischis x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3812,
+    "nivel": 80,
+    "xp": 3600,
+    "resultado": "Machetón de tiempos salvajes x1",
+    "materiales": "Machete Rider x3; Esencia rústica x20; Baba de mimic x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4374,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Esencia refinada x1",
+    "materiales": "Piel clara x5; Pelos de perforatroz x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4646,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Esencia refinada x1",
+    "materiales": "Piel oscura x5; Baba ácida x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4647,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Esencia preciosa x1",
+    "materiales": "Piel furtiva x5; Baba costosa x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4648,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Esencia preciosa x1",
+    "materiales": "Baba zanahowiada x5; Piel radiante x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4649,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Esencia exquisita x1",
+    "materiales": "Kronos x5; Nometrado x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4650,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Esencia exquisita x1",
+    "materiales": "Patuntuosa x5; Bola de pelos x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7374,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Esencia exquisita x1",
+    "materiales": "Suero de Gorsanto x5; Hada tenebrosa x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4651,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Esencia mística x1",
+    "materiales": "Pelos de kaníbola x5; Hoja de tropikoko x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4652,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Esencia mística x1",
+    "materiales": "Fibra voraz x5; Escama de cocodrail x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8385,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Esencia mística x1",
+    "materiales": "Pelos de pandisidente x5; Pelos de gerbilinda x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4653,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Esencia eterna x1",
+    "materiales": "Pelo de tejaroxor x5; Roca magmática x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6492,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Esencia eterna x1",
+    "materiales": "Escama de dragohuevo x5; Soplo ácido x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8089,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Esencia eterna x1",
+    "materiales": "Manojo de pelos de plaguepardo x5; Tela de Pandala vieja x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8401,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Esencia divina x1",
+    "materiales": "Pinchos de vandalienado x5; Escama de solgazán x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8402,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Esencia divina x1",
+    "materiales": "Escama de crustarisco x5; Pelos de nievaja x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8474,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Esencia divina x1",
+    "materiales": "Pelaje de plantiguardia x5; Pata de escapatarazón x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8475,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Esencia divina x1",
+    "materiales": "Pata de güino x10",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 8673,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Esencia infernal x1",
+    "materiales": "Dientes de devastador x10",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 8674,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Esencia infernal x1",
+    "materiales": "Trozo de fitoforme x5; Máscara de demorrible x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8675,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Esencia infernal x1",
+    "materiales": "Cuero de vaciante x5; Pata de idos x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9291,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Esencia infernal x1",
+    "materiales": "Válvula de steamer de élite x5; Fragmento de aleta x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9632,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Esencia ancestral x1",
+    "materiales": "Pico de ferocirraptor x5; Roca primaria x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9633,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Esencia ancestral x1",
+    "materiales": "Bola de pelos sabanastral x5; Emblema de clan x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9634,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Esencia ancestral x1",
+    "materiales": "Tubo mal conducido x10",
+    "num_materiales_distintos": 1
+  }
+]

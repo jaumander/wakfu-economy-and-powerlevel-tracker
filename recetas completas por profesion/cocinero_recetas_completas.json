@@ -1,0 +1,1058 @@
+[
+  {
+    "recipeId": 2108,
+    "nivel": 0,
+    "xp": 450,
+    "resultado": "Albóndiga de tofu x1",
+    "materiales": "Sesos de larva x1; Mollejas de tofu x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2243,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Cerveza de Amakna x1",
+    "materiales": "Cubo de agua x5; Semilla de miaumiau x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2377,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Cerveza de Bonta x1",
+    "materiales": "Cubo de agua x5; Semilla de jalató x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2378,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Cerveza de Brakmar x1",
+    "materiales": "Cubo de agua x5; Semilla de tofu x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2379,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Cerveza de Sufokia x1",
+    "materiales": "Semilla de larva x3; Cubo de agua x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2426,
+    "nivel": 0,
+    "xp": 450,
+    "resultado": "Jalató churruscado x1",
+    "materiales": "Miaumiarmazón x1; Muslo de jalató x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2476,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Piruleta maléfica x1",
+    "materiales": "Trozo de calawaza x2",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 2480,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Papá Nowel de chocolate x1",
+    "materiales": "Kamas de chocolate de Nawidad x2",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 2491,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Cerveza de trébol x1",
+    "materiales": "Semilla de trigo x2; Cubo de agua x2; Trébol de cuatro hojas x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2654,
+    "nivel": 0,
+    "xp": 300,
+    "resultado": "Polvos de Osamodas x3",
+    "materiales": "Cubo de agua x5; Encantártaro tosco x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3062,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Caramelo de Haluín x1",
+    "materiales": "Piruleta maléfica x1; Cubo de agua x1; Trozo de calawaza x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3240,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Café preso x1",
+    "materiales": "Semilla de trigo x7; Kokoleche x1; Cubo de agua x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3344,
+    "nivel": 0,
+    "xp": 225,
+    "resultado": "Zumo de zanahowia negwa x1",
+    "materiales": "Zanahowia negwa x15",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 3877,
+    "nivel": 0,
+    "xp": 450,
+    "resultado": "Especia tosca x1",
+    "materiales": "Pez miaumiau x5; Pescado empanado x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4046,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Chocolate de trébol x1",
+    "materiales": "Trébol de cuatro hojas x6; Especia tosca x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7198,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Cerveza de Astrub x1",
+    "materiales": "Cubo de agua x5; Semilla de miaumiau x1; Semilla de jalató x1; Semilla de tofu x1; Semilla de larva x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 9962,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Albóndigas de carne kitea x1",
+    "materiales": "Carne sabrosa x10; Harina tosca x1; Especia rudimentaria x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10076,
+    "nivel": 0,
+    "xp": 300,
+    "resultado": "Agua de cría x1",
+    "materiales": "Cubo de agua x10; Polvo de cría x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10077,
+    "nivel": 0,
+    "xp": 300,
+    "resultado": "Golosina x1",
+    "materiales": "Superglú tosco x10; Polvo de cría x10",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9963,
+    "nivel": 1,
+    "xp": 300,
+    "resultado": "Sandwinamita x1",
+    "materiales": "Carne sabrosa x12; Pólvora de cañón x1; Enchalada x20",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 9964,
+    "nivel": 2,
+    "xp": 450,
+    "resultado": "Brocheta karnívora x1",
+    "materiales": "Carne sabrosa x14; Chuleta de muuugresa x10; Filete de milubo x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 9965,
+    "nivel": 3,
+    "xp": 600,
+    "resultado": "Pekobowl x1",
+    "materiales": "Carne sabrosa x16; Col x5; Arroz Legión x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2107,
+    "nivel": 5,
+    "xp": 300,
+    "resultado": "Potaje de cardos x1",
+    "materiales": "Cubo de agua x1; Cardo borriquero x3; Encantártaro tosco x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2427,
+    "nivel": 5,
+    "xp": 600,
+    "resultado": "Sopa de pescado x2",
+    "materiales": "Especia tosca x1; Encantártaro tosco x1; Cubo de agua x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3588,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Pizzarva x5",
+    "materiales": "Especia tosca x1; Sesos de larva x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3645,
+    "nivel": 5,
+    "xp": 150,
+    "resultado": "Paté de miaumiau x5",
+    "materiales": "Humus x5; pelos de miaumiau x10; Especia tosca x2; Diente de miaumiau x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3646,
+    "nivel": 5,
+    "xp": 150,
+    "resultado": "Piolován x5",
+    "materiales": "Especia tosca x2; Pico de pío x5; Pluma real x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3647,
+    "nivel": 5,
+    "xp": 150,
+    "resultado": "Pizzarva de Fenrata x5",
+    "materiales": "Sesos de larva x5; Moco de larva x10; Especia tosca x2; Pata de Shin Larva x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 10042,
+    "nivel": 5,
+    "xp": 300,
+    "resultado": "Pescados de cría x1",
+    "materiales": "Encantártaro tosco x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10044,
+    "nivel": 5,
+    "xp": 300,
+    "resultado": "Abono de cría x1",
+    "materiales": "Tabla tosca x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10045,
+    "nivel": 5,
+    "xp": 300,
+    "resultado": "Carnes de cría x1",
+    "materiales": "Esencia tosca x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10046,
+    "nivel": 5,
+    "xp": 300,
+    "resultado": "Hierbas de cría x1",
+    "materiales": "Hilo tosco x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10047,
+    "nivel": 5,
+    "xp": 300,
+    "resultado": "Semillas de cría x1",
+    "materiales": "Harina tosca x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2413,
+    "nivel": 10,
+    "xp": 600,
+    "resultado": "Estofado de kuatrokarnes x2",
+    "materiales": "pelos de miaumiau x2; Especia rudimentaria x1; Encantártaro rudimentario x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3061,
+    "nivel": 10,
+    "xp": 300,
+    "resultado": "Pócima de recuerdo x10",
+    "materiales": "Cubo de agua x5; Especia tosca x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3878,
+    "nivel": 10,
+    "xp": 450,
+    "resultado": "Especia rudimentaria x1",
+    "materiales": "Boquerón gruñidor x5; Esturión x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2110,
+    "nivel": 15,
+    "xp": 300,
+    "resultado": "BenKO x1",
+    "materiales": "Cubo de agua x5; Especia rudimentaria x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2181,
+    "nivel": 15,
+    "xp": 300,
+    "resultado": "Tártaro marino x1",
+    "materiales": "Cubo de agua x3; Encantártaro rudimentario x1; Semilla de miaumiau x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2396,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Leche Humbre x1",
+    "materiales": "Leleche x5; Especia rudimentaria x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3648,
+    "nivel": 15,
+    "xp": 150,
+    "resultado": "Ragú de jalató crujiente x1",
+    "materiales": "Lana de jalató x2; Lana Real x1; Harina rudimentaria x5; Flor de sal x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3649,
+    "nivel": 15,
+    "xp": 150,
+    "resultado": "Ragú de jalató cremoso x1",
+    "materiales": "Lana Real x1; Lana de jalató x2; Flor de sal x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3650,
+    "nivel": 15,
+    "xp": 150,
+    "resultado": "Ragú de jalató agridulce x1",
+    "materiales": "Especia tosca x5; Lana Real x1; Lana de jalató x2; Flor de sal x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3651,
+    "nivel": 15,
+    "xp": 150,
+    "resultado": "Ragú de jalató empanado x1",
+    "materiales": "Pescado empanado x15; Flor de sal x3; Lana de jalató x2; Lana Real x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3652,
+    "nivel": 15,
+    "xp": 150,
+    "resultado": "Tofurneado con cereales x1",
+    "materiales": "Pluma de Tofu Real x1; Semilla de trigo x15; Flor de sal x3; Mollejas de tofu x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3653,
+    "nivel": 15,
+    "xp": 150,
+    "resultado": "Tofurneado dulce-salado x1",
+    "materiales": "Especia tosca x3; Pluma de Tofu Real x1; Mollejas de tofu x3; Flor de sal x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3654,
+    "nivel": 15,
+    "xp": 150,
+    "resultado": "Tofurneado picante x1",
+    "materiales": "Cardo borriquero x5; Mollejas de tofu x3; Especia tosca x1; Pluma de Tofu Real x1; Flor de sal x3",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3655,
+    "nivel": 15,
+    "xp": 150,
+    "resultado": "Tofurneado a la marinera x1",
+    "materiales": "Pluma de Tofu Real x1; Esturión x5; Mollejas de tofu x3; Flor de sal x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 10048,
+    "nivel": 15,
+    "xp": 300,
+    "resultado": "Pescados de cría x1",
+    "materiales": "Encantártaro rudimentario x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10052,
+    "nivel": 15,
+    "xp": 300,
+    "resultado": "Abono de cría x1",
+    "materiales": "Tabla rudimentaria x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10054,
+    "nivel": 15,
+    "xp": 300,
+    "resultado": "Carnes de cría x1",
+    "materiales": "Esencia rudimentaria x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10056,
+    "nivel": 15,
+    "xp": 300,
+    "resultado": "Hierbas de cría x1",
+    "materiales": "Hilo rudimentario x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10058,
+    "nivel": 15,
+    "xp": 300,
+    "resultado": "Semillas de cría x1",
+    "materiales": "Harina rudimentaria x3; Polvo de cría x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2180,
+    "nivel": 20,
+    "xp": 450,
+    "resultado": "Píorrillo empanado x1",
+    "materiales": "Pata de abrakno x1; Huevo de pío x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2183,
+    "nivel": 20,
+    "xp": 225,
+    "resultado": "Bamga cocida x1",
+    "materiales": "Flor de sal x24; Encantártaro rudimentario x2; Huevo de pío x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2186,
+    "nivel": 20,
+    "xp": 450,
+    "resultado": "Salamón a la cwema x1",
+    "materiales": "Salamón x3; Zanahowia x15; Leleche x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2385,
+    "nivel": 20,
+    "xp": 600,
+    "resultado": "Trasero dorado con ñiamzamas x1",
+    "materiales": "Pluma de Tofu Real x1; Ñiamzama x2; Especia imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2412,
+    "nivel": 20,
+    "xp": 300,
+    "resultado": "Patas de arakna a la brasa x1",
+    "materiales": "Ramapata x4; Flor de sal x9",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2482,
+    "nivel": 20,
+    "xp": 300,
+    "resultado": "Rayuarius x1",
+    "materiales": "Cubo de agua x5; Encantártaro rudimentario x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4585,
+    "nivel": 20,
+    "xp": 450,
+    "resultado": "Especia imperfecta x1",
+    "materiales": "Riape x5; Bamga x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2384,
+    "nivel": 25,
+    "xp": 300,
+    "resultado": "Filete muuugrñón x1",
+    "materiales": "Ubre de muuugresa x1; Flor de sal x21; Chuleta de muuugresa x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2622,
+    "nivel": 25,
+    "xp": 300,
+    "resultado": "Chikharrones x1",
+    "materiales": "Hoja de menta x6; Flor de sal x9; Chuleta de muuugresa x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2623,
+    "nivel": 25,
+    "xp": 300,
+    "resultado": "Guiso Bo-Rancho x1",
+    "materiales": "Mollejas de tofu x3; Zanahowia x6",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2626,
+    "nivel": 25,
+    "xp": 600,
+    "resultado": "Kokoleche x1",
+    "materiales": "Melón x3; Flor de orquídea x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2182,
+    "nivel": 30,
+    "xp": 600,
+    "resultado": "Raya babosa a las finas hierbas x1",
+    "materiales": "Baba campestre x10; Raya velluda x3; Especia imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2410,
+    "nivel": 30,
+    "xp": 600,
+    "resultado": "Tortikuri Kuri x1",
+    "materiales": "Encantártaro imperfecto x6; Especia imperfecta x3; Esencia imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2629,
+    "nivel": 30,
+    "xp": 600,
+    "resultado": "Que'Chatún x1",
+    "materiales": "Especia tosca x3; Arroz Legión x2; Pescaluna x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4586,
+    "nivel": 30,
+    "xp": 450,
+    "resultado": "Especia frágil x1",
+    "materiales": "Salamón x5; Raya velluda x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2374,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Bobollabesa x1",
+    "materiales": "Encantártaro frágil x3; Perca x15; Sangre de eskualo x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2381,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Chuleta de Álibert x1",
+    "materiales": "Especia frágil x1; Zanahowia x15; Judía x10; Muslo de jalató x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2624,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Mejillones sin patatas x1",
+    "materiales": "Hoja de helecho lecho x7; Mejillón fresco x1; Alga narina x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2628,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Enchalada marinera x1",
+    "materiales": "Encantártaro frágil x5; Filete de eskualo x1; Enchalada x5; Bastoncito de cangwejo x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2630,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Waterzozio x1",
+    "materiales": "Champiñón veteado x6; Encantártaro frágil x3; Sangre de eskualo x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2631,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Paté de cangwejo imperial x1",
+    "materiales": "Pinza de cangwejo lánguida x2; Encantártaro frágil x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2813,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Solomillo de milubo al papillote x1",
+    "materiales": "Filete de milubo x1; Harina frágil x1; Aceite frágil x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3475,
+    "nivel": 35,
+    "xp": 600,
+    "resultado": "Filete de jalató muy poco hecho x1",
+    "materiales": "Champiñón veteado x10; Baya de gárgolo x5; Tallo de caña x5; Lana salvaje x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2004,
+    "nivel": 40,
+    "xp": 450,
+    "resultado": "Morcilla negra con ñiamzamas x1",
+    "materiales": "Pico de cuerbok x1; Ñiamzama x7; Sangre chupada x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2627,
+    "nivel": 40,
+    "xp": 300,
+    "resultado": "Kokosoda x1",
+    "materiales": "Kokosavia x4; Nozdekoko x1; Soplido de azufre x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2743,
+    "nivel": 40,
+    "xp": 600,
+    "resultado": "Queso de cuerbok x1",
+    "materiales": "Flor de sal x36; Huevo de cuerbok x1; Especia rústica x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4587,
+    "nivel": 40,
+    "xp": 450,
+    "resultado": "Especia rústica x1",
+    "materiales": "Perca x5; Pescaluna x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 1160,
+    "nivel": 45,
+    "xp": 600,
+    "resultado": "Kwelsh cuérbico x1",
+    "materiales": "Mollejas de cuerbok x3; Huevo de cuerbok x2; Champiñón veteado x15; Especia rústica x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2632,
+    "nivel": 45,
+    "xp": 600,
+    "resultado": "Anguila en piedra x1",
+    "materiales": "Carbón antiguo x12; Encantártaro rústico x2; Especia rústica x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2754,
+    "nivel": 45,
+    "xp": 600,
+    "resultado": "Queso Monje x1",
+    "materiales": "Campana x2; Especia rústica x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2770,
+    "nivel": 45,
+    "xp": 600,
+    "resultado": "Pisto x1",
+    "materiales": "Arroz Legión x14; Ratesón x6; Especia rústica x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2816,
+    "nivel": 45,
+    "xp": 600,
+    "resultado": "Muertadela x1",
+    "materiales": "pelo mortuorio x10; Sangre caducada x2; Piel cadavérica x1; Especia rústica x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2817,
+    "nivel": 45,
+    "xp": 300,
+    "resultado": "Mamaliga x1",
+    "materiales": "Booleto gigante x1; Puro arabraca x1; Sangre caducada x2; Piel cadavérica x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3714,
+    "nivel": 45,
+    "xp": 600,
+    "resultado": "Guisado de cuerpicok a la grápula x1",
+    "materiales": "Estrella azul x1; Flor de rododendro x4; Lengua de muuugresa x4; Flautito de mar x4; Zarpa de grápula x2; Pico de cuerbok x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4588,
+    "nivel": 50,
+    "xp": 450,
+    "resultado": "Especia bruta x1",
+    "materiales": "Pez zobal x5; Dragocarpa x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2111,
+    "nivel": 55,
+    "xp": 600,
+    "resultado": "Bebida de fwescuwa x1",
+    "materiales": "Cubo de agua x20; Zanahowia x20; Judía x15",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3689,
+    "nivel": 55,
+    "xp": 600,
+    "resultado": "Almóndigas x1",
+    "materiales": "Cubo de agua x10; Piel cadavérica x4; Ojo de hielo x10; Esencia bruta x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3690,
+    "nivel": 55,
+    "xp": 600,
+    "resultado": "Tarta Tar x1",
+    "materiales": "Pelopluma de las nieves x6; Cubo de agua x6; Ranciedad x4; Especia bruta x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4589,
+    "nivel": 60,
+    "xp": 450,
+    "resultado": "Especia sólida x1",
+    "materiales": "Flautito de mar x5; Bamgarón x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3256,
+    "nivel": 65,
+    "xp": 600,
+    "resultado": "Café Bilbyza x1",
+    "materiales": "Cubo de agua x10; Gelatina de fresa x5; Gelatina de frambuesa x5; Makafé dorado x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3257,
+    "nivel": 65,
+    "xp": 600,
+    "resultado": "Mohitauro x1",
+    "materiales": "Cubo de agua x10; Gelatina de limón x5; Gelatina de menta x5; Especia sólida x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3258,
+    "nivel": 65,
+    "xp": 600,
+    "resultado": "Cóctel real x1",
+    "materiales": "Gelatina real x1; Cubo de agua x10; Zumo de ñiamzama x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3259,
+    "nivel": 65,
+    "xp": 600,
+    "resultado": "Cóctel energético x1",
+    "materiales": "Gelatina mordida x1; Cubo de agua x10; Zumo de ñiamzama x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4590,
+    "nivel": 70,
+    "xp": 450,
+    "resultado": "Especia duradera x1",
+    "materiales": "Pez de arena x5; Anguila x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2411,
+    "nivel": 75,
+    "xp": 600,
+    "resultado": "Escalope de champiñón x1",
+    "materiales": "Champiñón veteado x6; Escalope x5; Especia duradera x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3400,
+    "nivel": 75,
+    "xp": 600,
+    "resultado": "Zanahowias confitadas x1",
+    "materiales": "Tejido wubí x1; Zanahowia negwa x10; Especia duradera x2; Cubo de agua x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3496,
+    "nivel": 75,
+    "xp": 600,
+    "resultado": "Duna de terfez x1",
+    "materiales": "Trufa del desierto x10; Tela de cacterro x3; Harina duradera x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3497,
+    "nivel": 75,
+    "xp": 600,
+    "resultado": "Cactugo x1",
+    "materiales": "Tela de cacterro x3; Especia duradera x1; Pitahaya x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3498,
+    "nivel": 75,
+    "xp": 600,
+    "resultado": "Revuelto iluminado x1",
+    "materiales": "Luciseta x10; Encantártaro refinado x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4591,
+    "nivel": 80,
+    "xp": 450,
+    "resultado": "Especia refinada x1",
+    "materiales": "Pirañaña x5; Planctón x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3387,
+    "nivel": 85,
+    "xp": 600,
+    "resultado": "Bento zollo x1",
+    "materiales": "Zanahowia negwa x5; Encantártaro refinado x1; Especia refinada x1; Champiñón veteado x1; Pirañaña x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3388,
+    "nivel": 85,
+    "xp": 600,
+    "resultado": "Té de losas x1",
+    "materiales": "Zanahowia negwa x5; Especia refinada x1; Esencia refinada x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3402,
+    "nivel": 85,
+    "xp": 600,
+    "resultado": "Bebida blackenewgética x1",
+    "materiales": "Enewgía negwa x1; Zanahowia negwa x10; Encantártaro refinado x2; Cubo de agua x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3499,
+    "nivel": 85,
+    "xp": 600,
+    "resultado": "Cóctel esporulado x1",
+    "materiales": "Lámina de negraspora x3; Esencia refinada x1; Levadura esporulada x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2625,
+    "nivel": 90,
+    "xp": 600,
+    "resultado": "Filete de muuugresa con puré de col x1",
+    "materiales": "Arroz Legión x7; Pez zobal x6; Especia refinada x1; Col x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4592,
+    "nivel": 90,
+    "xp": 450,
+    "resultado": "Especia preciosa x1",
+    "materiales": "Tiburón martillo x5; Truchatún x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3409,
+    "nivel": 95,
+    "xp": 600,
+    "resultado": "Cawota wey x1",
+    "materiales": "Manojo zanahowio x1; Zanahowia negwa x10; Especia preciosa x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3424,
+    "nivel": 95,
+    "xp": 600,
+    "resultado": "Leffe fouw dead x1",
+    "materiales": "Diente acewado x2; Viwus x1; Especia preciosa x2; Encantártaro precioso x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3536,
+    "nivel": 95,
+    "xp": 600,
+    "resultado": "Sombrijuelo dulzamargo x1",
+    "materiales": "Tiburón martillhoz x10; Col gigante x1; Especia preciosa x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3537,
+    "nivel": 95,
+    "xp": 600,
+    "resultado": "Pócima macabrasiva x1",
+    "materiales": "Col gigante x1; Éter Nidad x1; Especia preciosa x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3565,
+    "nivel": 95,
+    "xp": 600,
+    "resultado": "Kamabert sin acompañamiento x1",
+    "materiales": "Tiburón martillhoz x10; Girasol Ancestral x1; Especia preciosa x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3566,
+    "nivel": 95,
+    "xp": 600,
+    "resultado": "Pócima blindada x1",
+    "materiales": "Girasol Ancestral x1; Flor de riqueza x1; Aceite precioso x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8104,
+    "nivel": 95,
+    "xp": 600,
+    "resultado": "Ensalada de plantala x1",
+    "materiales": "Plantala a la moda x5; Plantala Konga x10; Aceite precioso x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4593,
+    "nivel": 100,
+    "xp": 450,
+    "resultado": "Especia exquisita x1",
+    "materiales": "Milubo marino x5; Vandam x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3670,
+    "nivel": 105,
+    "xp": 600,
+    "resultado": "Papilla de roscas x1",
+    "materiales": "Fresa legendaria x1; Especia exquisita x1; Ian-Clon Van'Da x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3671,
+    "nivel": 105,
+    "xp": 600,
+    "resultado": "Licor de Gonzalo Zanía x1",
+    "materiales": "Fresa legendaria x1; Pulsatila oscura x1; Aceite exquisito x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3674,
+    "nivel": 105,
+    "xp": 600,
+    "resultado": "Comida original x1",
+    "materiales": "Encantártaro exquisito x1; Fresa legendaria x1; Ian-Clon Van'Da x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3675,
+    "nivel": 105,
+    "xp": 600,
+    "resultado": "Pócima de anticipación x1",
+    "materiales": "Fresa legendaria x1; Pulsatila oscura x1; Esencia exquisita x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4594,
+    "nivel": 110,
+    "xp": 450,
+    "resultado": "Especia mística x1",
+    "materiales": "Caimán enano x5; Namo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3770,
+    "nivel": 115,
+    "xp": 6000,
+    "resultado": "Pex on the beach x10",
+    "materiales": "Payasinamo x20; Especia mística x20; Kokopaja x20; Hoja tóxica x20",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3771,
+    "nivel": 115,
+    "xp": 6000,
+    "resultado": "Bamgas a la escamecha x10",
+    "materiales": "Caimán tic tac x20; Especia mística x17; Red usada x20; Taparrabos sucio x20",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3787,
+    "nivel": 115,
+    "xp": 6000,
+    "resultado": "Sopa de champiñones x10",
+    "materiales": "Palma de oro x18; Astro de la noche x4; Especia mística x15",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8105,
+    "nivel": 115,
+    "xp": 600,
+    "resultado": "Paté de pandisidente x1",
+    "materiales": "Aceite místico x1; Garra de pandisidente x10; Pelos de pandisidente x15",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4595,
+    "nivel": 120,
+    "xp": 450,
+    "resultado": "Especia eterna x1",
+    "materiales": "Espina de pescado x5; Salamandra x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2851,
+    "nivel": 125,
+    "xp": 600,
+    "resultado": "Castañas de maracajú asadas x1",
+    "materiales": "Castañas de maracajú x30; Flor de sal x30; Especia eterna x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6525,
+    "nivel": 125,
+    "xp": 600,
+    "resultado": "Huevos revueltos x1",
+    "materiales": "Especia eterna x5; Encantártaro eterno x5; Cuerno de dragohuevo x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8106,
+    "nivel": 125,
+    "xp": 600,
+    "resultado": "Carbonada de plaguepardo x1",
+    "materiales": "Carne de plaguepardo x10; Sueño olvidado x10; Aceite eterno x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8388,
+    "nivel": 130,
+    "xp": 450,
+    "resultado": "Especia divina x1",
+    "materiales": "Ganva x5; Ostra x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8661,
+    "nivel": 140,
+    "xp": 450,
+    "resultado": "Especia infernal x1",
+    "materiales": "Pezostil x5; Trompembustero x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9775,
+    "nivel": 150,
+    "xp": 450,
+    "resultado": "Especia ancestral x1",
+    "materiales": "Jefesú x5; Pecelenio x5",
+    "num_materiales_distintos": 2
+  }
+]
