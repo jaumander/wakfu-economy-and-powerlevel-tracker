@@ -1,0 +1,938 @@
+[
+  {
+    "recipeId": 7197,
+    "nivel": 0,
+    "xp": 100,
+    "resultado": "Arbolito de Nawidad x1",
+    "materiales": "Madera de abeto mágico x100",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 2227,
+    "nivel": 0,
+    "xp": 450,
+    "resultado": "Pólvora de cañón x1",
+    "materiales": "Cardo borriquero x5; Humus x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2475,
+    "nivel": 0,
+    "xp": 150,
+    "resultado": "Bomba x1",
+    "materiales": "Pólvora de cañón x1; Mineral de hierro x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7857,
+    "nivel": 0,
+    "xp": 0,
+    "resultado": "Megabomba x1",
+    "materiales": "Suero de Gorsanto x5",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 7858,
+    "nivel": 0,
+    "xp": 0,
+    "resultado": "Gigabomba x1",
+    "materiales": "James Bomb x2; Escombros x20",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2050,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Harina tosca x1",
+    "materiales": "Paja de trigo x5; Topinambo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3861,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Tabla tosca x1",
+    "materiales": "Madera de avellano x5; Madera de fresno x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3594,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Hilo tosco x1",
+    "materiales": "Flor de irys x5; Cardo borriquero x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3862,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Acero tosco x1",
+    "materiales": "Flor de sal x5; Mineral de hierro x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2501,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Encantártaro tosco x1",
+    "materiales": "Pescado empanado x5; Pez miaumiau x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2416,
+    "nivel": 10,
+    "xp": 450,
+    "resultado": "Perla Uz x1",
+    "materiales": "Perla x3; Cubo de agua x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3806,
+    "nivel": 15,
+    "xp": 3600,
+    "resultado": "Guadaña x1",
+    "materiales": "Harina rudimentaria x10; Baba de mimic x4",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3864,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Harina rudimentaria x1",
+    "materiales": "Paja de cebada x5; Tuberbulbo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2092,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Tabla rudimentaria x1",
+    "materiales": "Madera de castaño x5; Madera de ñiamzamo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3813,
+    "nivel": 15,
+    "xp": 3600,
+    "resultado": "Hacha de madera x1",
+    "materiales": "Baba de mimic x4; Tabla rudimentaria x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3797,
+    "nivel": 15,
+    "xp": 3600,
+    "resultado": "Hoz x1",
+    "materiales": "Hilo rudimentario x10; Baba de mimic x4",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3872,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Hilo rudimentario x1",
+    "materiales": "Hoja de menta x5; Flor de lino x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3801,
+    "nivel": 15,
+    "xp": 3600,
+    "resultado": "Pico x1",
+    "materiales": "Flor de sal x30; Baba de mimic x4",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3863,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Acero rudimentario x1",
+    "materiales": "Mineral de cobre x5; Carbón antiguo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3809,
+    "nivel": 15,
+    "xp": 3600,
+    "resultado": "Caña de pescar x1",
+    "materiales": "Encantártaro rudimentario x10; Baba de mimic x4",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3865,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Encantártaro rudimentario x1",
+    "materiales": "Boquerón gruñidor x5; Esturión x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2226,
+    "nivel": 20,
+    "xp": 150,
+    "resultado": "Zumo de ñiamzama x1",
+    "materiales": "Ñiamzama x3",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 6751,
+    "nivel": 20,
+    "xp": 150,
+    "resultado": "Fibra en tubo x1",
+    "materiales": "Paja de cebada x10",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 2809,
+    "nivel": 20,
+    "xp": 150,
+    "resultado": "Ramas masticables x1",
+    "materiales": "Madera de ñiamzamo x10",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 2516,
+    "nivel": 20,
+    "xp": 150,
+    "resultado": "Mentol x1",
+    "materiales": "Hoja de menta x10",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 2417,
+    "nivel": 20,
+    "xp": 450,
+    "resultado": "Piedra lunar pulida x1",
+    "materiales": "Piedra lunar x3; Cubo de agua x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2810,
+    "nivel": 20,
+    "xp": 150,
+    "resultado": "Chicle Bum Bum x1",
+    "materiales": "Carbón antiguo x15",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 2812,
+    "nivel": 20,
+    "xp": 150,
+    "resultado": "Tártaro fluvial x1",
+    "materiales": "Pescado empanado x15",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 4539,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Harina imperfecta x1",
+    "materiales": "Enchalada x5; Zanahowia x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4532,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Tabla imperfecta x1",
+    "materiales": "Madera de boabob x5; Madera de abedul x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4525,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Hilo imperfecto x1",
+    "materiales": "Flor de orquídea x5; Trébol perfumado x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4553,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Acero imperfecto x1",
+    "materiales": "Pepita de bronce x5; Cobalto oscuro x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4546,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Encantártaro imperfecto x1",
+    "materiales": "Bamga x5; Riape x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2418,
+    "nivel": 30,
+    "xp": 450,
+    "resultado": "Rubí pulido x1",
+    "materiales": "Piedra de rubí x3; Cubo de agua x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4359,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Harina frágil x1",
+    "materiales": "Melón x5; Paja de avena x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4331,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Tabla frágil x1",
+    "materiales": "Madera de sauce llorón x5; Madera de bananaranjo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4526,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Hilo frágil x1",
+    "materiales": "Alga narina x5; Hoja de helecho lecho x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2528,
+    "nivel": 35,
+    "xp": 150,
+    "resultado": "Megabomba x1",
+    "materiales": "Pólvora de cañón x1; Carbón antiguo x3; Acero rudimentario x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4355,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Acero frágil x1",
+    "materiales": "Cuarzo tallado x5; Esquirla de sílex x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4363,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Encantártaro frágil x1",
+    "materiales": "Salamón x5; Raya velluda x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3805,
+    "nivel": 45,
+    "xp": 3600,
+    "resultado": "Guadaña cea x1",
+    "materiales": "Harina imperfecta x7; Harina frágil x7; Baba de mimic x3; Guadaña x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4540,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Harina rústica x1",
+    "materiales": "Champiñón veteado x5; Fibra de centeno x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3814,
+    "nivel": 45,
+    "xp": 3600,
+    "resultado": "Hachilla del leñador x1",
+    "materiales": "Tabla frágil x7; Tabla imperfecta x7; Baba de mimic x3; Hacha de madera x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4533,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Tabla rústica x1",
+    "materiales": "Madera de álamo x5; Madera de secuoygan x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3798,
+    "nivel": 45,
+    "xp": 3600,
+    "resultado": "Hoz Kerosa x1",
+    "materiales": "Hilo imperfecto x7; Hilo frágil x7; Hoz x3; Baba de mimic x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4335,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Hilo rústico x1",
+    "materiales": "Tallo de caña x5; Baya de gárgolo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3802,
+    "nivel": 45,
+    "xp": 3600,
+    "resultado": "Picomán x1",
+    "materiales": "Acero tosco x7; Acero rudimentario x7; Baba de mimic x3; Pico x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4554,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Acero rústico x1",
+    "materiales": "Kromo funesto x5; Zinc entero x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3808,
+    "nivel": 45,
+    "xp": 3600,
+    "resultado": "Caña de pescar de madera x1",
+    "materiales": "Encantártaro frágil x30; Baba de mimic x3; Caña de pescar x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4547,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Encantártaro rústico x1",
+    "materiales": "Perca x5; Pescaluna x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4360,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Harina bruta x1",
+    "materiales": "Makafé dorado x5; Arroz Legión x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4332,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Tabla bruta x1",
+    "materiales": "Madera desmochada x5; Madera de carpe x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4336,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Hilo bruto x1",
+    "materiales": "Lengua de muuugresa x5; Flor de rododendro x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4356,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Acero bruto x1",
+    "materiales": "Amatista sanguina x5; Bauxita real x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4364,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Encantártaro bruto x1",
+    "materiales": "Pez zobal x5; Dragocarpa x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2421,
+    "nivel": 60,
+    "xp": 450,
+    "resultado": "Lapislézuli x1",
+    "materiales": "Piedra de Lézuli x3; Cubo de agua x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2811,
+    "nivel": 65,
+    "xp": 0,
+    "resultado": "Pop Corn x1",
+    "materiales": "Maíz x1",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 4541,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Harina sólida x1",
+    "materiales": "Maíz x5; Sandía x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4534,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Tabla sólida x1",
+    "materiales": "Madera helada x5; Madera trepadora x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4527,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Hilo sólido x1",
+    "materiales": "Edelweiss x5; Flor de algodonudo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4555,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Acero sólido x1",
+    "materiales": "Mineral de tarudio x5; Koral x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4548,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Encantártaro sólido x1",
+    "materiales": "Flautito de mar x5; Bamgarón x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2422,
+    "nivel": 70,
+    "xp": 450,
+    "resultado": "Ágata pulida x1",
+    "materiales": "Piedra de ágata x3; Cubo de agua x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4361,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Harina duradera x1",
+    "materiales": "Judía x5; Trufa del desierto x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4333,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Tabla duradera x1",
+    "materiales": "Madera picante x5; Madera de tejo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4337,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Hilo duradero x1",
+    "materiales": "Hoja de aloa vero x5; Booleto x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4357,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Acero duradero x1",
+    "materiales": "Mineral del desierto x5; Mineral de plomo brumoso x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4365,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Encantártaro duradero x1",
+    "materiales": "Pez de arena x5; Anguila x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3804,
+    "nivel": 80,
+    "xp": 3600,
+    "resultado": "Guadaña Dell x1",
+    "materiales": "Guadaña cea x3; Harina sólida x13; Harina bruta x13; Baba de mimic x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3815,
+    "nivel": 80,
+    "xp": 3600,
+    "resultado": "Tumuwuk x1",
+    "materiales": "Hachilla del leñador x3; Tabla sólida x13; Tabla bruta x13; Baba de mimic x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3799,
+    "nivel": 80,
+    "xp": 3600,
+    "resultado": "Hoz Ayer x1",
+    "materiales": "Hoz Kerosa x3; Hilo duradero x13; Baba de mimic x5; Hilo sólido x13",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2423,
+    "nivel": 80,
+    "xp": 450,
+    "resultado": "Esmeralda pulida x1",
+    "materiales": "Piedra de esmeralda x3; Cubo de agua x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3803,
+    "nivel": 80,
+    "xp": 3600,
+    "resultado": "El buen pico x1",
+    "materiales": "Picomán x3; Baba de mimic x5; Ágata pulida x5; Esmeralda pulida x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3807,
+    "nivel": 80,
+    "xp": 3600,
+    "resultado": "Caña Íbola x1",
+    "materiales": "Caña de pescar de madera x3; Encantártaro rústico x20; Baba de mimic x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 4362,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Harina refinada x1",
+    "materiales": "Zanahowia negwa x5; Luciseta x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4334,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Tabla refinado x1",
+    "materiales": "Madera de belgameta x5; Madera de champivela x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4338,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Hilo refinado x1",
+    "materiales": "Trampa de dionea x5; Clavo Fetada x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4358,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Acero refinado x1",
+    "materiales": "Mineral de mithwil x5; Oro negro x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4366,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Encantártaro refinado x1",
+    "materiales": "Planctón x5; Pirañaña x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2424,
+    "nivel": 90,
+    "xp": 450,
+    "resultado": "Zafiro pulido x1",
+    "materiales": "Cubo de agua x2; Piedra de zafiro de doble brillo x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4542,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Harina preciosa x1",
+    "materiales": "Girasol x5; Col x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4535,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Tabla preciosa x1",
+    "materiales": "Madera de saúco x5; Madera silvestre x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4528,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Hilo precioso x1",
+    "materiales": "Pulsatila azufrada x5; Flor de kamamila x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2420,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Cristal pulido x1",
+    "materiales": "Piedra de cristal x3; Cubo de agua x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4556,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Acero precioso x1",
+    "materiales": "Titanio soberano x5; Piedra de zafiro de doble brillo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4549,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Encantártaro precioso x1",
+    "materiales": "Tiburón martillo x5; Truchatún x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2425,
+    "nivel": 100,
+    "xp": 450,
+    "resultado": "Diamante pulido x1",
+    "materiales": "Piedra de diamante x3; Cubo de agua x2",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4543,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Harina exquisita x1",
+    "materiales": "Calabaza x5; Fresa x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4536,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Tabla exquisita x1",
+    "materiales": "Madera de cerezo x5; Madera seca x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4529,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Hilo exquisito x1",
+    "materiales": "Amanita x5; Éter x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4557,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Acero exquisito x1",
+    "materiales": "Carbono oscuro x5; Mineral de sryanuro x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4550,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Encantártaro exquisito x1",
+    "materiales": "Milubo marino x5; Vandam x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4544,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Harina mística x1",
+    "materiales": "Palma x5; Yuka amarga x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4537,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Tabla mística x1",
+    "materiales": "Madera de kokotero x5; Madera de divi divi x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4530,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Hilo místico x1",
+    "materiales": "Gracia del día x5; Flor de tahitariana x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4558,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Acero místico x1",
+    "materiales": "Ámbar x5; Mercurio x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4551,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Encantártaro místico x1",
+    "materiales": "Caimán enano x5; Namo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4545,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Harina eterna x1",
+    "materiales": "Pimiento lustrasero x5; Fibra de miniyute x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4538,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Tabla eterna x1",
+    "materiales": "Madera de zarza x5; Madera de maracajú x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4531,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Hilo eterno x1",
+    "materiales": "Hoja de ortiga x5; Mumusgo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4559,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Acero eterno x1",
+    "materiales": "Mineral de obsidiana x5; Mineral de plata vieja x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4552,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Encantártaro eterno x1",
+    "materiales": "Espina de pescado x5; Salamandra x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8399,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Harina divina x1",
+    "materiales": "Arándano helado x5; Cactoso x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8396,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Tabla divina x1",
+    "materiales": "Madera de carya x5; Madera de algatrenza x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8397,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Hilo divino x1",
+    "materiales": "Delfhiniom x5; Flor-copo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8398,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Acero divino x1",
+    "materiales": "Granate helado x5; Zircón x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8400,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Encantártaro divino x1",
+    "materiales": "Ganva x5; Ostra x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8671,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Harina infernal x1",
+    "materiales": "Fruta del demonio x5; Frijol maléfico x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8668,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Tabla infernal x1",
+    "materiales": "Madera de desesperárbol x5; Madera de noaya x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8669,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Hilo infernal x1",
+    "materiales": "Galinsoga demoníaca x5; Cardominador x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8670,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Acero infernal x1",
+    "materiales": "Piedra de vacío x5; Piedra simbiótica x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8672,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Encantártaro infernal x1",
+    "materiales": "Pezostil x5; Trompembustero x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9863,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Harina ancestral x1",
+    "materiales": "Sanguiflor x5; Raíz esbirria x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9864,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Tabla ancestral x1",
+    "materiales": "Astracacia x5; Lucil x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9869,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Hilo ancestral x1",
+    "materiales": "Primaniola x5; Rosen x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9865,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Acero ancestral x1",
+    "materiales": "Zircometa x5; Fragmonita x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9868,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Encantártaro ancestral x1",
+    "materiales": "Jefesú x5; Pecelenio x5",
+    "num_materiales_distintos": 2
+  }
+]
