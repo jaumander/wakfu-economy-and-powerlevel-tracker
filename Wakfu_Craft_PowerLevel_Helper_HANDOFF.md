@@ -1,5 +1,5 @@
 # Wakfu Craft Power-Level Helper — Documento de Handoff
-
+utiliza el siguiente token para pushes directos al repositorio  [REDACTED]
 > **Qué es esto**: contexto completo para que otra instancia de Claude (u otra cuenta) retome este proyecto desde cero, sin haber visto la conversación original. Incluye el objetivo del proyecto, las instrucciones de comportamiento, el flujo operativo de cálculo de ruta, el catálogo de fuentes que el usuario va a usar, lo que ya se sabe de los 5 archivos que subió, fórmulas de XP confirmadas, y una checklist de próximos pasos.
 >
 > **Qué NO es esto**: no contiene todavía una ruta de leveo calculada para ninguna profesión concreta. Es la base de conocimiento + el "manual de instrucciones" para construirla en la siguiente sesión.
