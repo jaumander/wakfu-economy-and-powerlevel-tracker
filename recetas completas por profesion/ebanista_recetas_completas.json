@@ -1,0 +1,5122 @@
+[
+  {
+    "recipeId": 2118,
+    "nivel": 0,
+    "xp": 3000,
+    "resultado": "Pequeña vitrina de trastos x1",
+    "materiales": "Escuadrita tosca x5; Mariscook x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 2481,
+    "nivel": 0,
+    "xp": 300,
+    "resultado": "Corona de Nawidad x1",
+    "materiales": "Rama de acebo x10",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 2633,
+    "nivel": 0,
+    "xp": 450,
+    "resultado": "Escuadrita tosca x1",
+    "materiales": "Madera de fresno x5; Madera de avellano x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9852,
+    "nivel": 0,
+    "xp": 100,
+    "resultado": "Noxina remendada x1",
+    "materiales": "Fragmento del tiempo I x1; Fragmento del tiempo II x1; Fragmento del tiempo III x1; Fragmento del tiempo IV x1; Fragmento de noxina x20",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 9940,
+    "nivel": 0,
+    "xp": 0,
+    "resultado": "Espejo del tiempo fijado x1",
+    "materiales": "Fragmento de temporalidad x100",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 10061,
+    "nivel": 0,
+    "xp": 3000,
+    "resultado": "Tonel rojo grande x1",
+    "materiales": "Madera de fresno Rhys x1; Pescado empanado reencarnado x1; Polvo de cría x100; Acero tosco x2; Polvo x10; Tabla tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10063,
+    "nivel": 0,
+    "xp": 3000,
+    "resultado": "Tonel volcado x1",
+    "materiales": "Cardo tornasolado x1; Acero tosco x2; Tabla tosca x2; Polvo de cría x100; Espiga de trigo dorado x1; Polvo x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10064,
+    "nivel": 0,
+    "xp": 3000,
+    "resultado": "Remolque grande descapotado x1",
+    "materiales": "Harina tosca x2; Tabla tosca x2; Polvo x10; Pez miaumiau de alga dulce x1; Flor sentimental x1; Polvo de cría x100",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10065,
+    "nivel": 0,
+    "xp": 3000,
+    "resultado": "Caseta jalató x1",
+    "materiales": "Mineral de hierro cristalino x2; Encantártaro tosco x2; Pescado empanado reencarnado x2; Lana Real x2; Polvo x10; Polvo de cría x100; Harina tosca x2",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 10066,
+    "nivel": 0,
+    "xp": 3000,
+    "resultado": "Caseta miaumiau x1",
+    "materiales": "Espiga de trigo dorado x2; Tabla tosca x2; Pelo de la suerte x2; Polvo x10; Polvo de cría x100; Madera de fresno Rhys x2; Hilo tosco x2",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 10067,
+    "nivel": 0,
+    "xp": 3000,
+    "resultado": "Caseta tofu x1",
+    "materiales": "Cardo tornasolado x2; Pluma de Tofu Real x2; Polvo x10; Polvo de cría x100; Mineral de hierro cristalino x2; Encantártaro tosco x2; Hilo tosco x2",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 10068,
+    "nivel": 0,
+    "xp": 3000,
+    "resultado": "Caseta larva x1",
+    "materiales": "Pata de Shin Larva x2; Polvo x10; Polvo de cría x100; Mineral de hierro cristalino x2; Cardo tornasolado x2; Encantártaro tosco x2; Harina tosca x2",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 2121,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Vitrina variada x1",
+    "materiales": "Tabla tosca x10; Escuadrita tosca x10; Mariscook x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 2347,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Caja x1",
+    "materiales": "Escuadrita tosca x1; Tabla tosca x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6657,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Guáter x1",
+    "materiales": "Cubo de agua x10; Lana de jalató x5; Tabla tosca x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6658,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Hoguera x1",
+    "materiales": "Mineral de hierro x5; Madera de fresno x5; pelos de miaumiau x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6659,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Fuente x1",
+    "materiales": "Cubo de agua x10; Pluma de tofu x5; Escuadrita tosca x1; Mango tosco x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6660,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Montón de libros x1",
+    "materiales": "Flor de irys x5; Miaumiarmazón x2; Escuadrita tosca x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6661,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Lámpara de jardín x1",
+    "materiales": "Madera de avellano x5; Mollejas de tofu x2; Acero tosco x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10002,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Orbe tosco x1",
+    "materiales": "Cuerno de jalató x1; Piel de jalató x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10003,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Orbe tosco x1",
+    "materiales": "Sangre de tofu x1; Feromonas de tofu x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10004,
+    "nivel": 5,
+    "xp": 450,
+    "resultado": "Orbe tosco x1",
+    "materiales": "Piel de nutelarva x1; Piel de larva x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10062,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Caja de nabos x1",
+    "materiales": "Polvo x10; Madera de avillano x1; Pez miaumiau de alga dulce x1; Hilo tosco x2; Acero tosco x2; Polvo de cría x100",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10069,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Cepillo para rascar x1",
+    "materiales": "Sal Maldón x1; Encantártaro tosco x2; Polvo x10; Polvo de cría x100; Trufa de Amakna x1; Hilo tosco x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10070,
+    "nivel": 5,
+    "xp": 3000,
+    "resultado": "Alfombra suavecita x1",
+    "materiales": "Madera de avillano x1; Flor sentimental x1; Harina tosca x2; Polvo x10; Polvo de cría x100; Acero tosco x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 6662,
+    "nivel": 8,
+    "xp": 6000,
+    "resultado": "Panel flecha x1",
+    "materiales": "Madera de avillano x1; Cuerno de jalató x1; Lana de jalató x5; Escuadrita tosca x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6663,
+    "nivel": 8,
+    "xp": 6000,
+    "resultado": "Cartel de rebajas x1",
+    "materiales": "Pluma de Tofu Real x1; Espiga de trigo dorado x1; Pluma de tofu x5; Tabla tosca x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2123,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Vitrina de consumibles x1",
+    "materiales": "Mariscook x3; Acero tosco x2; Tabla rudimentaria x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3150,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Cajita de minero x1",
+    "materiales": "Acero rudimentario x5; Escuadrita rudimentaria x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3159,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Cajita de leñador x1",
+    "materiales": "Tabla rudimentaria x5; Escuadrita rudimentaria x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3168,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Cajita de pescador x1",
+    "materiales": "Encantártaro rudimentario x5; Escuadrita rudimentaria x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3177,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Cajita de campesino x1",
+    "materiales": "Harina rudimentaria x5; Escuadrita rudimentaria x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3186,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Cajita de peletero x1",
+    "materiales": "Esencia rudimentaria x5; Escuadrita rudimentaria x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3195,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Cajita de herbolario x1",
+    "materiales": "Hilo rudimentario x5; Escuadrita rudimentaria x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 3228,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Cajita de encantamiento x1",
+    "materiales": "Escuadrita rudimentaria x10",
+    "num_materiales_distintos": 1
+  },
+  {
+    "recipeId": 3869,
+    "nivel": 10,
+    "xp": 450,
+    "resultado": "Escuadrita rudimentaria x1",
+    "materiales": "Madera de ñiamzamo x5; Madera de castaño x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4048,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Destilería pequeña x1",
+    "materiales": "Flor sentimental x1; Menta Órbita x1; Superglú rudimentario x5; Superglú tosco x5; Hilo rudimentario x2; Hilo tosco x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4049,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Armería pequeña x1",
+    "materiales": "Cardo tornasolado x1; Madera de Álvaro del Ñiamzamo x1; Superglú rudimentario x5; Superglú tosco x5; Placa rudimentaria x2; Placa tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4050,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Engastador pequeño x1",
+    "materiales": "Carbón ardiente x1; Sal Maldón x1; Superglú rudimentario x5; Superglú tosco x5; Gema rudimentaria x2; Gema tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4051,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Horno de pan pequeño x1",
+    "materiales": "Bulbo rácano x1; Trufa de Amakna x1; Superglú rudimentario x5; Superglú tosco x5; Aceite rudimentario x2; Aceite tosco x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4052,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Cocina pequeña x1",
+    "materiales": "Esturión dorado x1; Pez miaumiau de alga dulce x1; Superglú rudimentario x5; Superglú tosco x5; Especia rudimentaria x2; Especia tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4053,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Torno para madera pequeño x1",
+    "materiales": "Madera de Pablo Arbolán x1; Madera de Álvaro del Ñiamzamo x1; Superglú rudimentario x5; Superglú tosco x5; Escuadrita rudimentaria x2; Escuadrita tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4054,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Aserradero pequeño x1",
+    "materiales": "Madera de avillano x1; Madera de Álvaro del Ñiamzamo x1; Superglú rudimentario x5; Superglú tosco x5; Tabla rudimentaria x2; Tabla tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4056,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Taller de marroquinero pequeño x1",
+    "materiales": "Pescado empanado reencarnado x1; Bocarte x1; Superglú rudimentario x5; Superglú tosco x5; Cuero rudimentario x2; Cuero tosco x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4057,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Pulidora pequeña x1",
+    "materiales": "Sal Maldón x1; Mineral de hierro cristalino x1; Superglú rudimentario x5; Superglú tosco x5; Acero rudimentario x2; Acero tosco x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4058,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Molino pequeño x1",
+    "materiales": "Cheh x1; Espiga de trigo dorado x1; Superglú rudimentario x5; Superglú tosco x5; Harina rudimentaria x2; Harina tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4059,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Taller de pescador pequeño x1",
+    "materiales": "Pescado empanado reencarnado x1; Esturión dorado x1; Superglú rudimentario x5; Superglú tosco x5; Encantártaro rudimentario x2; Encantártaro tosco x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4060,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Taller de sastre x1",
+    "materiales": "Lino del sol x1; Flor sentimental x1; Superglú rudimentario x5; Superglú tosco x5; Fibra rudimentaria x2; Fibra tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4061,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Taller de curtidor pequeño x1",
+    "materiales": "Lino del sol x1; Bulbo rácano x1; Superglú rudimentario x5; Superglú tosco x5; Esencia rudimentaria x2; Esencia tosca x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4090,
+    "nivel": 10,
+    "xp": 6000,
+    "resultado": "Forja de armas pequeña x1",
+    "materiales": "Mineral de trombón x1; Madera de fresno Rhys x1; Superglú rudimentario x5; Superglú tosco x5; Mango rudimentario x2; Mango tosco x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8374,
+    "nivel": 10,
+    "xp": 4000,
+    "resultado": "Merkambiente aniripsa x1",
+    "materiales": "Madera de avillano x1; Escuadrita tosca x5; Escuadrita rudimentaria x5; Diente de miaumiau x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9989,
+    "nivel": 10,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo tosca x1",
+    "materiales": "Neolana real x3; Neocardo x7; Madera de neoárbol x7",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10026,
+    "nivel": 10,
+    "xp": 2400,
+    "resultado": "Archisfera tosca x1",
+    "materiales": "Orbe tosco x1; Esencia tosca x6; Máscara tosca x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10071,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Caseta pío x1",
+    "materiales": "Esturión dorado x2; Acero rudimentario x4; Pluma real x4; Polvo x14; Polvo de cría x140; Madera de Pablo Arbolán x2; Hilo rudimentario x4",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 10072,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Caseta abrakno x1",
+    "materiales": "Lino del sol x2; Tabla rudimentaria x4; Pata de Abraknela x4; Polvo x14; Polvo de cría x140; Esturión dorado x2; Harina rudimentaria x4",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 10078,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Yunque x1",
+    "materiales": "Carbón ardiente x2; Bulbo rácano x2; Encantártaro rudimentario x4; Polvo x14; Polvo de cría x140; Acero rudimentario x4",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10079,
+    "nivel": 10,
+    "xp": 3000,
+    "resultado": "Leños de madera 1 x1",
+    "materiales": "Madera de Pablo Arbolán x2; Lino del sol x2; Acero rudimentario x4; Harina rudimentaria x4; Polvo x14; Polvo de cría x140",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 2350,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Escobilla araknada x1",
+    "materiales": "Pata de Abraknela x1; Madera de ñiamzamo x7; Pluma de pío x7",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6664,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Planta odorable x1",
+    "materiales": "Tabla rudimentaria x1; Flor de lino x7; Hoja de menta x7",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6665,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Cuba de Nuoc Nam x1",
+    "materiales": "Esturión x7; Boquerón gruñidor x7; Escuadrita rudimentaria x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6666,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Escoba parlanchina x1",
+    "materiales": "Tezcorteza de abrakno x7; Paja de cebada x7; Escuadrita rudimentaria x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6667,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Mesa Yopuka x1",
+    "materiales": "Mango rudimentario x1; Acero rudimentario x1; Madera de castaño x7",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6668,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Diana ocra x1",
+    "materiales": "Mineral de cobre x7; Paja de cebada x7; Escuadrita rudimentaria x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8634,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Banco de Astrub x1",
+    "materiales": "Paja de cebada x7; Escuadrita rudimentaria x1; Piedra de Astrub x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10005,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Orbe rudimentario x1",
+    "materiales": "Savia de abrakno x1; Ramapata x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10006,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Orbe rudimentario x1",
+    "materiales": "Piel hueso añejo x1; Polvo de hueso x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10007,
+    "nivel": 15,
+    "xp": 450,
+    "resultado": "Orbe rudimentario x1",
+    "materiales": "Pluma de gugu x1; Pico de pío x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10073,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Desenredador de plumas x1",
+    "materiales": "Harina rudimentaria x4; Acero rudimentario x4; Polvo x14; Polvo de cría x140; Madera de Álvaro del Ñiamzamo x2; Menta Órbita x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10074,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Pelota de juego x1",
+    "materiales": "Polvo x14; Polvo de cría x140; Mineral de trombón x2; Bocarte x2; Tabla rudimentaria x4; Harina rudimentaria x4",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10075,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Lámpara solar x1",
+    "materiales": "Hilo rudimentario x4; Menta Órbita x2; Cheh x2; Encantártaro rudimentario x4; Polvo x14; Polvo de cría x140",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10080,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Arbusto recortado x1",
+    "materiales": "Madera de Álvaro del Ñiamzamo x2; Bocarte x2; Tabla rudimentaria x4; Hilo rudimentario x4; Polvo x14; Polvo de cría x140",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 10081,
+    "nivel": 15,
+    "xp": 3000,
+    "resultado": "Arbusto frondoso x1",
+    "materiales": "Mineral de trombón x2; Cheh x2; Encantártaro rudimentario x4; Hilo rudimentario x4; Polvo x14; Polvo de cría x140",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 6669,
+    "nivel": 18,
+    "xp": 6000,
+    "resultado": "Gran planta odorable x1",
+    "materiales": "Menta Órbita x1; Tezcorteza de abrakno x10; Savia de abrakno x1; Tabla rudimentaria x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6670,
+    "nivel": 18,
+    "xp": 6000,
+    "resultado": "Antiguo yunque x1",
+    "materiales": "Piel hueso añejo x1; Mineral de trombón x1; Pluma de pío x10; Acero rudimentario x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4596,
+    "nivel": 20,
+    "xp": 450,
+    "resultado": "Escuadrita imperfecta x1",
+    "materiales": "Madera de boabob x5; Madera de abedul x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9990,
+    "nivel": 20,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo rudimentaria x1",
+    "materiales": "Neopluma real x3; Neocardo x10; Madera de neoárbol x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10027,
+    "nivel": 20,
+    "xp": 2400,
+    "resultado": "Archisfera rudimentaria x1",
+    "materiales": "Orbe rudimentario x1; Esencia rudimentaria x7; Máscara rudimentaria x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10083,
+    "nivel": 20,
+    "xp": 2400,
+    "resultado": "Puente - Sector 1 x1",
+    "materiales": "Tabla tosca x5; Máscara rudimentaria x5; Máscara tosca x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10085,
+    "nivel": 20,
+    "xp": 3000,
+    "resultado": "Caseta muuugresa x1",
+    "materiales": "Acero imperfecto x4; Hilo imperfecto x4; Polvo x20; Polvo de cría x200; Leleche de Muuugresa Real x7; Zanahowia mágica x3; Bamgaella x3",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 2356,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Barril de pólvora x1",
+    "materiales": "Esquirla de sílex x10; Esencia de Riktus x10; Fibra imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3151,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Cajita amplia de minero x1",
+    "materiales": "Cobalto oscuro x25; Tabla imperfecta x3; Pepita de bronce x10; Acero imperfecto x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3160,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Cajita amplia de leñador x1",
+    "materiales": "Tabla imperfecta x13; Madera de abedul x39; Escuadrita imperfecta x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3169,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Cajita amplia de pescador x1",
+    "materiales": "Riape x20; Tabla imperfecta x3; Encantártaro imperfecto x10; Escuadrita imperfecta x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3178,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Cajita amplia de campesino x1",
+    "materiales": "Harina imperfecta x10; Tabla imperfecta x8; Semilla de cebada x20; Escuadrita imperfecta x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3187,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Cajita amplia de peletero x1",
+    "materiales": "Semilla de planta de los campos x43; Esencia imperfecta x8; Acero imperfecto x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3196,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Cajita amplia de herbolario x1",
+    "materiales": "Flor de orquídea x20; Mentol x10; Hilo imperfecto x8; Escuadrita imperfecta x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3229,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Cajita amplia de encantamiento x1",
+    "materiales": "Tabla imperfecta x7; Polvo x2; Acero imperfecto x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6671,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Muñeco de paja x1",
+    "materiales": "Crines campestres x10; Paja de avena x10; Escuadrita imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6672,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Carretilla de zanahowias x1",
+    "materiales": "Zanahowia x10; Acero imperfecto x1; Tabla imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6673,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Arbusto x1",
+    "materiales": "Esqueje de boabob x20; Raíz campestre x5; Tabla imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6674,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Barril de los tres Pyshtas x1",
+    "materiales": "Tabla imperfecta x1; Acero imperfecto x1; Trébol perfumado x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6675,
+    "nivel": 25,
+    "xp": 3000,
+    "resultado": "Taburete x1",
+    "materiales": "Madera de abedul x10; Mango imperfecto x1; Escuadrita imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8624,
+    "nivel": 25,
+    "xp": 1500,
+    "resultado": "Taburete de Amakna x1",
+    "materiales": "Cencerro x25; Chuleta de muuugresa x15; Escuadrita imperfecta x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8625,
+    "nivel": 25,
+    "xp": 1500,
+    "resultado": "Banco de Amakna x1",
+    "materiales": "Diente de león aplastado x2; Crines campestres x25; Tabla imperfecta x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10008,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Orbe imperfecto x1",
+    "materiales": "Ubre de muuugresa x1; Cencerro x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10009,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Orbe imperfecto x1",
+    "materiales": "Diamante crujiente x1; Diente de oro de crujidor x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10010,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Orbe imperfecto x1",
+    "materiales": "Crines campestres x7; Diente de león aplastado x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10011,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Orbe imperfecto x1",
+    "materiales": "Trozo de barba sucia x1; Tejido de pirata x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10012,
+    "nivel": 25,
+    "xp": 450,
+    "resultado": "Orbe imperfecto x1",
+    "materiales": "Cráneo de fallecinerado x1; Carne de fallecinerado x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6676,
+    "nivel": 28,
+    "xp": 6000,
+    "resultado": "Lápida x1",
+    "materiales": "Cobalto de las tinieblas x2; Diamante crujiente x1; Moho vegetal x20; Corazón de crujidor x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6677,
+    "nivel": 28,
+    "xp": 6000,
+    "resultado": "Pozo x1",
+    "materiales": "Corazón de crujidor x10; Tabla imperfecta x5; Riape apagado x20; Moho vegetal x20",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2125,
+    "nivel": 30,
+    "xp": 3000,
+    "resultado": "Vitrina de equipo x1",
+    "materiales": "Piedra lunar x1; Mariscook x4; Acero tosco x2; Tabla rudimentaria x13",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2190,
+    "nivel": 30,
+    "xp": 3000,
+    "resultado": "Vitrina de trastos x1",
+    "materiales": "Tabla frágil x10; Mariscook x6; Madera de álamo x90; Escuadrita frágil x2; Piedra de diamante x2; Piedra de esmeralda x2",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 3241,
+    "nivel": 30,
+    "xp": 750,
+    "resultado": "Puerta clásica x1",
+    "materiales": "Zinc entero x18; Tabla frágil x9; Madera de bananaranjo x4; Acero frágil x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4597,
+    "nivel": 30,
+    "xp": 450,
+    "resultado": "Escuadrita frágil x1",
+    "materiales": "Madera de bananaranjo x5; Madera de sauce llorón x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8412,
+    "nivel": 30,
+    "xp": 3000,
+    "resultado": "Encantamiento imperfecto de Feca x1",
+    "materiales": "Polvo x15; Preciosa perilla pelirroja x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8413,
+    "nivel": 30,
+    "xp": 3000,
+    "resultado": "Encantamiento imperfecto de Feca x1",
+    "materiales": "Polvo x15; Leleche de Muuugresa Real x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8414,
+    "nivel": 30,
+    "xp": 3000,
+    "resultado": "Encantamiento imperfecto de Feca x1",
+    "materiales": "Polvo x15; Rama seca x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8619,
+    "nivel": 30,
+    "xp": 1800,
+    "resultado": "El taburete justo x1",
+    "materiales": "Piedra de Astrub x10; Cuarzo tallado x25; Escuadrita frágil x17",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 9174,
+    "nivel": 30,
+    "xp": 3000,
+    "resultado": "Encantamiento imperfecto de Feca x1",
+    "materiales": "Polvo x15; Extremo de tentáculo de pulpo x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9286,
+    "nivel": 30,
+    "xp": 3000,
+    "resultado": "Encantamiento imperfecto de Feca x1",
+    "materiales": "Huesos de Hark Saniss x3; Polvo x15",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9991,
+    "nivel": 30,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo imperfecta x1",
+    "materiales": "Neoleleche de Muuugresa Real x3; Neocardo x12; Madera de neoárbol x12",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10028,
+    "nivel": 30,
+    "xp": 2400,
+    "resultado": "Archisfera imperfecta x1",
+    "materiales": "Orbe imperfecto x2; Esencia imperfecta x8; Máscara imperfecta x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3152,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Cajita voluminosa de minero x1",
+    "materiales": "Cuarzo tallado x30; Tabla frágil x3; Acero frágil x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3161,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Cajita voluminosa de leñador x1",
+    "materiales": "Tabla frágil x10; Madera de bananaranjo x45; Escuadrita frágil x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3170,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Cajita voluminosa de pescador x1",
+    "materiales": "Ojo de cangwejo x10; Salamón x20; Tabla frágil x5; Encantártaro frágil x4; Bamga x10",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3179,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Cajita voluminosa de campesino x1",
+    "materiales": "Semilla de melón x20; Tabla frágil x8; Harina frágil x5; Escuadrita frágil x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3188,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Cajita voluminosa de peletero x1",
+    "materiales": "Semilla de muuugresa x45; Tabla frágil x10; Esencia frágil x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3197,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Cajita voluminosa de herbolario x1",
+    "materiales": "Tabla frágil x8; Hilo imperfecto x3; Alga narina x35; Escuadrita frágil x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3230,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Cajita voluminosa de encantamiento x1",
+    "materiales": "Tabla frágil x2; Polvo x1; Acero frágil x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6678,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Ánfora bwork x1",
+    "materiales": "Esquirla de sílex x15; Baba Dera x15; Escuadrita frágil x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6679,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Tonel Jalató x1",
+    "materiales": "Acero frágil x2; Cuerno de jalató x2; Piel recia x15",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6680,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Cerámica bwork x1",
+    "materiales": "Cuarzo tallado x15; Baba Dera x15; Acero frágil x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6681,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Tótem jalató x1",
+    "materiales": "Lana de jalató x20; Escuadrita frágil x2; Piel recia x15",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6682,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Estatua de belíade de bronce x1",
+    "materiales": "Pepita de bronce x15; Mejillón fresco x15; Tabla frágil x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6683,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Estatua de belíade de plata x1",
+    "materiales": "Sangre de eskualo x15; Cuarzo tallado x15; Escuadrita frágil x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8626,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Taburete de Sufokia x1",
+    "materiales": "Ojo de cangwejo x20; Pluma de albatroz x2; Escuadrita frágil x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8627,
+    "nivel": 35,
+    "xp": 3000,
+    "resultado": "Banco de Sufokia x1",
+    "materiales": "Hoja de kokoko x20; Kokosavia x15; Tabla frágil x2",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 9249,
+    "nivel": 35,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Cire Momore anquilosado x1",
+    "materiales": "Tejido de pirata x20; Rubí pulido x1; Cristal pulido x1; Polvo x400; Cenizas de fallecinerado x30; Trozo de barba sucia x2; Extremo de tentáculo de pulpo x3",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 9251,
+    "nivel": 35,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Cire Momore anquilosado x1",
+    "materiales": "Cristal pulido x1; Polvo x400; Carne de fallecinerado x20; Bálsamo taponano x30; Huesos de Hark Saniss x3; Cráneo de fallecinerado x2; Rubí pulido x1",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 9252,
+    "nivel": 35,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Cire Momore anquilosado x1",
+    "materiales": "Rubí pulido x1; Cristal pulido x1; Muestra de stasis x30; Fragmento de grithril x2; Polvo x400; Cuero taponano x20; Ojo del gólem x3",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 10013,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Orbe frágil x1",
+    "materiales": "Talismán salvaje x1; Lana salvaje x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10014,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Orbe frágil x1",
+    "materiales": "Autorretrato bwork x1; Tejido bwork x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10015,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Orbe frágil x1",
+    "materiales": "Diente de eskualo x1; Piel de eskualo x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10016,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Orbe frágil x1",
+    "materiales": "Cáscara de mejillón x1; Nácar x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10017,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Orbe frágil x1",
+    "materiales": "Kokojo saltón x1; Hoja de kokoko x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10018,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Orbe frágil x1",
+    "materiales": "Pluma de albatroz x1; Ojo de cangwejo x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10019,
+    "nivel": 35,
+    "xp": 450,
+    "resultado": "Orbe frágil x1",
+    "materiales": "Fragmento de grithril x1; Cuero taponano x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6684,
+    "nivel": 38,
+    "xp": 6000,
+    "resultado": "Hamaca de jalató x1",
+    "materiales": "Madera de sauce llorón x14; Tótem salvaje x2; Fibra frágil x5; Helecho de lecho x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6685,
+    "nivel": 38,
+    "xp": 6000,
+    "resultado": "Taburete Syntuerka x1",
+    "materiales": "Madera de carpe Diem x2; Cuarzo tallado x20; Acero frágil x6; Fragmento de grithril x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2188,
+    "nivel": 40,
+    "xp": 3000,
+    "resultado": "Vitrina de objetos de misión x1",
+    "materiales": "Tabla frágil x17; Acero frágil x2; Mariscook x5; Piedra de cristal x2; Piedra de rubí x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4062,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Armería x1",
+    "materiales": "Armería pequeña x1; Polvo x4; Amatista Corazón de Dragón x2; Madera desmochada de Butor x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4063,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Engastador x1",
+    "materiales": "Engastador pequeño x1; Polvo x4; Bauxita imperial x2; Amatista Corazón de Dragón x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4064,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Horno de pan x1",
+    "materiales": "Horno de pan pequeño x1; Polvo x4; Dragocapa cenicienta x20; Puro arabraca x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4065,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Cocina x1",
+    "materiales": "Cocina pequeña x1; Polvo x4; Pez zobal volador x20; Dragocapa cenicienta x20; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4066,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Torno para madera x1",
+    "materiales": "Torno para madera pequeño x1; Champiñón llorón x2; Lianécdota x2; Polvo x4; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4067,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Aserradero x1",
+    "materiales": "Aserradero pequeño x1; Polvo x4; Lianécdota x2; Madera desmochada de Butor x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4068,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Destilería x1",
+    "materiales": "Destilería pequeña x1; Polvo x4; Algodonudo malteado x2; Baya de gárgolo barrigón x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4069,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Taller de marroquinero x1",
+    "materiales": "Taller de marroquinero pequeño x1; Polvo x4; Dragocapa cenicienta x20; Baya de gárgolo barrigón x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4070,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Forja de armas x1",
+    "materiales": "Forja de armas pequeña x1; Polvo x4; Lianécdota x2; Bauxita imperial x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4071,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Pulidora x1",
+    "materiales": "Pulidora pequeña x1; Polvo x4; Amatista Corazón de Dragón x2; Bauxita imperial x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4072,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Molino x1",
+    "materiales": "Molino pequeño x1; Polvo x4; Champiñón llorón x2; Puro arabraca x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4073,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Taller de pescador x1",
+    "materiales": "Taller de pescador pequeño x1; Polvo x4; Dragocapa cenicienta x20; Pez zobal volador x20; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4074,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Taller de sastre x1",
+    "materiales": "Taller de sastre x1; Polvo x4; Algodonudo malteado x2; Baya de gárgolo barrigón x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4075,
+    "nivel": 40,
+    "xp": 6000,
+    "resultado": "Taller de curtidor x1",
+    "materiales": "Taller de curtidor pequeño x1; Polvo x4; Pez zobal volador x20; Baya de gárgolo barrigón x2; Baba de mimic x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4598,
+    "nivel": 40,
+    "xp": 450,
+    "resultado": "Escuadrita rústica x1",
+    "materiales": "Madera de álamo x5; Madera de secuoygan x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9336,
+    "nivel": 40,
+    "xp": 3000,
+    "resultado": "Encantamiento frágil de Feca x1",
+    "materiales": "Polvo x20; Tótem salvaje x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9337,
+    "nivel": 40,
+    "xp": 3000,
+    "resultado": "Encantamiento frágil de Feca x1",
+    "materiales": "Cuerno de jalató de Throll x3; Polvo x20",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9338,
+    "nivel": 40,
+    "xp": 3000,
+    "resultado": "Encantamiento frágil de Feca x1",
+    "materiales": "Aleta ensangrentada x3; Polvo x20",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9339,
+    "nivel": 40,
+    "xp": 3000,
+    "resultado": "Encantamiento frágil de Feca x1",
+    "materiales": "Cuerno fulminante x3; Polvo x20",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9340,
+    "nivel": 40,
+    "xp": 3000,
+    "resultado": "Encantamiento frágil de Feca x1",
+    "materiales": "Algodón de koko x3; Polvo x20",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9341,
+    "nivel": 40,
+    "xp": 3000,
+    "resultado": "Encantamiento frágil de Feca x1",
+    "materiales": "Pinza real x3; Polvo x20",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9342,
+    "nivel": 40,
+    "xp": 3000,
+    "resultado": "Encantamiento frágil de Feca x1",
+    "materiales": "Ojo del gólem x3; Polvo x20",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9992,
+    "nivel": 40,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo frágil x1",
+    "materiales": "Neoojo del gólem x3; Neocardo x12; Madera de neoárbol x12",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10029,
+    "nivel": 40,
+    "xp": 2400,
+    "resultado": "Archisfera frágil x1",
+    "materiales": "Orbe frágil x2; Esencia frágil x9; Máscara frágil x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10084,
+    "nivel": 40,
+    "xp": 2400,
+    "resultado": "Puente - Sector 2 x1",
+    "materiales": "Tabla rudimentaria x10; Archisfera rudimentaria x2; Polvo de cría x150",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3153,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Cajita gigantesca de minero x1",
+    "materiales": "Acero rústico x10; Kromo funesto x10; Zinc entero x20; Escuadrita rústica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3162,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Cajita gigantesca de leñador x1",
+    "materiales": "Tabla rústica x10; Madera de álamo x70; Escuadrita rústica x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3171,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Cajita gigantesca de pescador x1",
+    "materiales": "Piel de larva x20; Dragocarpa x20; Tabla rústica x7; Acero rústico x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3180,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Cajita gigantesca de campesino x1",
+    "materiales": "Tabla rústica x10; Semilla de centeno x30; Harina rústica x3; Escuadrita rústica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3189,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Cajita gigantesca de peletero x1",
+    "materiales": "Pelos de rata vieja x85; Tabla rústica x4; Acero rústico x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3198,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Cajita gigantesca de herbolario x1",
+    "materiales": "Escuadrita rústica x4; Hilo rústico x3; Tallo de caña x120",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3231,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Cajita gigantesca de encantamiento x1",
+    "materiales": "Tabla rústica x3; Polvo x8",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6575,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Orbe rústico x1",
+    "materiales": "Encía de balí x1; Piel de balí x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6576,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Orbe rústico x1",
+    "materiales": "Veneno de arakna x1; Pata de arakna x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6577,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Orbe rústico x1",
+    "materiales": "Crines de milubo x1; Pata de milubo x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6578,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Orbe rústico x1",
+    "materiales": "Venda gragnífica x1; Zarpa de grápula x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6579,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Orbe rústico x1",
+    "materiales": "Cordel de rata x1; Bigotes de rata x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6580,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Orbe rústico x1",
+    "materiales": "Garra de cuerbok x1; Pico de cuerbok x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6686,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Poste separador x1",
+    "materiales": "Hilo rústico x3; Madera de álamo x25; Mollejas de cuerbok x12",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6687,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Snooflabel x1",
+    "materiales": "Escuadrita rústica x5; Kromo funesto x25; Hilo rústico x1; Campana x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6688,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Barril vacío x1",
+    "materiales": "Tabla rústica x3; Acero rústico x3; Ratesón x12",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6689,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Tonel Rojo x1",
+    "materiales": "Pelos de rata vieja x25; Acero rústico x3; Tabla rústica x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6690,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Estatua de espantatrotapájaros de bronce x1",
+    "materiales": "Pepita de bronce x25; Escuadrita rústica x3; Cencerro x20",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6691,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Estatua de espantatrotapájaros de plata x1",
+    "materiales": "Kromo funesto x25; Acero rústico x3; Cencerro x20",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 7358,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Orbe rústico x1",
+    "materiales": "Pata de pestruz x1; Pico de pestruz x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7359,
+    "nivel": 45,
+    "xp": 450,
+    "resultado": "Orbe rústico x1",
+    "materiales": "Patas de moskito x1; Alas de moskito x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8628,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Taburete de Bonta x1",
+    "materiales": "Madera de secuoygan x25; Hocico x20; Escuadrita rústica x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8629,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Banco de Bonta x1",
+    "materiales": "Madera de secuoygan x25; Pelos de balí x30; Tabla rústica x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8633,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Sillón de Kabrok x1",
+    "materiales": "Pico de cuerbok x25; Pluma de cuerbok x30; Tabla rústica x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8636,
+    "nivel": 45,
+    "xp": 3000,
+    "resultado": "Banco sadida x1",
+    "materiales": "Madera de álamo x25; Escuadrita rústica x5; Pelos de milubo x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6692,
+    "nivel": 48,
+    "xp": 6000,
+    "resultado": "Estatua de miaumiau x1",
+    "materiales": "Pez miaumiau de alga dulce x20; Diente de miaumiau x5; pelos de miaumiau x30; Acero rústico x4",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6693,
+    "nivel": 48,
+    "xp": 6000,
+    "resultado": "Alfombra Muuugr x1",
+    "materiales": "Champiñón llorón x2; Seda de arakna x30; Cuero rústico x4; Fibra rústica x4",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3242,
+    "nivel": 50,
+    "xp": 750,
+    "resultado": "Puerta de gremio x1",
+    "materiales": "Madera trepadora x35; Mineral de tarudio x32; Tabla bruta x18; Escuadrita bruta x9",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3429,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Plano de decoración del recibidor de gremio de Amakna x1",
+    "materiales": "Escuadrita bruta x53; Esencia de Riktus x520; Ágata pulida x30; Estandarte Riktus x24; Arena dorada x106",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3430,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Plano de decoración del recibidor de gremio de Bonta x1",
+    "materiales": "Arena dorada x106; Escuadrita bruta x53; Titanohuevo x24; Pelos de balí x520; Hocico x320",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3431,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Plano de decoración del recibidor de gremio de Brakmar x1",
+    "materiales": "Resfriado de blop x520; Canino real x24; Arena dorada x106; Tabla bruta x53; Esencia de blop x320",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3432,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Plano de decoración del recibidor de gremio de Sufokia x1",
+    "materiales": "Arena dorada x106; Tabla bruta x53; Aleta dorsal x24; Toroquila x520; Frasco aguado x320",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4599,
+    "nivel": 50,
+    "xp": 450,
+    "resultado": "Escuadrita bruta x1",
+    "materiales": "Madera desmochada x5; Madera de carpe x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8384,
+    "nivel": 50,
+    "xp": 2500,
+    "resultado": "Bolsillo teatro x1",
+    "materiales": "Amatista Corazón de Dragón x10; Sangre chupada x50; Esmeralda pulida x10; Cuerno de escara x50; Orbe bruto x8; Escuadrita bruta x20; Polvo x40",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 8620,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Plano de decoración de la casita de Amakna x1",
+    "materiales": "Estandarte Riktus x12; Esencia de Riktus x260; Ágata pulida x15; Arena dorada x53; Escuadrita bruta x26",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8621,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Plano de decoración de la casita de Bonta x1",
+    "materiales": "Titanohuevo x12; Pelos de balí x260; Hocico x160; Arena dorada x53; Escuadrita bruta x26",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8622,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Plano de decoración de la casita de Brakmar x1",
+    "materiales": "Canino real x12; Resfriado de blop x260; Esencia de blop x160; Arena dorada x53; Tabla bruta x26",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8623,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Plano de decoración de la casita de Sufokia x1",
+    "materiales": "Aleta dorsal x12; Toroquila x260; Frasco aguado x160; Arena dorada x53; Tabla bruta x26",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8972,
+    "nivel": 50,
+    "xp": 1500,
+    "resultado": "Pócima excarnada x1",
+    "materiales": "Fragmento de llave del Antro Olvidado x1; Fragmento de llave de bwork x1; Fragmento de llave de las Ratacumbas x1; Fragmento de llave del Palacio de Tsu x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9048,
+    "nivel": 50,
+    "xp": 3000,
+    "resultado": "Encantamiento bruto de Feca x1",
+    "materiales": "Canino real x3; Polvo x25",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9049,
+    "nivel": 50,
+    "xp": 3000,
+    "resultado": "Encantamiento bruto de Feca x1",
+    "materiales": "Boñiga dorada x3; Polvo x25",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9050,
+    "nivel": 50,
+    "xp": 3000,
+    "resultado": "Encantamiento bruto de Feca x1",
+    "materiales": "Prisma ectoplasma x3; Polvo x25",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9051,
+    "nivel": 50,
+    "xp": 3000,
+    "resultado": "Encantamiento bruto de Feca x1",
+    "materiales": "Piel de Chikitín x3; Polvo x25",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9052,
+    "nivel": 50,
+    "xp": 3000,
+    "resultado": "Encantamiento bruto de Feca x1",
+    "materiales": "Purpurina x3; Polvo x25",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9053,
+    "nivel": 50,
+    "xp": 3000,
+    "resultado": "Encantamiento bruto de Feca x1",
+    "materiales": "Perla matizada x3; Polvo x25",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9054,
+    "nivel": 50,
+    "xp": 3000,
+    "resultado": "Encantamiento bruto de Feca x1",
+    "materiales": "Leche de la Reina Brizlona x3; Polvo x25",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9993,
+    "nivel": 50,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo rústica x1",
+    "materiales": "Neocolmillo del Balí Real x3; Neocardo x17; Madera de neoárbol x17",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10030,
+    "nivel": 50,
+    "xp": 2400,
+    "resultado": "Archisfera rústica x1",
+    "materiales": "Orbe rústico x3; Esencia rústica x10; Máscara rústica x1; Polvo x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3154,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Cajita abisal de minero x1",
+    "materiales": "Koral x35; Tabla bruta x7; Amatista sanguina x20; Acero bruto x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3163,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Cajita abisal de leñador x1",
+    "materiales": "Tabla bruta x13; Madera desmochada x53; Acero bruto x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3172,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Cajita abisal de pescador x1",
+    "materiales": "Pez zobal x20; Tabla bruta x9; Ñiamzama x10; Escuadrita bruta x5; Bananaranja x10",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3181,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Cajita abisal de campesino x1",
+    "materiales": "Sandía x50; Tabla bruta x7; Harina bruta x7; Escuadrita bruta x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3190,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Cajita abisal de peletero x1",
+    "materiales": "Pluma susurrada x30; Tabla bruta x10; Esencia bruta x4; Acero bruto x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3199,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Cajita abisal de herbolario x1",
+    "materiales": "Edelweiss x50; Tabla bruta x7; Hilo bruto x7; Escuadrita bruta x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3232,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Cajita abisal de encantamiento x1",
+    "materiales": "Polvo x5; Tabla bruta x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6433,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Orbe bruto x1",
+    "materiales": "Botón Mon Austero x1; Campana x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6434,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Orbe bruto x1",
+    "materiales": "Ala de murciego x1; Sangre caducada x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6435,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Orbe bruto x1",
+    "materiales": "Gen de la vampyrización x1; Desperdicio x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6436,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Orbe bruto x1",
+    "materiales": "Tetrool x1; Pelo de trool x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6437,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Orbe bruto x1",
+    "materiales": "Escama arenosa x1; Arena dorada x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6439,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Orbe bruto x1",
+    "materiales": "Pelvis x1; Hueso de chafer x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6694,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Toalla de playa de limón x1",
+    "materiales": "Fibra bruta x3; Hilo bruto x3; Gelatina de limón x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6695,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Toalla de playa de fresa x1",
+    "materiales": "Fibra bruta x3; Hilo bruto x3; Gelatina de fresa x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6696,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Toalla de playa de frambuesa x1",
+    "materiales": "Fibra bruta x3; Hilo bruto x3; Gelatina de frambuesa x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6697,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Toalla de playa de menta x1",
+    "materiales": "Fibra bruta x3; Hilo bruto x3; Gelatina de menta x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6698,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Borde de arena x1",
+    "materiales": "Pala de la fortuna x1; Piel granulosa x30; Arena dorada x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6699,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Bolsa de arena x1",
+    "materiales": "Fibra bruta x3; Hilo bruto x3; Arena dorada x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 7360,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Orbe bruto x1",
+    "materiales": "Corazón de escara x1; Cuerno de escara x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8454,
+    "nivel": 55,
+    "xp": 450,
+    "resultado": "Orbe bruto x1",
+    "materiales": "Cáscara de huevo de brizlón x1; Tierra de brizlón x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8630,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Taburete de Brakmar x1",
+    "materiales": "Tibia x30; Bauxita real x25; Escuadrita bruta x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8631,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Banco de Brakmar x1",
+    "materiales": "Pelvis x2; Hueso de chafer x35; Tabla bruta x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8654,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Pequeño montón de libros x1",
+    "materiales": "Pequeño montón de libros del Sliptorium x1; Madera de carpe x25; Escuadrita bruta x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8655,
+    "nivel": 55,
+    "xp": 3000,
+    "resultado": "Gran montón de libros x1",
+    "materiales": "Pequeño montón de libros del Sliptorium x3; Madera de carpe x25; Tabla bruta x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6700,
+    "nivel": 58,
+    "xp": 6000,
+    "resultado": "Tumbona de fresa x1",
+    "materiales": "Escuadrita bruta x6; Tabla bruta x6; Madera de carpe Diem x3; Gelatina de fresa x35",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6701,
+    "nivel": 58,
+    "xp": 6000,
+    "resultado": "Tumbona de frambuesa x1",
+    "materiales": "Escuadrita bruta x6; Tabla bruta x6; Madera de carpe Diem x3; Gelatina de frambuesa x35",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3350,
+    "nivel": 60,
+    "xp": 1500,
+    "resultado": "Plano de decoración de la taberna de playa x1",
+    "materiales": "Madera de carpe x360; Escama arenosa x81; Gelatina real x21; Koral x210; Arena dorada x106; Tejido playero x162",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 4600,
+    "nivel": 60,
+    "xp": 450,
+    "resultado": "Escuadrita sólida x1",
+    "materiales": "Madera helada x5; Madera trepadora x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8380,
+    "nivel": 60,
+    "xp": 9000,
+    "resultado": "Merkambiente bruma azul x1",
+    "materiales": "Madera frigostificada x5; Algodonudo malteado x10; Aceite de motor x15; Hueso congelado x80; Manojo de pelos de mimut x3; Escuadrita bruta x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8973,
+    "nivel": 60,
+    "xp": 1500,
+    "resultado": "Luna Llena x1",
+    "materiales": "Fragmento de llave de la Mazmorra Milubo x1; Fragmento de llave de arakna x1; Fragmento de llave de trool x1; Fragmento de llave de brizlón x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9055,
+    "nivel": 60,
+    "xp": 3000,
+    "resultado": "Encantamiento sólido de Feca x1",
+    "materiales": "Estandarte Riktus x3; Polvo x30",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9056,
+    "nivel": 60,
+    "xp": 3000,
+    "resultado": "Encantamiento sólido de Feca x1",
+    "materiales": "Metal susurrado x3; Polvo x30",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9057,
+    "nivel": 60,
+    "xp": 3000,
+    "resultado": "Encantamiento sólido de Feca x1",
+    "materiales": "Cuero de Lady Glalí x3; Polvo x30",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9058,
+    "nivel": 60,
+    "xp": 3000,
+    "resultado": "Encantamiento sólido de Feca x1",
+    "materiales": "Colmillo del Yech'Ti'Wawa x3; Polvo x30",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9059,
+    "nivel": 60,
+    "xp": 3000,
+    "resultado": "Encantamiento sólido de Feca x1",
+    "materiales": "Gelatina mordida x3; Polvo x30",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9060,
+    "nivel": 60,
+    "xp": 3000,
+    "resultado": "Encantamiento sólido de Feca x1",
+    "materiales": "Gelatina real x3; Polvo x30",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9994,
+    "nivel": 60,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo bruta x1",
+    "materiales": "Neopurpurina x3; Neocardo x20; Madera de neoárbol x20",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10031,
+    "nivel": 60,
+    "xp": 2400,
+    "resultado": "Archisfera bruta x1",
+    "materiales": "Orbe bruto x3; Esencia bruta x10; Máscara bruta x1; Polvo x4",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6438,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Orbe sólido x1",
+    "materiales": "Escudo nasal de glalí x1; Cuero de glalí x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6440,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Orbe sólido x1",
+    "materiales": "Metal susurrido x1; Tejido ópalo x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6441,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Orbe sólido x1",
+    "materiales": "Teja de refuerzo x1; Guardapiedras x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6442,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Orbe sólido x1",
+    "materiales": "Manojo de pelos de mimut x1; Pelopluma de las nieves x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6443,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Orbe sólido x1",
+    "materiales": "Aliento marino x1; Tejido playero x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6444,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Orbe sólido x1",
+    "materiales": "Glucídico animado x1; Gelatina de menta x2; Gelatina de limón x2; Gelatina de fresa x3; Gelatina de frambuesa x3",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 6445,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Orbe sólido x1",
+    "materiales": "Glucídico animado x1; Gelatina de fresa x2; Gelatina de frambuesa x2; Gelatina de limón x3; Gelatina de menta x3",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 6702,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Cubo de gelatina de limón x1",
+    "materiales": "Baba fea x30; Gelatina de limón x30; Aceite sólido x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6703,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Cubo de gelatina de fresa x1",
+    "materiales": "Baba fea x30; Gelatina de fresa x30; Aceite sólido x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6704,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Cubo de gelatina de frambuesa x1",
+    "materiales": "Baba fea x30; Gelatina de frambuesa x30; Aceite sólido x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6705,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Cubo de gelatina de menta x1",
+    "materiales": "Baba fea x30; Gelatina de menta x30; Aceite sólido x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6706,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Silla plegable de menta x1",
+    "materiales": "Gelatina de menta x30; Fibra sólida x5; Escuadrita sólida x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6707,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Silla plegable de limón x1",
+    "materiales": "Gelatina de limón x30; Fibra sólida x5; Escuadrita sólida x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 7361,
+    "nivel": 65,
+    "xp": 450,
+    "resultado": "Orbe sólido x1",
+    "materiales": "Cabellera Riktus x1; Tela Riktus x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8459,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Bloque susurrado x1",
+    "materiales": "Último murmullo x30; Tejido ópalo x30; Escuadrita sólida x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8460,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Pared susurrada x1",
+    "materiales": "Último murmullo x30; Tejido ópalo x30; Tabla sólida x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8461,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Pared susurrada - ángulo inferior x1",
+    "materiales": "Teja de refuerzo x2; Musgo fosilizado x30; Tabla sólida x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8462,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Pared susurrada - ángulo lateral x1",
+    "materiales": "Pluma susurrada x30; Teja de refuerzo x2; Tabla sólida x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8463,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Pared susurrada - ángulo superior x1",
+    "materiales": "Corazón crujiente de susurros x30; Guardapiedras x30; Tabla sólida x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8464,
+    "nivel": 65,
+    "xp": 3000,
+    "resultado": "Pared susurrada - cruz x1",
+    "materiales": "Corazón crujiente de susurros x30; Guardapiedras x30; Escuadrita sólida x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6708,
+    "nivel": 68,
+    "xp": 6000,
+    "resultado": "Altavoz bilbycenco x1",
+    "materiales": "Puro arabraca x2; Gelatina real x2; Acero sólido x7; Escuadrita sólida x7; Tabla sólida x7",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 6710,
+    "nivel": 68,
+    "xp": 6000,
+    "resultado": "Bola de espejos x1",
+    "materiales": "Barrera de koral x2; Perla matizada x2; Tabla sólida x7; Escuadrita sólida x7; Acero sólido x7",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4601,
+    "nivel": 70,
+    "xp": 450,
+    "resultado": "Escuadrita duradera x1",
+    "materiales": "Madera picante x5; Madera de tejo x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8381,
+    "nivel": 70,
+    "xp": 4000,
+    "resultado": "Merkambiente música azul x1",
+    "materiales": "Barrera de koral x2; Gelatina de frambuesa x50; Tabla sólida x7; Escuadrita sólida x7; Gelatina real x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8382,
+    "nivel": 70,
+    "xp": 4000,
+    "resultado": "Merkambiente música roja x1",
+    "materiales": "Odilon rhodon x2; Gelatina de fresa x50; Tabla sólida x7; Escuadrita sólida x7; Gelatina mordida x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8383,
+    "nivel": 70,
+    "xp": 4000,
+    "resultado": "Merkambiente música verde x1",
+    "materiales": "Puro arabraca x2; Gelatina de menta x50; Tabla sólida x7; Escuadrita sólida x7; Perla matizada x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8974,
+    "nivel": 70,
+    "xp": 1500,
+    "resultado": "Símbolo del Antro del Cuervo Negro x1",
+    "materiales": "Fragmento de llave de Orrok x1; Fragmento de llave de la Cuerbokueva x1; Fragmento de llave de los Magik Riktus x1; Fragmento de llave de la Arena Danzante x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8975,
+    "nivel": 70,
+    "xp": 1500,
+    "resultado": "Llave del Antro de Jálrog x1",
+    "materiales": "Fragmento de llave de la Escarantera Abandonada x1; Fragmento de llave de la Necrópelis de Morbax x1; Fragmento de llave del Castillo de Wagnar x1; Fragmento de llave de Sliptorium x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9061,
+    "nivel": 70,
+    "xp": 3000,
+    "resultado": "Encantamiento duradero de Feca x1",
+    "materiales": "Chareal x3; Polvo x35",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9062,
+    "nivel": 70,
+    "xp": 3000,
+    "resultado": "Encantamiento duradero de Feca x1",
+    "materiales": "Aleta dorsal x3; Polvo x35",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9063,
+    "nivel": 70,
+    "xp": 3000,
+    "resultado": "Encantamiento duradero de Feca x1",
+    "materiales": "Bastoncillo helado x3; Polvo x35",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9064,
+    "nivel": 70,
+    "xp": 3000,
+    "resultado": "Encantamiento duradero de Feca x1",
+    "materiales": "Hielo imperecedero x3; Polvo x35",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9065,
+    "nivel": 70,
+    "xp": 3000,
+    "resultado": "Encantamiento duradero de Feca x1",
+    "materiales": "Llave inglesa x3; Polvo x35",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9066,
+    "nivel": 70,
+    "xp": 3000,
+    "resultado": "Encantamiento duradero de Feca x1",
+    "materiales": "Pikopik x3; Polvo x35",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9067,
+    "nivel": 70,
+    "xp": 3000,
+    "resultado": "Encantamiento duradero de Feca x1",
+    "materiales": "Samarabola x3; Polvo x35",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9995,
+    "nivel": 70,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo sólida x1",
+    "materiales": "Neopluma del Cuervo Negro x3; Neocardo x24; Madera de neoárbol x24",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10032,
+    "nivel": 70,
+    "xp": 2400,
+    "resultado": "Archisfera sólida x1",
+    "materiales": "Orbe sólido x3; Esencia sólida x13; Máscara sólida x1; Polvo x8",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 3522,
+    "nivel": 75,
+    "xp": 3000,
+    "resultado": "Cómoda cacterra x1",
+    "materiales": "Escuadrita duradera x4; Madera picante x35; Tabla duradera x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 3530,
+    "nivel": 75,
+    "xp": 3000,
+    "resultado": "Lámpara cacterra x1",
+    "materiales": "Madera picante x35; Moco luminoso x35; Aguardiente x35",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6446,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Orbe duradero x1",
+    "materiales": "Esquirla de tarudio x1; Crurazón x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6447,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Orbe duradero x1",
+    "materiales": "Cuero tarudino x1; Hueso congelado x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6448,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Orbe duradero x1",
+    "materiales": "Mekaestaca x1; Tuerca x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6449,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Orbe duradero x1",
+    "materiales": "Espina de cacterro x1; Tela de cacterro x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6711,
+    "nivel": 75,
+    "xp": 3000,
+    "resultado": "Peluche de cacterro x1",
+    "materiales": "Hoja de aloa vero x35; Tela de cacterro x35; Hilo duradero x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6712,
+    "nivel": 75,
+    "xp": 3000,
+    "resultado": "Puf que pica x1",
+    "materiales": "Madera picante x35; Escuadrita duradera x4; Fibra duradera x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6713,
+    "nivel": 75,
+    "xp": 3000,
+    "resultado": "Estatua de prespic de bronce x1",
+    "materiales": "Pepita de bronce x70; Esqueje picante x70; Resina samarciosa x35",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6714,
+    "nivel": 75,
+    "xp": 3000,
+    "resultado": "Estatua de prespic de plata x1",
+    "materiales": "Esqueje picante x70; Resina samarciosa x35; Tabla duradera x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 7362,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Orbe duradero x1",
+    "materiales": "Hilo de apriete x1; Paja charcosa x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7363,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Orbe duradero x1",
+    "materiales": "Espolón x1; Aletas x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7364,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Orbe duradero x1",
+    "materiales": "Aleta de sámara x1; Restos de sámara x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8375,
+    "nivel": 75,
+    "xp": 6000,
+    "resultado": "Merkambiente llama x1",
+    "materiales": "Madera frigostificada x8; Cactus tropicante x8; Madera de bananaranjo ejemplar x8",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8376,
+    "nivel": 75,
+    "xp": 6000,
+    "resultado": "Merkambiente géiser x1",
+    "materiales": "Puro arabraca x8; Trufa aromatizada x8; Avena espectacular x8",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8465,
+    "nivel": 75,
+    "xp": 3000,
+    "resultado": "Bloque de Hielo x1",
+    "materiales": "Piña helada x35; Fibra duradera x4; Escuadrita duradera x4",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8615,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Llave de la brecha definitiva de Frigost x1",
+    "materiales": "Piedra de Astrub x30; Lana Real x1; Pluma real x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8616,
+    "nivel": 75,
+    "xp": 450,
+    "resultado": "Llave de la brecha definitiva de Frigost x1",
+    "materiales": "Canica de Sufokia x30; Pinza real x1; Algodón de koko x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6715,
+    "nivel": 78,
+    "xp": 6000,
+    "resultado": "Banco de botánica x1",
+    "materiales": "Alga narina silbante x2; Algodonudo malteado x2; Flor de Edelweiss brillante x2; Escuadrita duradera x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6716,
+    "nivel": 78,
+    "xp": 6000,
+    "resultado": "Escultura Martillo x1",
+    "materiales": "Mineral de plomo luminoso x2; El picahoso x1; Hielo imperecedero x2; Acero duradero x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 2430,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran armería x1",
+    "materiales": "Madera de sakura x10; Sryanuro ácido x10; Armería x1; Baba de mimic x20; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 2431,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran engastador x1",
+    "materiales": "Barrera de koral x10; Mineral de plomo luminoso x10; Engastador x1; Baba de mimic x20; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 2432,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran horno de pan x1",
+    "materiales": "Judía follonera x10; Girasol Ancestral x10; Horno de pan x1; Polvo x192; Baba de mimic x20",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 2433,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran cocina x1",
+    "materiales": "Tiburón martillhoz x80; Cocina x1; Baba de mimic x20; Girasol Ancestral x10; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 2434,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran torno para madera x1",
+    "materiales": "Polvo x192; Madera de sakura x10; Madera de excepción x10; Torno para madera x1; Baba de mimic x20",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 2435,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran forja de armas x1",
+    "materiales": "Barrera de koral x10; Mineral de plomo luminoso x10; Forja de armas x1; Baba de mimic x20; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 2438,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran taller de marroquinero x1",
+    "materiales": "Polvo x192; Pulsatila oscura x10; Flor de riqueza x10; Taller de marroquinero x1; Baba de mimic x20",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 2439,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran taller de sastre x1",
+    "materiales": "Baba de mimic x20; Polvo x192; Clavo Taje x10; Flor de riqueza x10; Taller de sastre x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3245,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran destilería x1",
+    "materiales": "Pulsatila oscura x5; Clavo Taje x5; Destilería x1; Baba de mimic x20; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3246,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran molino x1",
+    "materiales": "Col gigante x5; Judía follonera x5; Molino x1; Baba de mimic x20; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3247,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran pulidora x1",
+    "materiales": "Mineral de plomo luminoso x10; Zafiro mate x10; Pulidora x1; Baba de mimic x20; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3248,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran taller de pescador x1",
+    "materiales": "Ian-Clon Van'Da x80; Pirañaña con saña x80; Taller de pescador x1; Baba de mimic x20; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3249,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran aserradero x1",
+    "materiales": "Madera de excepción x10; Madera de tejo sobrenatural x10; Aserradero x1; Baba de mimic x20; Polvo x192",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 3250,
+    "nivel": 80,
+    "xp": 6000,
+    "resultado": "Gran taller de curtidor x1",
+    "materiales": "Pirañaña con saña x10; Taller de curtidor x1; Baba de mimic x20; Polvo x192; Judía follonera x10",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4602,
+    "nivel": 80,
+    "xp": 450,
+    "resultado": "Escuadrita refinada x1",
+    "materiales": "Madera de belgameta x5; Madera de champivela x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8976,
+    "nivel": 80,
+    "xp": 1500,
+    "resultado": "Llave del Antro del Dragocerdo x1",
+    "materiales": "Fragmento de llave de pestruz x1; Fragmento de llave de la Balinería x1; Fragmento de llave de cacterro x1; Fragmento de llave de sámara x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9068,
+    "nivel": 80,
+    "xp": 3000,
+    "resultado": "Encantamiento refinado de Feca x1",
+    "materiales": "Corteza de Abráknido Ancestral x3; Polvo x40",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9069,
+    "nivel": 80,
+    "xp": 3000,
+    "resultado": "Encantamiento refinado de Feca x1",
+    "materiales": "Polvo x40; Jugo de Calabaciflor x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9070,
+    "nivel": 80,
+    "xp": 3000,
+    "resultado": "Encantamiento refinado de Feca x1",
+    "materiales": "Piel lujosa x3; Polvo x40",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9071,
+    "nivel": 80,
+    "xp": 3000,
+    "resultado": "Encantamiento refinado de Feca x1",
+    "materiales": "Cola pompón x3; Polvo x40",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9072,
+    "nivel": 80,
+    "xp": 3000,
+    "resultado": "Encantamiento refinado de Feca x1",
+    "materiales": "Colmillo de Perfowarrior x3; Polvo x40",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9073,
+    "nivel": 80,
+    "xp": 3000,
+    "resultado": "Encantamiento refinado de Feca x1",
+    "materiales": "Micelio real x3; Polvo x40",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9996,
+    "nivel": 80,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo duradera x1",
+    "materiales": "Neobastoncillo helado x3; Neocardo x28; Madera de neoárbol x28",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10033,
+    "nivel": 80,
+    "xp": 2400,
+    "resultado": "Archisfera duradera x1",
+    "materiales": "Orbe duradero x3; Esencia duradera x14; Máscara duradera x1; Polvo x16",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6717,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Loca zolla x1",
+    "materiales": "Pelaje tielno x45; Mineral de mithwil x45; Escuadrita refinada x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6718,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Muwete pequeño x1",
+    "materiales": "Acero duradero x5; Mineral de mithwil x45; Escuadrita duradera x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6719,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Regadera de esporas x1",
+    "materiales": "Luciseta x45; Planctón x45; Acero refinado x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6720,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Zanahowia gwande mowdisqueada x1",
+    "materiales": "Zanahowia mágica x1; Piel clara x45; Tabla refinado x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6721,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Zanahowia gwande negwa x1",
+    "materiales": "Zanahowia negwa x45; Tabla refinado x5; Piel oscura x45",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6722,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Zanahowia gwande negwa mowdisqueada x1",
+    "materiales": "Piel oscura x45; Zanahowia negwa x45; Tabla refinado x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8378,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Merkambiente Zinit x1",
+    "materiales": "Trompetito de mar x25; Escuadrita refinada x5; Tabla refinado x5; Colmillo de Perfowarrior x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8639,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Banco de la escuela de hipermagia x1",
+    "materiales": "Mazo de Bonta x25; Mineral de mithwil x45; Tabla refinado x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8657,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Muwete pequeño con dos owejas x1",
+    "materiales": "Mineral de mithwil x45; Escuadrita duradera x5; Acero duradero x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8658,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Muwete pequeño con una oweja x1",
+    "materiales": "Mineral de mithwil x45; Escuadrita duradera x5; Acero duradero x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8659,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Gran muwete con dos owejas x1",
+    "materiales": "Mineral de mithwil x45; Escuadrita duradera x5; Acero duradero x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8660,
+    "nivel": 85,
+    "xp": 3000,
+    "resultado": "Gran muwete con una oweja x1",
+    "materiales": "Mineral de mithwil x45; Escuadrita duradera x5; Acero duradero x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10020,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Orbe refinado x1",
+    "materiales": "Veneno de negraspora x1; Lámina de negraspora x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10021,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Orbe refinado x1",
+    "materiales": "Corazón de perforatroz x1; Cuero de perforatroz x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10022,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Orbe refinado x1",
+    "materiales": "Esqueje de abráknido x1; Raíz sombría x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10023,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Orbe refinado x1",
+    "materiales": "Sépalo mutante x1; Hoja marchita x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10024,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Orbe refinado x1",
+    "materiales": "Cola de zollo x1; Piel de zollo x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10025,
+    "nivel": 85,
+    "xp": 450,
+    "resultado": "Orbe refinado x1",
+    "materiales": "Colowación vewde x1; Piel de wabbit x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6723,
+    "nivel": 88,
+    "xp": 6000,
+    "resultado": "Alfombra de esporas x1",
+    "materiales": "Luciseta de alucine x3; Micelio real x3; Moco luminoso x50; Fibra refinada x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6724,
+    "nivel": 88,
+    "xp": 6000,
+    "resultado": "Alfombra zolla x1",
+    "materiales": "Piel clara x50; Fibra refinada x10; Wábano negwo x3; Piel lujosa x3",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4603,
+    "nivel": 90,
+    "xp": 450,
+    "resultado": "Escuadrita preciosa x1",
+    "materiales": "Madera silvestre x5; Madera de saúco x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9544,
+    "nivel": 90,
+    "xp": 3000,
+    "resultado": "Encantamiento precioso de Feca x1",
+    "materiales": "Cola de Copampino x3; Polvo x60",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9545,
+    "nivel": 90,
+    "xp": 3000,
+    "resultado": "Encantamiento precioso de Feca x1",
+    "materiales": "Oseásmico x3; Polvo x60",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9546,
+    "nivel": 90,
+    "xp": 3000,
+    "resultado": "Encantamiento precioso de Feca x1",
+    "materiales": "Cerradura enorme x3; Polvo x60",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9547,
+    "nivel": 90,
+    "xp": 3000,
+    "resultado": "Encantamiento precioso de Feca x1",
+    "materiales": "Esencia de blopzart x3; Polvo x60",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9548,
+    "nivel": 90,
+    "xp": 3000,
+    "resultado": "Encantamiento precioso de Feca x1",
+    "materiales": "Raíz del mal x3; Polvo x60",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9549,
+    "nivel": 90,
+    "xp": 3000,
+    "resultado": "Encantamiento precioso de Feca x1",
+    "materiales": "Pedazo de ala de Bombyxolita x3; Polvo x60",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9550,
+    "nivel": 90,
+    "xp": 3000,
+    "resultado": "Encantamiento precioso de Feca x1",
+    "materiales": "Viwus x3; Polvo x60",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9997,
+    "nivel": 90,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo refinada x1",
+    "materiales": "Neocorteza de Abráknido Ancestral x3; Neocardo x34; Madera de neoárbol x34",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10034,
+    "nivel": 90,
+    "xp": 2400,
+    "resultado": "Archisfera refinada x1",
+    "materiales": "Orbe refinado x4; Esencia refinada x17; Máscara refinada x1; Polvo x26",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6725,
+    "nivel": 95,
+    "xp": 3000,
+    "resultado": "Awmawio mowdisqueado x1",
+    "materiales": "Madera de belgameta x50; Piel radiante x50; Escuadrita preciosa x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6726,
+    "nivel": 95,
+    "xp": 3000,
+    "resultado": "Zanahowia fawolillo x1",
+    "materiales": "Noweja x25; Moco luminoso x25; Escuadrita preciosa x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6727,
+    "nivel": 95,
+    "xp": 3000,
+    "resultado": "Cómoda mowdisqueada x1",
+    "materiales": "Girasol x50; Zanahowia negwa x50; Tabla preciosa x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6728,
+    "nivel": 95,
+    "xp": 3000,
+    "resultado": "Tabuwete zanahowia x1",
+    "materiales": "Zanahowia negwa x50; Tabla preciosa x7; Mango preciado x3",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6729,
+    "nivel": 95,
+    "xp": 3000,
+    "resultado": "Tótem pequeño wabbit x1",
+    "materiales": "Piel radiante x50; Piedra de zafiro de doble brillo x50; Acero precioso x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6730,
+    "nivel": 95,
+    "xp": 3000,
+    "resultado": "Zanahowia muy gwande x1",
+    "materiales": "Piel radiante x50; Tabla preciosa x5; Escuadrita preciosa x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8371,
+    "nivel": 95,
+    "xp": 3000,
+    "resultado": "Merkagema de Bonta x1",
+    "materiales": "Patas de moskito x5; Pata de pestruz x5; Madera caprichosa x10; Escuadrita preciosa x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9567,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Orbe precioso x1",
+    "materiales": "Hoja de viña x1; Tejido rojo x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9568,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Orbe precioso x1",
+    "materiales": "Sustancia gris x1; Hueso dimensional x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9569,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Orbe precioso x1",
+    "materiales": "Tablilla animada x1; Doradura de cobre x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9570,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Orbe precioso x1",
+    "materiales": "Guitarra de blop x1; Desafine x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9571,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Orbe precioso x1",
+    "materiales": "Bulbo sediento x1; Troncal x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9572,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Orbe precioso x1",
+    "materiales": "Ojo de arenóptero x1; Trozo de caparazón de arenóptero x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9573,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Orbe precioso x1",
+    "materiales": "Diente acewado x1; Piel infectada x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9574,
+    "nivel": 95,
+    "xp": 450,
+    "resultado": "Orbe precioso x1",
+    "materiales": "Metal Úwgiko x1; Tejido nawanja x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6731,
+    "nivel": 98,
+    "xp": 6000,
+    "resultado": "Gwan tótem wabbit x1",
+    "materiales": "Madera mortal x4; Diente acewado x3; Piel infectada x50; Escuadrita preciosa x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6732,
+    "nivel": 98,
+    "xp": 6000,
+    "resultado": "Cama Wey Wabbit x1",
+    "materiales": "Madera caprichosa x4; Manojo zanahowio x3; Tejido nawanja x50; Fibra preciosa x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6733,
+    "nivel": 98,
+    "xp": 6000,
+    "resultado": "Cráneo de cristal x1",
+    "materiales": "Sryanuro ácido x4; Oseásmico x3; Piel vaporosa x50; Escuadrita preciosa x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6734,
+    "nivel": 98,
+    "xp": 6000,
+    "resultado": "Planta de Anutropía x1",
+    "materiales": "Flor de riqueza x4; Cerradura enorme x3; Baba de lujo x50; Tabla preciosa x10; Esqueje de álamo x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 4604,
+    "nivel": 100,
+    "xp": 450,
+    "resultado": "Escuadrita exquisita x1",
+    "materiales": "Madera de cerezo x5; Madera seca x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7159,
+    "nivel": 100,
+    "xp": 16200,
+    "resultado": "Emblema de cazador de archimonstruos x1",
+    "materiales": "Oseásmico x7; Cerradura enorme x7; Flor de riqueza x3; Tabla preciosa x18; Escuadrita preciosa x18",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 9074,
+    "nivel": 100,
+    "xp": 3000,
+    "resultado": "Encantamiento exquisito de Feca x1",
+    "materiales": "Tela de jefe Riktus x3; Polvo x80",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9075,
+    "nivel": 100,
+    "xp": 3000,
+    "resultado": "Encantamiento exquisito de Feca x1",
+    "materiales": "Fragmento de Remington x3; Polvo x80",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9076,
+    "nivel": 100,
+    "xp": 3000,
+    "resultado": "Encantamiento exquisito de Feca x1",
+    "materiales": "Clavo estrella x3; Polvo x80",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9077,
+    "nivel": 100,
+    "xp": 3000,
+    "resultado": "Encantamiento exquisito de Feca x1",
+    "materiales": "Estalagmamá x3; Polvo x80",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9078,
+    "nivel": 100,
+    "xp": 3000,
+    "resultado": "Encantamiento exquisito de Feca x1",
+    "materiales": "Esquirla secular x3; Polvo x80",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9079,
+    "nivel": 100,
+    "xp": 3000,
+    "resultado": "Encantamiento exquisito de Feca x1",
+    "materiales": "Pluma de rapyodo x3; Polvo x80",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9563,
+    "nivel": 100,
+    "xp": 1500,
+    "resultado": "Llave de la tumba de Tal Kasha x1",
+    "materiales": "Fragmento de llave de zollo x1; Fragmento de llave de verdutante x1; Fragmento de llave de arenóptero x1; Fragmento de llave de wabbit x1; Fragmento de llave de zombbit x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 9611,
+    "nivel": 100,
+    "xp": 3000,
+    "resultado": "Piedra necrómica x1",
+    "materiales": "Polvo x200; Fragmento necrómico x10",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9998,
+    "nivel": 100,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo preciosa x1",
+    "materiales": "Neomanojo zanahowio x3; Neocardo x40; Madera de neoárbol x40",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10035,
+    "nivel": 100,
+    "xp": 2400,
+    "resultado": "Archisfera preciosa x1",
+    "materiales": "Orbe precioso x5; Esencia preciosa x21; Máscara preciosa x1; Polvo x38",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4964,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Orbe exquisito x1",
+    "materiales": "Sangre coagulada x7; Cadenas x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4965,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Orbe exquisito x1",
+    "materiales": "Engranaje ancestral x1; Fragmento antiguo x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4966,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Orbe exquisito x1",
+    "materiales": "Aguja de esfera x1; Pluma engranada x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6735,
+    "nivel": 105,
+    "xp": 3000,
+    "resultado": "Caja registradora x1",
+    "materiales": "Arena del tiempo presente x22; Fibra exquisita x6; Tabla exquisita x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6736,
+    "nivel": 105,
+    "xp": 3000,
+    "resultado": "Kuakuá de plástico x1",
+    "materiales": "Kronos x55; Escuadrita exquisita x6; Acero exquisito x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6737,
+    "nivel": 105,
+    "xp": 3000,
+    "resultado": "Cuna de Anutrof x1",
+    "materiales": "Pieza arcaica x22; Tabla exquisita x6; Acero exquisito x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6738,
+    "nivel": 105,
+    "xp": 3000,
+    "resultado": "Sombrilla del abuelito Ditocas x1",
+    "materiales": "Fibra exquisita x6; Madera seca x55; Hilo exquisito x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6739,
+    "nivel": 105,
+    "xp": 3000,
+    "resultado": "Estatua de albatroz de bronce x1",
+    "materiales": "Pepita de bronce x120; Bola de pelos x55; Escuadrita exquisita x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6740,
+    "nivel": 105,
+    "xp": 3000,
+    "resultado": "Estatua de albatroz de plata x1",
+    "materiales": "Mineral de plata vieja x55; Tela remendada x27; Escuadrita exquisita x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 7365,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Orbe exquisito x1",
+    "materiales": "Bombomb x1; James Bomb x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7366,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Orbe exquisito x1",
+    "materiales": "Martifusta x1; Aliento de bandolero x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7367,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Orbe exquisito x1",
+    "materiales": "Pin de los encapuchados x1; Tejido oscuro x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7368,
+    "nivel": 105,
+    "xp": 450,
+    "resultado": "Orbe exquisito x1",
+    "materiales": "Ojo de lava x1; Estalagmita x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8635,
+    "nivel": 105,
+    "xp": 3000,
+    "resultado": "Taburete engranaje x1",
+    "materiales": "Éter x55; Tabla exquisita x6; Escuadrita exquisita x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8637,
+    "nivel": 105,
+    "xp": 3000,
+    "resultado": "Sillón de tymador x1",
+    "materiales": "Suela blanda x55; Tabla exquisita x6; Escuadrita exquisita x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6741,
+    "nivel": 108,
+    "xp": 6000,
+    "resultado": "Pendulada x1",
+    "materiales": "Esquirla secular x4; Carbono Hara x4; Pieza arcaica x30; Escuadrita exquisita x12",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6742,
+    "nivel": 108,
+    "xp": 6000,
+    "resultado": "Reloj de arena decorativo x1",
+    "materiales": "Pluma de rapyodo x4; Carbono Hara x4; Arena del tiempo presente x30; Acero exquisito x12",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4605,
+    "nivel": 110,
+    "xp": 450,
+    "resultado": "Escuadrita mística x1",
+    "materiales": "Madera de kokotero x5; Madera de divi divi x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8977,
+    "nivel": 110,
+    "xp": 1500,
+    "resultado": "Símbolo de la Meseta de los Altos Vuelos x1",
+    "materiales": "Fragmento de la llave de los Riktus de élite x1; Fragmento de llave de Tymabar x1; Fragmento de llave de Astrolillo x1; Fragmento de llave de patapinxo x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9080,
+    "nivel": 110,
+    "xp": 3000,
+    "resultado": "Encantamiento místico de Feca x1",
+    "materiales": "Bandera pirata x3; Polvo x100",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9081,
+    "nivel": 110,
+    "xp": 3000,
+    "resultado": "Encantamiento místico de Feca x1",
+    "materiales": "Pelo de simio negro x3; Polvo x100",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9082,
+    "nivel": 110,
+    "xp": 3000,
+    "resultado": "Encantamiento místico de Feca x1",
+    "materiales": "Concentrado de Koko, el Kolgado x3; Polvo x100",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9083,
+    "nivel": 110,
+    "xp": 3000,
+    "resultado": "Encantamiento místico de Feca x1",
+    "materiales": "Cataplasma x3; Polvo x100",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9084,
+    "nivel": 110,
+    "xp": 3000,
+    "resultado": "Encantamiento místico de Feca x1",
+    "materiales": "Cola de Mamá Gerbilinda x3; Polvo x100",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9999,
+    "nivel": 110,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo exquisita x1",
+    "materiales": "Neofragmento de Remington x3; Neocardo x49; Madera de neoárbol x49",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10036,
+    "nivel": 110,
+    "xp": 2400,
+    "resultado": "Archisfera exquisita x1",
+    "materiales": "Orbe exquisito x6; Esencia exquisita x26; Máscara exquisita x1; Polvo x54",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4956,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Orbe místico x1",
+    "materiales": "Savia Fer x1; Raíces de kanívora x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4957,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Orbe místico x1",
+    "materiales": "Diente de cocodrail x1; Cuero de cocodrail x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4958,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Orbe místico x1",
+    "materiales": "Máscara agrietada x1; Bastón kaníbola x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4959,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Orbe místico x1",
+    "materiales": "Nuez de tropikoko traumatizada x1; Corteza de tropikoko x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6743,
+    "nivel": 115,
+    "xp": 3000,
+    "resultado": "Estatua de miaumiau de bronce x1",
+    "materiales": "Ámbar x60; Taparrabos sucio x30; Tabla mística x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6744,
+    "nivel": 115,
+    "xp": 3000,
+    "resultado": "Estatua de miaumiau de plata x1",
+    "materiales": "Fibra voraz x60; Mineral de plata vieja x60; Escuadrita mística x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6745,
+    "nivel": 115,
+    "xp": 3000,
+    "resultado": "Mesa de panadero oscuro x1",
+    "materiales": "Pan vudú x3; Madera de kokotero x60; Escuadrita mística x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6746,
+    "nivel": 115,
+    "xp": 3000,
+    "resultado": "Mesa de leñador oscuro x1",
+    "materiales": "Madera de ñiamzamo x20; Madera seca x20; Madera de kokotero x20; Tabla mística x6; Escuadrita mística x6",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 6747,
+    "nivel": 115,
+    "xp": 3000,
+    "resultado": "Mesa de minero oscuro x1",
+    "materiales": "Tabla mística x6; Mercurio x60; Piedra de rubí x20",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6748,
+    "nivel": 115,
+    "xp": 3000,
+    "resultado": "Mesa de pescador oscuro x1",
+    "materiales": "Namo x60; Red usada x30; Tabla mística x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8103,
+    "nivel": 115,
+    "xp": 450,
+    "resultado": "Cabellera de sedentor x1",
+    "materiales": "Madera con diez vidas x1; Trozo de sedentor x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8632,
+    "nivel": 115,
+    "xp": 3000,
+    "resultado": "Taburete de Moon x1",
+    "materiales": "Residuos de Moon x10; Payasinamo x60; Escuadrita mística x6",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 6749,
+    "nivel": 118,
+    "xp": 6000,
+    "resultado": "Máquina de tortura x1",
+    "materiales": "Cola de Copampino x4; Hoja tóxica x40; Acero místico x12; Tabla mística x12",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6750,
+    "nivel": 118,
+    "xp": 6000,
+    "resultado": "Lámpara espectral x1",
+    "materiales": "Astro de la noche x5; Hoja de viña x4; Cranita x1; Hoja tóxica x40; Tabla mística x12",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 6490,
+    "nivel": 120,
+    "xp": 450,
+    "resultado": "Escuadrita eterna x1",
+    "materiales": "Madera de maracajú x5; Madera de zarza x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8373,
+    "nivel": 120,
+    "xp": 6000,
+    "resultado": "Merkambiente almas x1",
+    "materiales": "Tabla mística x12; Pelo de simio negro x2; Madera con diez vidas x10; Kokos nucifera x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8377,
+    "nivel": 120,
+    "xp": 6000,
+    "resultado": "Merkambiente Stasis x1",
+    "materiales": "Carne de buhatrás x40; Carne de gerbilinda x40; Sueño olvidado x40; Carne de plaguepardo x40; Pelos de pandisidente x40; Plantala a la moda x40",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8978,
+    "nivel": 120,
+    "xp": 1500,
+    "resultado": "Tótem de Moon x1",
+    "materiales": "Fragmento de llave kaníbola x1; Fragmento de llave de los Trópikos x1; Fragmento de llave de cocodrail x1; Fragmento de llave de kanívora x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 10000,
+    "nivel": 120,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo mística x1",
+    "materiales": "Neocaja de Pandora x3; Neocardo x59; Madera de neoárbol x59",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10037,
+    "nivel": 120,
+    "xp": 2400,
+    "resultado": "Archisfera mística x1",
+    "materiales": "Orbe místico x7; Esencia mística x30; Máscara mística x1; Polvo x72",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 4606,
+    "nivel": 125,
+    "xp": 3000,
+    "resultado": "Cómoda de la nave Zinit x1",
+    "materiales": "Madera de tabas-K.O. x2; Escuadrita eterna x15",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4960,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Orbe eterno x1",
+    "materiales": "Basalto x1; Brasas magmáticas x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4961,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Orbe eterno x1",
+    "materiales": "Garra de tejaroxor x1; Colmillo de tejaroxor x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4962,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Orbe eterno x1",
+    "materiales": "Cáscara de dragohuevo x7; Huevito de dragohuevo x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 4963,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Orbe eterno x1",
+    "materiales": "Fragancia rancia x1; Vapor áspero x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6484,
+    "nivel": 125,
+    "xp": 3000,
+    "resultado": "Biombo de la nave Zinit x1",
+    "materiales": "Pala de la fortuna x1; Brasas magmáticas x50; Arena dorada x50; Escuadrita eterna x20",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6486,
+    "nivel": 125,
+    "xp": 3000,
+    "resultado": "Cama de la nave Zinit x1",
+    "materiales": "Tela remendada x20; Pelo de tejaroxor x20; Cola de tejaroxor x20; Fibra eterna x10; Tabla eterna x10",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 6487,
+    "nivel": 125,
+    "xp": 3000,
+    "resultado": "Armario de la nave Zinit x1",
+    "materiales": "Escuadrita eterna x35; Muslo de jalató x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 6488,
+    "nivel": 125,
+    "xp": 3000,
+    "resultado": "Juego de la nave Zinit x1",
+    "materiales": "Pimiento del Caos x5; Escuadrita eterna x25; Colmillo de tejaroxor x15; Cola de tejaroxor x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6489,
+    "nivel": 125,
+    "xp": 3000,
+    "resultado": "Altar de la nave Zinit x1",
+    "materiales": "Cenizas magmáticas x50; Escuadrita eterna x25",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 7190,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Orbe eterno x1",
+    "materiales": "Turba sensible x1; Pila de tierra necrosada x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8091,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Orbe eterno x1",
+    "materiales": "Tejido de plaguepardo x1; Pelaje de plaguepardo x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8092,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Orbe eterno x1",
+    "materiales": "Pólvora intemporal de Pandala x1; Gostoplasma de Pandala x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8372,
+    "nivel": 125,
+    "xp": 450,
+    "resultado": "Orbe eterno x1",
+    "materiales": "Fragmento de armadura de buhatrás x1; Pata de buhatrás x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8379,
+    "nivel": 125,
+    "xp": 4000,
+    "resultado": "Merkambiente llama azul x1",
+    "materiales": "Kokos nucifera x10; Gostoplasma de Pandala x20; Pólvora intemporal de Pandala x10; Tela de Pandala vieja x150; Cactus tropicante x5",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 6483,
+    "nivel": 128,
+    "xp": 6000,
+    "resultado": "Planta de la nave Zinit x1",
+    "materiales": "Tabla eterna x15; Lino del sol x10; Hoja de ortiga ensangrentada x4; Acero eterno x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 6485,
+    "nivel": 128,
+    "xp": 6000,
+    "resultado": "Mesa de la nave Zinit x1",
+    "materiales": "Cenizas calientes x5; Mineral de plata vieja deslumbrante x10; Tabla eterna x25; Madera de tabas-K.O. x10",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 7193,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Bolsa de sublimación épica y de reliquia x1",
+    "materiales": "Fragmento de runa de Stasis x50; Piedra necrómica x5; Ágata pulida x40; Lapislézuli x40; Rubí pulido x40; Cristal pulido x20; Diamante pulido x10; Esmeralda pulida x10",
+    "num_materiales_distintos": 8
+  },
+  {
+    "recipeId": 8199,
+    "nivel": 130,
+    "xp": 1500,
+    "resultado": "Llave de intervención del conde Kontatrás x1",
+    "materiales": "Lapislézuli x1; Cola de Mamá Gerbilinda x1; Polvo x1000; Pelaje de plaguepardo x20; Gostoplasma de Pandala x20; Pólvora intemporal de Pandala x1; Rubí pulido x1",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 8370,
+    "nivel": 130,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Aguabrial x1",
+    "materiales": "Lapislézuli x1; Rubí pulido x1; Polvo x1000; Pluma de buhatrás x20; Carne de buhatrás x20; Pelo de simio negro x1; Bandera pirata x1",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 8389,
+    "nivel": 130,
+    "xp": 450,
+    "resultado": "Escuadra divina x1",
+    "materiales": "Madera de carya x5; Madera de algatrenza x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8415,
+    "nivel": 130,
+    "xp": 3000,
+    "resultado": "Encantamiento eterno de Feca x1",
+    "materiales": "Polvo x150; Ojo de tejaroxor x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8416,
+    "nivel": 130,
+    "xp": 3000,
+    "resultado": "Encantamiento eterno de Feca x1",
+    "materiales": "Polvo x150; Granito x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8417,
+    "nivel": 130,
+    "xp": 3000,
+    "resultado": "Encantamiento eterno de Feca x1",
+    "materiales": "Polvo x150; Huevos escalfados x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8418,
+    "nivel": 130,
+    "xp": 3000,
+    "resultado": "Encantamiento eterno de Feca x1",
+    "materiales": "Polvo x150; Cenizas calientes x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8419,
+    "nivel": 130,
+    "xp": 3000,
+    "resultado": "Encantamiento eterno de Feca x1",
+    "materiales": "Polvo x150; Tótem de plaguepardo x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8420,
+    "nivel": 130,
+    "xp": 3000,
+    "resultado": "Encantamiento eterno de Feca x1",
+    "materiales": "Polvo x150; Testikui de Tanukui x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8421,
+    "nivel": 130,
+    "xp": 3000,
+    "resultado": "Encantamiento eterno de Feca x1",
+    "materiales": "Polvo x150; Castaña nocturna x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8605,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Furia x1",
+    "materiales": "Lágrima de Ogrest x1000; Cactchís x30; Escuadra divina x75; Esmeralda pulida x15; Polvo x400; Carne de solgazán x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8606,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Furia II x1",
+    "materiales": "Lágrima de Ogrest x1000; Ñamga x300; Tabla divina x75; Diamante pulido x15; Polvo x400; Carne de crustarisco x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8607,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Pilar x1",
+    "materiales": "Lágrima de Ogrest x1000; Encantártaro divino x75; Cristal pulido x30; Polvo x400; Madera de algaritmo x30; Carne de nievaja x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8608,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Control del Espacio x1",
+    "materiales": "Lágrima de Ogrest x1000; Cactchís x30; Encantártaro divino x75; Lapislézuli x60; Polvo x400; Carne de vandalienado x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8609,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Longevidad x1",
+    "materiales": "Lágrima de Ogrest x1000; Mechón de Tortumulto x15; Esencia divina x75; Pilastra x1; Polvo x400; Carne de escapatarazón x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8610,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Energía ancestral x1",
+    "materiales": "Lágrima de Ogrest x1000; Panal x15; Encantártaro divino x75; Aguja de Temerarioso x1; Polvo x400; Carne de plantiguardia x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8611,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Salvación x1",
+    "materiales": "Lágrima de Ogrest x1000; Punta de Sumorsa x15; Encantártaro divino x75; Martillo de Sumorsa x1; Polvo x400; Carne de güino x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8612,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Apacible x1",
+    "materiales": "Lágrima de Ogrest x1000; Trozo de sedentor x25; Encantártaro divino x75; Hacha de Razón x1; Polvo x400; Cabellera de sedentor x10",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8950,
+    "nivel": 130,
+    "xp": 1500,
+    "resultado": "Llave del Pico del Monte Zinit x1",
+    "materiales": "Fragmento de llave de tejaroxor x1; Fragmento de llave de Dor'Mor x1; Fragmento de llave de dragohuevo x1; Fragmento de llave de éterno x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8979,
+    "nivel": 130,
+    "xp": 1500,
+    "resultado": "Llave del Antro de Nogord, el Alado x1",
+    "materiales": "Fragmento de llave de Sramvil x1; Fragmento de llave de Anutropía x1; Fragmento de llave del Xelorium pasado x1; Fragmento de llave del Xelorium presente x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8980,
+    "nivel": 130,
+    "xp": 1500,
+    "resultado": "Pócima sombría x1",
+    "materiales": "Fragmento de la llave de la Brecha de Tainela x1; Fragmento de llave de la Brecha de Sufokia x1; Fragmento de llave de la Brecha de Amakna x1; Fragmento de llave de la Brecha de Bonta x1; Fragmento de llave de la Brecha de Moon x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8982,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Brutalidad x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de aventura x1; Encantártaro divino x75; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8983,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Manejo: Escudo x1",
+    "materiales": "Mazo de Bonta x200; Lágrima de Ogrest x500; Piedra de aventura x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8984,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Alternancia x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de aventura x1; Esmeralda pulida x15; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8985,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Brasero x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de aventura x1; Cuerno de Excarnus x15; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8986,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Rompecaparazón x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de aventura x1; Especia infernal x75; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8987,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Constancia x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de equilibrio x1; Piedra de Astrub x200; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8988,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Desenlace x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de equilibrio x1; Cristal pulido x45; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8989,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Inflexibilidad x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de equilibrio x1; Colmillo de Maxilubo x15; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8990,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Medida x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de equilibrio x1; Baba de mimic x500; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8991,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Pacto Wakfu x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de equilibrio x1; Mano de fitoforme x40; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8992,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Alternancia II x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de equilibrio x1; Mazo de Bonta x200; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8993,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Fuerza Hercúlea x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de velocidad x1; Madera demoníaca común x200; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8994,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Brisa x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de velocidad x1; Encantártaro eterno x75; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8995,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Directivas x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de velocidad x1; Preciosa perilla pelirroja x15; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8996,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Exceso x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de velocidad x1; Escama de Nogord, el Alado x15; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8997,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Sangre del Martirio x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de velocidad x1; Basalto del Monte Zinit x200; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8998,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Robusto x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de velocidad x1; Lapislézuli x60; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8999,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Manejo: Daga x1",
+    "materiales": "Lágrima de Ogrest x500; Canica de Sufokia x200; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9000,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Manejo: Dos manos x1",
+    "materiales": "Lágrima de Ogrest x500; Zafiro pulido x45; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9001,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Salud de hierro x1",
+    "materiales": "Lágrima de Ogrest x500; Encantártaro infernal x75; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9002,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Arma de Luz x1",
+    "materiales": "Lágrima de Ogrest x500; Especia infernal x75; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9003,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Aura de Llamas x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de entorno x1; Residuos de Moon x200; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9004,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Stasificación x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra de entorno x1; Diamante pulido x60; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9005,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Anatomía x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra suprema x1; Cabellera de sedentor x10; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9006,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Concentración Elemental x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra suprema x1; Pluma del Cuervo Negro x15; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9007,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Ciencia del Posicionamiento x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra suprema x1; Pelos de Ful Moon x15; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9008,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Confianza x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra suprema x1; Cuerno de Frigost x200; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9009,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Guardia Levantada x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra suprema x1; Ágata pulida x60; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9010,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Seh x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra suprema x1; Rubí pulido x60; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9011,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Exceso II x1",
+    "materiales": "Lágrima de Ogrest x500; Brasas de jálrog x15; Piedra de velocidad x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9012,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Lunático x1",
+    "materiales": "Lágrima de Ogrest x500; Cabellera de sedentor x10; Piedra de equilibrio x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9013,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Centinela x1",
+    "materiales": "Lágrima de Ogrest x500; Ágata pulida x45; Piedra suprema x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9014,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Asimilación x1",
+    "materiales": "Lágrima de Ogrest x500; Esmeralda pulida x15; Piedra de aventura x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9015,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Control del Espacio II x1",
+    "materiales": "Lágrima de Ogrest x500; Purpurina x15; Piedra de aventura x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9016,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Inflexibilidad II x1",
+    "materiales": "Lágrima de Ogrest x500; Sustancia gris x15; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9017,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Precisión quirúrgica x1",
+    "materiales": "Lágrima de Ogrest x500; Especia infernal x75; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9324,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Abnegación x1",
+    "materiales": "Lágrima de Ogrest x500; Fragmento de Cire Momore x20; Piedra de aventura x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9325,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Compromiso x1",
+    "materiales": "Lágrima de Ogrest x500; Máscara de corsario x40; Piedra de aventura x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9326,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Caos x1",
+    "materiales": "Lágrima de Ogrest x500; Sustancia de fallecinerado x40; Piedra de equilibrio x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9327,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Voluntad de Hierro x1",
+    "materiales": "Lágrima de Ogrest x500; Pelo pelirrojo x40; Piedra de equilibrio x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9328,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Constancia II x1",
+    "materiales": "Lágrima de Ogrest x500; Garfios acuáticos x40; Piedra de velocidad x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9329,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Contacto x1",
+    "materiales": "Lágrima de Ogrest x500; Extremo de armadura de guardia steamer x40; Piedra de velocidad x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9330,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Desmesurado x1",
+    "materiales": "Lágrima de Ogrest x500; Sangre del Dragocerdo x15; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9331,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Distribución x1",
+    "materiales": "Lágrima de Ogrest x500; Pluma de Garras de Acero x15; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9332,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Hipermétrope x1",
+    "materiales": "Lágrima de Ogrest x500; Pelos de Ogrest x15; Piedra de entorno x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9333,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Elementalismo x1",
+    "materiales": "Lágrima de Ogrest x500; Barba de Rushu x15; Piedra suprema x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9334,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Cara-a-cara x1",
+    "materiales": "Lágrima de Ogrest x500; Ojo del gólem x15; Piedra suprema x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9335,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Burbujeo x1",
+    "materiales": "Lágrima de Ogrest x500; Cabeza de tiburón x15; Piedra suprema x1; Piedra necrómica x5",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9612,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Calibrado x1",
+    "materiales": "Lágrima de Ogrest x500; Orbe divino x15; Piedra necrómica x5; Piedra de aventura x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9613,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Calibrado II x1",
+    "materiales": "Lágrima de Ogrest x500; Harina infernal x75; Piedra necrómica x5; Piedra de entorno x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9614,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Modularidad x1",
+    "materiales": "Lágrima de Ogrest x500; Escuadrita mística x75; Piedra necrómica x5; Piedra de velocidad x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9615,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Cota singular x1",
+    "materiales": "Lágrima de Ogrest x500; Extremo de armadura de guardia steamer x40; Piedra necrómica x5; Piedra de equilibrio x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9616,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Vehemencia x1",
+    "materiales": "Lágrima de Ogrest x500; Escuadrita exquisita x75; Piedra necrómica x5; Piedra suprema x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9617,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Arrogancia x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra necrómica x5; Piedra de aventura x1; Sílex inflamable x30",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9618,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Lunático II x1",
+    "materiales": "Lágrima de Ogrest x500; Extremo de tentáculo de pulpo x15; Piedra necrómica x5; Piedra de entorno x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9619,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Pesadez involuntaria x1",
+    "materiales": "Lágrima de Ogrest x500; Huesos de Hark Saniss x15; Piedra necrómica x5; Piedra de velocidad x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9620,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Petulancia x1",
+    "materiales": "Lágrima de Ogrest x500; Garfios acuáticos x40; Piedra necrómica x5; Piedra de equilibrio x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9621,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Ahínco x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra necrómica x5; Piedra suprema x1; Mechón de Tal Kasha x15",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9622,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Aplomo natural x1",
+    "materiales": "Lágrima de Ogrest x500; Escuadrita imperfecta x75; Piedra necrómica x5; Piedra de aventura x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9623,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Mas allá del parapeto x1",
+    "materiales": "Lágrima de Ogrest x500; Fragmento de Cire Momore x20; Piedra necrómica x5; Piedra de entorno x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9624,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Último instante x1",
+    "materiales": "Lágrima de Ogrest x500; Escuadrita infernal x75; Piedra necrómica x5; Piedra de velocidad x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9625,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Cota singular II x1",
+    "materiales": "Lágrima de Ogrest x500; Extremo de armadura de guardia steamer x40; Piedra necrómica x5; Piedra de equilibrio x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9626,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Control del tiempo x1",
+    "materiales": "Lágrima de Ogrest x500; Orbe exquisito x75; Piedra necrómica x5; Piedra suprema x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9627,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Pilar II x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra necrómica x5; Piedra de aventura x1; Salamón sucio x30",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9628,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Medida II x1",
+    "materiales": "Lágrima de Ogrest x500; Garfios acuáticos x40; Piedra necrómica x5; Piedra de entorno x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9629,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Medida III x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra necrómica x5; Piedra de velocidad x1; Madera de huiouqes x30",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9982,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Sello de Wakfu x1",
+    "materiales": "Lágrima de Ogrest x500; Esquirlas de Wakfu x15; Piedra necrómica x5; Piedra de velocidad x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9983,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Absolución x1",
+    "materiales": "Lágrima de Ogrest x500; Piedra necrómica x5; Piedra de aventura x1; Esquirla de gólem x20",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9984,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Anticipación única x1",
+    "materiales": "Lágrima de Ogrest x500; Esquirla de piedra de ala x15; Piedra necrómica x5; Piedra de entorno x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9985,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Castigo x1",
+    "materiales": "Lágrima de Ogrest x500; Cinta de Zulnara x15; Piedra necrómica x5; Piedra de equilibrio x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9986,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Secreto crítico x1",
+    "materiales": "Lágrima de Ogrest x500; Cráneo cocodrail x15; Piedra necrómica x5; Piedra suprema x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 10001,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Piedra de archimonstruo eterna x1",
+    "materiales": "Neopelos de Ogrest x3; Neocardo x75; Madera de neoárbol x75",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 10038,
+    "nivel": 130,
+    "xp": 2400,
+    "resultado": "Archisfera eterna x1",
+    "materiales": "Orbe eterno x8; Esencia eterna x38; Máscara eterna x1; Polvo x144",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8406,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Muro de piedra x1",
+    "materiales": "Pila de tierra fuliginosa x30; Escuadra divina x5; Torba pestilente x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8407,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Bloque de piedra x1",
+    "materiales": "Pila de tierra fuliginosa x30; Tabla divina x5; Madera de algaritmo x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8408,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Bloque de cristal verde x1",
+    "materiales": "Pila de tierra fuliginosa x30; Granate absoluto x1; Tabla divina x5; Aventurina remineralizada x2",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8409,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Bloque de cristal azul x1",
+    "materiales": "Aventurina x2; Aventurina incluida x2; Aventurina remineralizada x2; Escuadra divina x5; Zircón pulido x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8410,
+    "nivel": 135,
+    "xp": 3000,
+    "resultado": "Árbol para miaumiaus x1",
+    "materiales": "Tabla divina x30; Escama de solgazán x150; Escama de crustarisco x150",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8411,
+    "nivel": 135,
+    "xp": 3000,
+    "resultado": "Caseta de wauwau x1",
+    "materiales": "Escuadra divina x30; Pelos de nievaja x150; Pinchos de vandalienado x150",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8455,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Muro de piedra - ángulo superior x1",
+    "materiales": "Escuadra divina x5; Madera de algaritmo x1; Pila de tierra fuliginosa x10; Torba pestilente x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8456,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Muro de piedra - ángulo lateral x1",
+    "materiales": "Pila de tierra fuliginosa x10; Escuadra divina x5; Madera de algaritmo x1; Torba pestilente x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8457,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Muro de piedra - ángulo inferior x1",
+    "materiales": "Pila de tierra fuliginosa x10; Escuadra divina x5; Madera de algaritmo x1; Torba pestilente x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8458,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Muro de piedra - cruz x1",
+    "materiales": "Pila de tierra fuliginosa x10; Escuadra divina x5; Madera de algaritmo x1; Torba pestilente x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8466,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Pared de hielo x1",
+    "materiales": "Mechón de plantiguardia x30; Panal x1; Escuadra divina x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8467,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Pared de hielo - ángulo inferior x1",
+    "materiales": "Pischis pequeño naranja x30; Huevo de güino x1; Escuadra divina x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8468,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Pared de hielo - ángulo lateral x1",
+    "materiales": "Pelaje de plantiguardia x50; Panal x1; Escuadra divina x5; Madera de algaritmo x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8469,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Pared de hielo - ángulo superior x1",
+    "materiales": "Pata de güino x50; Punta de Sumorsa x1; Tabla divina x5; Madera de algaritmo x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8470,
+    "nivel": 135,
+    "xp": 6000,
+    "resultado": "Pared de hielo - cruz x1",
+    "materiales": "Pata de escapatarazón x50; Cuero de escapatarazón x50; Tabla divina x5; Zircón pulido x1",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8617,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Llave de la brecha definitiva del Zinit x1",
+    "materiales": "Mazo de Bonta x30; Corteza de Abráknido Ancestral x1; Raíz del mal x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8618,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Llave de la brecha definitiva del Zinit x1",
+    "materiales": "Residuos de Moon x30; Pelo de simio negro x1; Concentrado de Koko, el Kolgado x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8638,
+    "nivel": 135,
+    "xp": 3000,
+    "resultado": "Mecedora x1",
+    "materiales": "Pata de güino x150; Pelaje de plantiguardia x150; Escuadra divina x20",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8640,
+    "nivel": 135,
+    "xp": 3000,
+    "resultado": "Trono de Amakna x1",
+    "materiales": "Piedra de Astrub x30; Suero de Gorsanto x450; Escuadra divina x30; Harina divina x30",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8641,
+    "nivel": 135,
+    "xp": 3000,
+    "resultado": "Trono de Sufokia x1",
+    "materiales": "Canica de Sufokia x30; Tesoro tymador x450; Tabla divina x30; Encantártaro divino x30",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8642,
+    "nivel": 135,
+    "xp": 3000,
+    "resultado": "Trono de Bonta x1",
+    "materiales": "Mazo de Bonta x30; Hada tenebrosa x450; Tabla divina x30; Escuadra divina x30",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8643,
+    "nivel": 135,
+    "xp": 3000,
+    "resultado": "Trono de Brakmar x1",
+    "materiales": "Cuerno de Frigost x30; Patuntuosa x450; Tabla divina x30; Gema divina x30",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8653,
+    "nivel": 135,
+    "xp": 3000,
+    "resultado": "Merkambiente contaminación x1",
+    "materiales": "Basalto del Monte Zinit x30; Cuerno de Frigost x30; Escuadra divina x15",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 9376,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Orbe divino x1",
+    "materiales": "Cola de solgazán x1; Epicutícula de solgazán x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9377,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Orbe divino x1",
+    "materiales": "Pinzolación x1; Nipinza de gracia x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9378,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Orbe divino x1",
+    "materiales": "Garra de nievaja x1; Cuero de nievaja x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9379,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Orbe divino x1",
+    "materiales": "Cuernos de vandalienado x1; Cuero de vandalienado x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9380,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Orbe divino x1",
+    "materiales": "Pinchos de camalehombre x1; Cuero de escapatarazón x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9381,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Orbe divino x1",
+    "materiales": "Huevo de güino x1; Pischis pequeño naranja x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9382,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Orbe divino x1",
+    "materiales": "Dardo helado x1; Mechón de plantiguardia x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9383,
+    "nivel": 135,
+    "xp": 450,
+    "resultado": "Orbe divino x1",
+    "materiales": "Torba pestilente x1; Pila de tierra fuliginosa x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8422,
+    "nivel": 140,
+    "xp": 3000,
+    "resultado": "Encantamiento divino de Feca x1",
+    "materiales": "Polvo x189; Colmillos del Jabalirio x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8423,
+    "nivel": 140,
+    "xp": 3000,
+    "resultado": "Encantamiento divino de Feca x1",
+    "materiales": "Polvo x189; Fragmento de tótem x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8424,
+    "nivel": 140,
+    "xp": 3000,
+    "resultado": "Encantamiento divino de Feca x1",
+    "materiales": "Polvo x189; Caparazón del Crustacerebro x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8425,
+    "nivel": 140,
+    "xp": 3000,
+    "resultado": "Encantamiento divino de Feca x1",
+    "materiales": "Polvo x189; Cola del Escorpisoteador x3",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8471,
+    "nivel": 140,
+    "xp": 3000,
+    "resultado": "Encantamiento divino de Feca x1",
+    "materiales": "Mechón de Tortumulto x3; Polvo x189",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8472,
+    "nivel": 140,
+    "xp": 3000,
+    "resultado": "Encantamiento divino de Feca x1",
+    "materiales": "Panal x3; Polvo x189",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8473,
+    "nivel": 140,
+    "xp": 3000,
+    "resultado": "Encantamiento divino de Feca x1",
+    "materiales": "Punta de Sumorsa x3; Polvo x189",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8662,
+    "nivel": 140,
+    "xp": 450,
+    "resultado": "Escuadrita infernal x1",
+    "materiales": "Madera de desesperárbol x5; Madera de noaya x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10039,
+    "nivel": 140,
+    "xp": 2400,
+    "resultado": "Archisfera divina x1",
+    "materiales": "Orbe divino x8; Esencia divina x38; Máscara divina x1; Polvo x288",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 8679,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Orbe infernal x1",
+    "materiales": "Pseudópodo x7; Fitomate x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8680,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Orbe infernal x1",
+    "materiales": "Piel de vaciante x7; Garra de vaciante x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8681,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Orbe infernal x1",
+    "materiales": "Ala de demorrible x7; Tentáculo de saguijueveto x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8682,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Orbe infernal x1",
+    "materiales": "Cabellera de remanagobiante x7; Soplones de Dementia x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8683,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Orbe infernal x1",
+    "materiales": "Brazo de devastador x7; Corazón de devastador x1",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8684,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Puerta demoníaca x1",
+    "materiales": "Trozo de fitoforme x60; Cuero de vaciante x60; Máscara de demorrible x60; Pata de idos x60; Dientes de devastador x60; Escuadrita infernal x30",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8890,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Estela demoníaca x1",
+    "materiales": "Tabla infernal x30; Mano de fitoforme x5; Restos de vaciante x5; Mano de demorrible x5; Vientre de idos x5; Restos de devastador x5",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8891,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Trigo decorativo x1",
+    "materiales": "Paja de trigo x500; Encantártaro infernal x50; Tabla infernal x30",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8892,
+    "nivel": 145,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Anathar x1",
+    "materiales": "Lapislézuli x1; Rubí pulido x1; Polvo x2000; Cola del Escorpisoteador x1; Soplones de Dementia x1; Trozo de fitoforme x40; Restos de vaciante x4",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 8893,
+    "nivel": 145,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Anathar x1",
+    "materiales": "Lapislézuli x1; Rubí pulido x1; Polvo x2000; Cuero de vaciante x40; Colmillos del Jabalirio x1; Corazón de devastador x1; Mano de demorrible x4",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 8894,
+    "nivel": 145,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Anathar x1",
+    "materiales": "Lapislézuli x1; Rubí pulido x1; Polvo x2000; Máscara de demorrible x40; Mechón de Tortumulto x1; Fitomate x1; Vientre de idos x4",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 8895,
+    "nivel": 145,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Anathar x1",
+    "materiales": "Lapislézuli x1; Rubí pulido x1; Polvo x2000; Pata de idos x40; Fragmento de tótem x1; Garra de vaciante x1; Restos de devastador x4",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 8896,
+    "nivel": 145,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Anathar x1",
+    "materiales": "Lapislézuli x1; Rubí pulido x1; Polvo x2000; Dientes de devastador x40; Caparazón del Crustacerebro x1; Tentáculo de saguijueveto x1; Mano de fitoforme x4",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 8943,
+    "nivel": 145,
+    "xp": 1500,
+    "resultado": "Llave del palacio de Rushu x1",
+    "materiales": "Fragmento de llave fitoforme x1; Fragmento de llave vaciante x1; Fragmento de llave demorrible x1; Fragmento de llave ido x1; Fragmento de llave devastador x1",
+    "num_materiales_distintos": 5
+  },
+  {
+    "recipeId": 8965,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Puerta demoníaca x1",
+    "materiales": "Trozo de fitoforme x20; Cuero de vaciante x20; Máscara de demorrible x20; Pata de idos x20; Dientes de devastador x20; Pólvora intemporal demoníaca x120",
+    "num_materiales_distintos": 6
+  },
+  {
+    "recipeId": 8966,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Pared de madera x1",
+    "materiales": "Pseudópodo x30; Escuadrita infernal x5; Madera demoníaca común x10",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8967,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Pared de madera - cruz x1",
+    "materiales": "Piel de vaciante x30; Madera demoníaca común x10; Escuadrita infernal x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8968,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Pared de madera - ángulo superior x1",
+    "materiales": "Ala de demorrible x30; Madera demoníaca común x10; Tabla infernal x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8969,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Pared de madera - ángulo lateral x1",
+    "materiales": "Cabellera de remanagobiante x30; Madera demoníaca común x10; Tabla infernal x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8970,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Pared de madera - ángulo inferior x1",
+    "materiales": "Brazo de devastador x30; Madera demoníaca común x10; Escuadrita infernal x5",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8971,
+    "nivel": 145,
+    "xp": 3000,
+    "resultado": "Pared de madera - robusta x1",
+    "materiales": "Madera demoníaca común x40; Escuadrita infernal x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9248,
+    "nivel": 145,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Cire Momore x1",
+    "materiales": "Ágata pulida x1; Polvo x2000; Válvula de steamer de élite x30; Esmeralda pulida x1; Aleta de pezgajoso abisal x20; Cabeza de tiburón x3; Diente de pezgajoso abisal x2",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 9250,
+    "nivel": 145,
+    "xp": 1500,
+    "resultado": "Llave de intervención de Cire Momore x1",
+    "materiales": "Guantelete stasiado x2; Ágata pulida x1; Esmeralda pulida x1; Chatarra stasiada x20; Fragmento de aleta x30; Cuerno de Sir Kurn Flex x3; Polvo x2000",
+    "num_materiales_distintos": 7
+  },
+  {
+    "recipeId": 9289,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Orbe infernal x1",
+    "materiales": "Diente de pezgajoso abisal x1; Aleta de pezgajoso abisal x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9290,
+    "nivel": 145,
+    "xp": 450,
+    "resultado": "Orbe infernal x1",
+    "materiales": "Guantelete stasiado x1; Chatarra stasiada x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 8948,
+    "nivel": 150,
+    "xp": 450,
+    "resultado": "Llave de la brecha definitiva de la Fab'hugruta x1",
+    "materiales": "Basalto del Monte Zinit x30; Ojo de tejaroxor x1; Granito x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 8949,
+    "nivel": 150,
+    "xp": 450,
+    "resultado": "Llave de la brecha definitiva de la Fab'hugruta x1",
+    "materiales": "Madera demoníaca común x30; Trofeo de !@#dh`~ x1; Cabellera de Ar'Nan x1",
+    "num_materiales_distintos": 3
+  },
+  {
+    "recipeId": 9602,
+    "nivel": 150,
+    "xp": 3000,
+    "resultado": "Encantamiento infernal de Feca x1",
+    "materiales": "Chaal'ado x3; Polvo x250",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9603,
+    "nivel": 150,
+    "xp": 3000,
+    "resultado": "Encantamiento infernal de Feca x1",
+    "materiales": "Cabellera de Ar'Nan x3; Polvo x250",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9604,
+    "nivel": 150,
+    "xp": 3000,
+    "resultado": "Encantamiento infernal de Feca x1",
+    "materiales": "Garfio de Crateros x3; Polvo x250",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9605,
+    "nivel": 150,
+    "xp": 3000,
+    "resultado": "Encantamiento infernal de Feca x1",
+    "materiales": "Trofeo de !@#dh`~ x3; Polvo x250",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9606,
+    "nivel": 150,
+    "xp": 3000,
+    "resultado": "Encantamiento infernal de Feca x1",
+    "materiales": "Punta del cetro de K'abah'al x3; Polvo x250",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9607,
+    "nivel": 150,
+    "xp": 3000,
+    "resultado": "Encantamiento infernal de Feca x1",
+    "materiales": "Cuerno de Sir Kurn Flex x3; Polvo x250",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9608,
+    "nivel": 150,
+    "xp": 3000,
+    "resultado": "Encantamiento infernal de Feca x1",
+    "materiales": "Cabeza de tiburón x3; Polvo x250",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9771,
+    "nivel": 150,
+    "xp": 450,
+    "resultado": "Escuadrita ancestral x1",
+    "materiales": "Astracacia x5; Lucil x5",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 10040,
+    "nivel": 150,
+    "xp": 2400,
+    "resultado": "Archisfera infernal x1",
+    "materiales": "Orbe infernal x11; Esencia infernal x45; Máscara infernal x1; Polvo x574",
+    "num_materiales_distintos": 4
+  },
+  {
+    "recipeId": 9635,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Orbe ancestral x1",
+    "materiales": "Fósil feroz x1; Escama primitiva x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9636,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Orbe ancestral x1",
+    "materiales": "Cola de primacizo x1; Piel primaria x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9637,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Orbe ancestral x1",
+    "materiales": "Colmillo vespertino x1; Escuama celestial x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9638,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Orbe ancestral x1",
+    "materiales": "Tic intacto x1; Metal oxidado x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9639,
+    "nivel": 155,
+    "xp": 450,
+    "resultado": "Orbe ancestral x1",
+    "materiales": "Estatuilla primitiva x1; Gema de carminita x7",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9640,
+    "nivel": 160,
+    "xp": 3000,
+    "resultado": "Encantamiento ancestral de Feca x1",
+    "materiales": "Esquirla de piedra de ala x3; Polvo x350",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9641,
+    "nivel": 160,
+    "xp": 3000,
+    "resultado": "Encantamiento ancestral de Feca x1",
+    "materiales": "Imagostillas x3; Polvo x350",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9642,
+    "nivel": 160,
+    "xp": 3000,
+    "resultado": "Encantamiento ancestral de Feca x1",
+    "materiales": "Cráneo cocodrail x3; Polvo x350",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9643,
+    "nivel": 160,
+    "xp": 3000,
+    "resultado": "Encantamiento ancestral de Feca x1",
+    "materiales": "Clepsidra x3; Polvo x350",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9644,
+    "nivel": 160,
+    "xp": 3000,
+    "resultado": "Encantamiento ancestral de Feca x1",
+    "materiales": "Cinta de Zulnara x3; Polvo x350",
+    "num_materiales_distintos": 2
+  },
+  {
+    "recipeId": 9894,
+    "nivel": 160,
+    "xp": 1500,
+    "resultado": "Llave del Corazón del Reloj de Nox x1",
+    "materiales": "Fragmento de llave de los ferocirraptores x1; Fragmento de llave de los primacizos x1; Fragmento de llave de los sabanastrales x1; Fragmento de llave del clan de Bworkana x1; Fragmento de llave de las máquinas de Nox x1; Fragmento de llave de los esbirros de Nox x1",
+    "num_materiales_distintos": 6
+  }
+]
