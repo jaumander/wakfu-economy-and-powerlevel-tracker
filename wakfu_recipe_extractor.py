@@ -43,12 +43,35 @@ nombre (en español) de un ítem que sepas que pertenece a esa profesión:
         --results recipeResults.json --recipes recipes.json \
         --find-category-id "Orbe tosco"
 
-MAPEO DE PROFESIONES YA CONOCIDO (ir completando con --find-category-id)
---------------------------------------------------------------------------
-    81 -> Ebanista   (confirmado en sesión 3, 03-sep-2026)
-    (pendiente: Armero, Joyero, Sastre, Panadero, Cocinero, Maestro de Armas,
-     Marroquinero, Peletero -- candidatos probables por volumen de recetas:
-     76, 77, 78, 79, 80, 83 -- sin confirmar todavía)
+MAPEO DE PROFESIONES DE FABRICACIÓN -> categoryId (confirmado sesión 5, 03-sep-2026)
+--------------------------------------------------------------------------------------
+Confirmado cruzando 2 ítems conocidos por profesión (tosco + rudimentario) contra
+recipes.json + recipeResults.json + jobsItems.json reales (versión 1.92.1.60):
+
+    40 -> Panadero          (Aceite tosco/rudimentario)      89 recetas
+    74 -> Peletero          (Esencia tosca/rudimentaria)      49 recetas
+    76 -> Cocinero          (Especia tosca/rudimentaria)     132 recetas
+    77 -> Armero            (Placa tosca/rudimentaria)       966 recetas
+    78 -> Joyero            (Gema tosca/rudimentaria)        964 recetas
+    79 -> Sastre            (Fibra tosca/rudimentaria)      1010 recetas
+    80 -> Marroquinero      (Cuero tosco/rudimentario)       953 recetas
+    81 -> Ebanista          (Escuadrita tosca/rudimentaria)  640 recetas
+    83 -> Maestro de Armas  (Mango tosco/rudimentario)       696 recetas
+
+Las 9 profesiones de fabricación objetivo (sección 5 del handoff) quedan así
+100% identificadas. NOTA: 74 (Peletero) NO era uno de los candidatos que se
+sospechaba en la sesión anterior (se pensaba que 74 era recolección) -- dato
+corregido.
+
+Categorías restantes en el feed, SIN asignar a ninguna de las 9 profesiones
+objetivo y con volumen mucho menor (probablemente recetas de refinado /
+materia intermedia compartida entre profesiones, no profesiones en sí --
+sin confirmar, no es necesario para el proyecto):
+    64 -> produce "Harina tosca"       (22 recetas)
+    71 -> produce "Tabla tosca"        (21 recetas)
+    72 -> produce "Hilo tosco"         (21 recetas)
+    73 -> produce "Acero tosco"        (33 recetas)
+    75 -> produce "Encantártaro tosco" (20 recetas)
 """
 
 import json
@@ -95,6 +118,72 @@ def find_category_id(item_name, items, recipes, results):
     return found[0]["categoryId"]
 
 
+def _extract_category_name(entry):
+    """Intenta sacar un nombre legible de una entrada de recipeCategories.json,
+    probando varias formas típicas de estructurar estos JSON en el feed de Ankama."""
+    # Forma tipo jobsItems.json: {"title": {"es": "...", "fr": "...", ...}, "definition": {"id": N}}
+    if "title" in entry and isinstance(entry["title"], dict):
+        name = entry["title"].get("es") or entry["title"].get("fr") or entry["title"].get("en")
+        if name:
+            return name
+    # Forma alternativa: {"name": {"es": "...", ...}}
+    if "name" in entry and isinstance(entry["name"], dict):
+        name = entry["name"].get("es") or entry["name"].get("fr") or entry["name"].get("en")
+        if name:
+            return name
+    # Forma plana: {"name": "..."} o {"nameId": "..."}
+    for key in ("name", "nameId", "label", "code"):
+        if key in entry and isinstance(entry[key], str):
+            return entry[key]
+    return None
+
+
+def _extract_category_id(entry):
+    if "definition" in entry and isinstance(entry["definition"], dict) and "id" in entry["definition"]:
+        return entry["definition"]["id"]
+    for key in ("id", "categoryId", "recipeCategoryId"):
+        if key in entry:
+            return entry[key]
+    return None
+
+
+def list_categories(categories, recipes=None):
+    """Vuelca id -> nombre de profesión desde recipeCategories.json.
+    Si se pasa recipes.json además, añade el nº de recetas de cada categoría
+    (útil para contrastar con el volumen ya visto: 640 para Ebanista/81)."""
+    counts = defaultdict(int)
+    if recipes:
+        for r in recipes:
+            counts[r.get("categoryId")] += 1
+
+    rows = []
+    unparsed_sample = None
+    for entry in categories:
+        cid = _extract_category_id(entry)
+        name = _extract_category_name(entry)
+        if cid is None or name is None:
+            if unparsed_sample is None:
+                unparsed_sample = entry
+            continue
+        rows.append((cid, name, counts.get(cid, 0)))
+
+    rows.sort(key=lambda x: x[0])
+    if not rows:
+        print("No se pudo interpretar la estructura de recipeCategories.json con los patrones conocidos.")
+        print("Primer registro crudo, para ajustar el parseo a mano:")
+        print(json.dumps(categories[0] if categories else {}, ensure_ascii=False, indent=2))
+        return
+
+    print(f"{'categoryId':>10}  {'nº recetas':>10}  nombre")
+    for cid, name, count in rows:
+        count_str = str(count) if recipes else "-"
+        print(f"{cid:>10}  {count_str:>10}  {name}")
+
+    if unparsed_sample is not None:
+        print("\nAviso: algunos registros no se pudieron parsear con los patrones conocidos. Ejemplo crudo:")
+        print(json.dumps(unparsed_sample, ensure_ascii=False, indent=2))
+
+
 def extract_recipes(recipes, items, results, ingredients, category_id, min_level, max_level):
     name_map = build_item_name_map(items)
 
@@ -136,17 +225,32 @@ def extract_recipes(recipes, items, results, ingredients, category_id, min_level
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--recipes", required=True, help="Ruta a recipes.json")
-    parser.add_argument("--items", required=True, help="Ruta a jobsItems.json (o items.json)")
-    parser.add_argument("--results", required=True, help="Ruta a recipeResults.json")
-    parser.add_argument("--ingredients", help="Ruta a recipeIngredients.json (no necesario si solo usas --find-category-id)")
+    parser.add_argument("--recipes", help="Ruta a recipes.json")
+    parser.add_argument("--items", help="Ruta a jobsItems.json (o items.json)")
+    parser.add_argument("--results", help="Ruta a recipeResults.json")
+    parser.add_argument("--ingredients", help="Ruta a recipeIngredients.json (no necesario si solo usas --find-category-id o --list-categories)")
+    parser.add_argument("--categories", help="Ruta a recipeCategories.json (para --list-categories)")
     parser.add_argument("--category-id", type=int, help="ID numérico de la profesión (ver mapeo en la cabecera del script)")
     parser.add_argument("--min-level", type=int, default=0)
     parser.add_argument("--max-level", type=int, default=200)
     parser.add_argument("--output", help="Archivo de salida (.json o .csv según extensión)")
     parser.add_argument("--find-category-id", metavar="NOMBRE_ITEM",
                          help="En vez de extraer, busca el categoryId a partir del nombre en español de un ítem craftable")
+    parser.add_argument("--list-categories", action="store_true",
+                         help="Vuelca id->nombre de profesión desde --categories (recipeCategories.json). "
+                              "Si además se pasa --recipes, añade el nº de recetas de cada categoría.")
     args = parser.parse_args()
+
+    if args.list_categories:
+        if not args.categories:
+            parser.error("--list-categories requiere --categories recipeCategories.json")
+        categories = load_json(args.categories)
+        recipes = load_json(args.recipes) if args.recipes else None
+        list_categories(categories, recipes)
+        return
+
+    if not args.recipes or not args.items or not args.results:
+        parser.error("--recipes, --items y --results son obligatorios salvo que uses --find-category-id o --list-categories")
 
     recipes = load_json(args.recipes)
     items = load_json(args.items)
