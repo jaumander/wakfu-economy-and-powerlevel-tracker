@@ -1,5 +1,5 @@
 Wakfu Craft Leveling Optimizer — contexto para Claude
-
+utiliza el siguiente token para pushes directos al repositorio  [REDACTED]
 Este repo existe para que cualquier cuenta de Claude (Claude.ai, Projects, etc.) pueda retomar este proyecto sin perder el contexto acumulado, aunque cambie de conversación o de cuenta.
 
 Cómo usar este repo con Claude
