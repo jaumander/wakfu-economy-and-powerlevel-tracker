@@ -118,6 +118,25 @@ def find_category_id(item_name, items, recipes, results):
     return found[0]["categoryId"]
 
 
+def export_icon_map(items):
+    """Genera {nombre en español: gfxId} para TODOS los ítems del feed, sin filtrar
+    por profesión (un material de cualquier receta puede ser de cualquier categoría).
+    Se usa para pintar iconos en el Recetario HTML, vía:
+        https://s.ankama.com/www/static.ankama.com/wakfu/portal/game/item/{size}/{gfxId}.png
+    (patrón documentado por Ankama en el foro oficial de Wakfu, sección JSON DATA).
+    Si dos ítems distintos comparten nombre en español, se queda el primero -- es
+    una aproximación cosmética, no afecta a los cálculos de recetas."""
+    icon_map = {}
+    for it in items:
+        name = it.get("title", {}).get("es")
+        if not name or name in icon_map:
+            continue
+        gfx = it.get("definition", {}).get("graphicParameters", {}).get("gfxId")
+        if gfx:
+            icon_map[name] = gfx
+    return icon_map
+
+
 def _extract_category_name(entry):
     """Intenta sacar un nombre legible de una entrada de recipeCategories.json,
     probando varias formas típicas de estructurar estos JSON en el feed de Ankama."""
@@ -239,7 +258,22 @@ def main():
     parser.add_argument("--list-categories", action="store_true",
                          help="Vuelca id->nombre de profesión desde --categories (recipeCategories.json). "
                               "Si además se pasa --recipes, añade el nº de recetas de cada categoría.")
+    parser.add_argument("--export-icon-map", action="store_true",
+                         help="Genera {nombre_es: gfxId} desde --items jobsItems.json, para pintar "
+                              "iconos en el Recetario HTML. No filtra por profesión.")
     args = parser.parse_args()
+
+    if args.export_icon_map:
+        if not args.items:
+            parser.error("--export-icon-map requiere --items jobsItems.json")
+        items = load_json(args.items)
+        icon_map = export_icon_map(items)
+        print(f"{len(icon_map)} ítems con icono conocido")
+        if args.output:
+            with open(args.output, "w", encoding="utf-8") as f:
+                json.dump(icon_map, f, ensure_ascii=False)
+            print(f"Guardado en {args.output}")
+        return
 
     if args.list_categories:
         if not args.categories:
