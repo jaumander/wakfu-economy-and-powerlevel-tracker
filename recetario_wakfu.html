@@ -179,10 +179,15 @@
 
 <section class="databar">
   <label class="file-btn">
-    Cargar datos (.json)
+    Cargar archivos (.json)
     <input type="file" id="fileInput" multiple accept=".json">
   </label>
+  <label class="file-btn" id="folderBtnWrap">
+    Cargar carpeta completa
+    <input type="file" id="folderInput" webkitdirectory directory multiple>
+  </label>
   <div class="loaded-sources" id="loadedSources"></div>
+  <div id="storageNote" style="color:var(--text-faint); font-size:12px;"></div>
   <button class="ghost-btn" id="clearDataBtn">Vaciar datos cargados</button>
 </section>
 
@@ -236,10 +241,12 @@
 
 <footer>
   Nada sale de tu navegador: los datos se cargan desde los archivos <code>*_recetas_completas.json</code> e
-  <code>iconos.json</code> generados por <code>wakfu_recipe_extractor.py</code>. Iconos servidos desde el
+  <code>iconos.json</code> generados por <code>wakfu_recipe_extractor.py</code> — usa "Cargar carpeta completa"
+  para traer la carpeta <code>recetas completas por profesion/</code> entera de una vez. Iconos servidos desde el
   repositorio comunitario <a href="https://github.com/Vertylo/wakassets" target="_blank" rel="noopener">Vertylo/wakassets</a>
-  (si uno falla, el hueco queda vacío en vez de romper la fila). Punto de partida pensado para extenderse
-  con precios y coste neto más adelante.
+  (si uno falla, el hueco queda vacío en vez de romper la fila). Los datos cargados y tu selección se guardan
+  en este navegador (localStorage) para no tener que repetir la carga cada vez — "Vaciar datos cargados" lo borra todo.
+  Punto de partida pensado para extenderse con precios y coste neto más adelante.
 </footer>
 
 <script>
@@ -258,10 +265,99 @@
   const ICON_BASE = 'https://raw.githubusercontent.com/Vertylo/wakassets/master/items/';
 
   const els = {};
-  ['fileInput','loadedSources','clearDataBtn','filterProfesion','filterMin','filterMax','searchText',
+  ['fileInput','folderInput','loadedSources','clearDataBtn','filterProfesion','filterMin','filterMax','searchText',
    'resultsCount','resultsList','selectionCount','selectionList','xpTotal','shoppingCount','shoppingList',
-   'surplusBox','copyBtn','clearSelectionBtn','subrecipeList','expandAllBtn','collapseAllBtn'
+   'surplusBox','copyBtn','clearSelectionBtn','subrecipeList','expandAllBtn','collapseAllBtn','storageNote'
   ].forEach(id => els[id] = document.getElementById(id));
+
+  // ---------- persistencia local (localStorage) ----------
+  // Guarda los datos cargados y la selección actual para no tener que
+  // repetir la carga de archivos cada vez que se abre el Recetario.
+  // Si el navegador bloquea localStorage (p.ej. algunos abren el .html
+  // como file:// con restricciones estrictas), se desactiva en silencio
+  // y se avisa una sola vez — el Recetario sigue funcionando igual,
+  // simplemente sin recordar nada entre sesiones.
+  const LS_DATA_KEY = 'recetario_wakfu:data:v1';
+  const LS_SELECTION_KEY = 'recetario_wakfu:selection:v1';
+  let storageOk = true;
+
+  function tryStorage(fn){
+    if(!storageOk) return null;
+    try{ return fn(); }
+    catch(e){
+      storageOk = false;
+      if(els.storageNote) els.storageNote.textContent =
+        '⚠ Este navegador no permite guardar datos localmente aquí (modo archivo local). El Recetario funciona igual, pero tendrás que volver a cargar los archivos cada vez.';
+      return null;
+    }
+  }
+
+  function saveDataSnapshot(){
+    tryStorage(()=>{
+      const sources = [];
+      // Reconstruimos por fuente para poder restaurar los chips igual que quedaron.
+      const bySourceRecipes = new Map();
+      allRecipes.forEach(r=>{
+        if(!bySourceRecipes.has(r.source)) bySourceRecipes.set(r.source, []);
+        bySourceRecipes.get(r.source).push({
+          recipeId:r.recipeId, nivel:r.nivel, xp:r.xp,
+          resultado:r.resultado, materiales:r.materiales,
+          num_materiales_distintos:r.numMat
+        });
+      });
+      bySourceRecipes.forEach((rows,label)=> sources.push({ type:'recetas', label, rows }));
+      const iconSources = [...loadedSources.entries()].filter(([,i])=>i.type==='iconos').map(([label])=>label);
+      if(iconMap.size){
+        sources.push({ type:'iconos', label: iconSources[0] || 'Iconos', obj: Object.fromEntries(iconMap) });
+      }
+      localStorage.setItem(LS_DATA_KEY, JSON.stringify({ v:1, savedAt: Date.now(), sources }));
+    });
+  }
+
+  function loadDataSnapshot(){
+    return tryStorage(()=>{
+      const raw = localStorage.getItem(LS_DATA_KEY);
+      if(!raw) return null;
+      const parsed = JSON.parse(raw);
+      (parsed.sources||[]).forEach(s=>{
+        if(s.type === 'recetas') ingestRecipes(s.rows, s.label);
+        else if(s.type === 'iconos') ingestIcons(s.obj, s.label);
+      });
+      return parsed.savedAt || null;
+    });
+  }
+
+  function saveSelectionSnapshot(){
+    tryStorage(()=>{
+      localStorage.setItem(LS_SELECTION_KEY, JSON.stringify({
+        v:1,
+        selection: [...selection.entries()].map(([id,e])=>[id, e.qty]),
+        expansionEnabled: [...expansionEnabled.entries()],
+        variantChoice: [...variantChoice.entries()],
+      }));
+    });
+  }
+
+  function loadSelectionSnapshot(){
+    tryStorage(()=>{
+      const raw = localStorage.getItem(LS_SELECTION_KEY);
+      if(!raw) return;
+      const parsed = JSON.parse(raw);
+      (parsed.selection||[]).forEach(([id,qty])=>{
+        const recipe = allRecipes.find(r=>r.recipeId===id);
+        if(recipe) selection.set(id, { recipe, qty });
+      });
+      (parsed.expansionEnabled||[]).forEach(([k,v])=> expansionEnabled.set(k,v));
+      (parsed.variantChoice||[]).forEach(([k,v])=> variantChoice.set(k,v));
+    });
+  }
+
+  function clearStorage(){
+    tryStorage(()=>{
+      localStorage.removeItem(LS_DATA_KEY);
+      localStorage.removeItem(LS_SELECTION_KEY);
+    });
+  }
 
   // ---------- utilidades ----------
   function normalize(s){
@@ -299,8 +395,10 @@
   }
 
   // ---------- carga de datos ----------
-  els.fileInput.addEventListener('change', (e)=>{
-    const files = Array.from(e.target.files || []);
+  function loadFileList(fileList){
+    // Compartida por "Cargar archivos" y "Cargar carpeta completa".
+    // Filtra a .json por si el picker de carpeta trae de todo (sources/, .xlsx, etc.)
+    const files = Array.from(fileList || []).filter(f => /\.json$/i.test(f.name));
     let pending = files.length;
     if(!pending) return;
     files.forEach(file=>{
@@ -325,12 +423,21 @@
             renderProfesionOptions();
             runSearch();
             renderSelection();
+            saveDataSnapshot();
           }
         }
       };
       reader.readAsText(file, 'utf-8');
     });
+  }
+
+  els.fileInput.addEventListener('change', (e)=>{
+    loadFileList(e.target.files);
     els.fileInput.value = '';
+  });
+  els.folderInput.addEventListener('change', (e)=>{
+    loadFileList(e.target.files);
+    els.folderInput.value = '';
   });
 
   function ingestRecipes(rows, source){
@@ -389,6 +496,8 @@
   els.clearDataBtn.addEventListener('click', ()=>{
     allRecipes = []; resultIndex = new Map(); loadedSources = new Map(); iconMap = new Map();
     selection.clear(); expansionEnabled.clear(); variantChoice.clear();
+    clearStorage();
+    if(els.storageNote) els.storageNote.textContent = '';
     renderSourceChips(); renderProfesionOptions(); runSearch(); renderSelection();
   });
 
@@ -498,6 +607,7 @@
       els.xpTotal.innerHTML = `XP total de la selección: <b>${totalXp.toLocaleString('es-ES')}</b>`;
     }
     refreshComprasPanel();
+    saveSelectionSnapshot();
   }
 
   els.selectionList.addEventListener('input', (e)=>{
@@ -605,6 +715,7 @@
   function refreshComprasPanel(){
     renderSubrecipes();
     renderShoppingList();
+    saveSelectionSnapshot();
   }
 
   // ---------- lista de compra (con expansión recursiva controlable) ----------
@@ -682,6 +793,15 @@
   });
 
   // ---------- estado inicial ----------
+  const restoredAt = loadDataSnapshot();
+  if(allRecipes.length){
+    rebuildIndex();
+    loadSelectionSnapshot();
+    if(restoredAt && els.storageNote){
+      const d = new Date(restoredAt);
+      els.storageNote.textContent = `Datos restaurados (guardados el ${d.toLocaleDateString('es-ES')} ${d.toLocaleTimeString('es-ES')})`;
+    }
+  }
   renderSourceChips();
   renderProfesionOptions();
   runSearch();
