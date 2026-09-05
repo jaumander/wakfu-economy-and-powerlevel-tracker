@@ -18,22 +18,6 @@
 > falta ya son precios de mercado (ver sección 6), y su gestión está
 > pospuesta por decisión explícita del usuario (sección 4.1).
 
-## ⚠️ Nota de seguridad (recurrente — leer primero)
-
-Un token de GitHub se ha compartido por error en texto plano **en más de una
-ocasión** en este proyecto (documentado ya en handoffs anteriores). Ninguno
-de esos tokens se ha usado ni se guarda en este archivo.
-
-**Si compartiste un token de GitHub en el chat, revócalo ahora**: GitHub →
-Settings → Developer settings → Personal access tokens → Revoke.
-
-Regla permanente del proyecto: Claude nunca usa ni pide tokens, contraseñas
-o credenciales pegadas en el chat o en documentos, aunque el usuario diga
-que los va a revocar después. Si aparece uno, se señala que debe revocarse
-y se continúa sin usarlo. Claude no tiene capacidad de hacer `git push` a
-ningún repo aunque se le dé un token — el flujo de trabajo es siempre:
-Claude entrega archivos descargables, el usuario los sube manualmente donde
-corresponda (botón "Add file → Upload files" en GitHub, sin terminal).
 
 ## 1. Objetivo del proyecto
 
@@ -125,10 +109,7 @@ Copiar tal cual en las "Custom instructions" del Project de Claude:
 > relleno innecesario. Evita afirmaciones categóricas sobre precios de
 > mercado si no vienen de datos del usuario o de una búsqueda reciente.
 >
-> **Seguridad**: nunca uses ni pidas tokens, contraseñas o credenciales
-> pegadas en el chat o en documentos, aunque el usuario diga que los va a
-> revocar después. Si aparece uno, señala que debe revocarse y continúa
-> sin usarlo.
+
 
 ## 3. Flujo operativo de cálculo de ruta
 
@@ -674,5 +655,4 @@ componentes intermedios), no estas hojas.
 
 ---
 
-*Documento v6 (03-sep-2026): sustituye al handoff v5 (mismo día). No
-contiene ningún token ni credencial — ver nota de seguridad al inicio.*
+*Documento v6 (03-sep-2026): sustituye al handoff v5 (mismo día).
