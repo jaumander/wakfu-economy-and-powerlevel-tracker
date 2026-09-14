@@ -1,0 +1,48 @@
+Fui a leer HANDOFF-maestro-wakfu.md en el repo, tal como piden las instrucciones — y no existe. Comprobado con raw.githubusercontent.com contra main y master: 404 en ambas ramas, igual que README.md. Lo que sí existe en jaumander/wakfu-economy-and-powerlevel-tracker es una copia sin tocar de wakfu-economy-tracker.html, recetario_wakfu.html, wakfu_recipe_extractor.py, iconos.json y la carpeta recetas completas por profesion/ — comparé byte a byte los dos HTML contra los repos originales (wakfu-economy-tracker y Wakfu-craft-leveling-optimizer) y son idénticos. Es decir: el repo se creó y se le copiaron los archivos, pero la fusión real (el HANDOFF maestro, el merge de los HTML) todavía no se ha hecho — el changelog que pegaste describe el objetivo, no un hecho consumado.
+
+Como el propio protocolo del proyecto dice "si falta un archivo... pídelo antes de reconstruir nada desde cero": te lo pido. Si tienes el HANDOFF en otro sitio (local, otro chat), pégalo o súbelo — el código cita explícitamente sus secciones 5.3, 6.5 y 8.9 (hay un comentario literal ver sección 8.9 del handoff en recetario_wakfu.html), así que existe en algún lado, solo no está en el repo todavía.
+
+Dicho esto, no me hacía falta el HANDOFF para leer el código real, y eso cambia algunas cosas que las instrucciones dejaban en el aire. Esto es lo que verifiqué abriendo los dos HTML:
+
+Broker: nav de pestañas (data-tab), 4 botones — Vigía, Tendencias, Ventas, Cuaderno — un panel visible a la vez.
+Recetario: no tiene pestañas. Es un layout de 3 columnas simultáneas (class="columns"): Buscar | Recetas seleccionadas | Lista de compra, todo visible a la vez, sin JS de tab-switching.
+Diseño: los tokens de Recetario (--bg:#14171a, --accent:#d9954a naranja, fuente sans del sistema) no coinciden con los del Broker (--ink:#14171c, --gold:#c9a227, Fraunces + IBM Plex) documentados en tus instrucciones. Son parecidos pero no iguales — sí hace falta reconciliar.
+Lista de compra: computeShoppingList() ya devuelve un Map(name → qty); renderShoppingList() pinta [name, qty]. Ahí es exactamente donde engancharía un precio — no hace falta rediseñar esa función, solo añadirle una columna.
+Broker: watchlist tiene {id: uid(), name, cat}; snapshots referencia itemId (el uuid interno), no name. O sea: el único puente posible hoy entre Broker y Recetario sigue siendo el string name, exactamente como decía tu nota de calidad de datos.
+
+Con esa base, aquí va el plan:
+
+1. Navegación
+	Opción A — 7 pestañas al mismo nivel	Opción B — 2 grupos, Recetario como bloque único
+Estructura	Vigía · Tendencias · Ventas · Cuaderno · Buscar · Selección · Lista de compra, todas en la misma barra	Selector "Broker / Recetario" arriba; dentro de Broker, las 4 pestañas actuales; dentro de Recetario, las 3 columnas siguen juntas como hoy
+Pros	Consistente con el patrón de pestañas que ya tiene el Broker; todo a un clic	Preserva la UX actual del Recetario (ver Buscar+Selección+Lista de compra a la vez es útil para ir tachando materiales mientras compras); nav más corta en cada nivel
+Contras	Rompe la vista simultánea del Recetario — perderías poder ver selección y lista de compra al mismo tiempo que buscas	Un clic extra para cambiar de "app"
+
+Mi recomendación es la B: partir la vista de 3 columnas del Recetario en pestañas sueltas es un paso atrás en usabilidad, y no gana nada a cambio. Pero es tu decisión.
+
+2. Esquema de datos (watchlist/snapshots/sales/journal vs. broker_wakfu_street_precios_v1)
+
+No encontré ningún archivo broker_wakfu_street_*.json en el repo fusionado (probé con nombres razonables, 404 en todos). Según tu índice de archivos, ese schema era un esqueleto pensado para alimentar al Recetario pero "aún sin conectar" — es decir, es un diseño en papel, nunca ejecutado. El schema watchlist/snapshots/sales/journal, en cambio, es el que ya funciona: tiene UI, tiene meses de uso, tiene los bugs ya cazados (el del <select> vacío).
+
+Mi recomendación explícita: no fusionar dos esquemas — retirar el concepto precios_v1 y quedarnos solo con watchlist/snapshots. No hay ninguna razón para mantener dos representaciones paralelas de "precio de un material" cuando una ya está probada en producción y la otra nunca se conectó a nada.
+
+3. Conexión Broker → Recetario (columna de coste estimado)
+
+Diseño concreto, dado lo que vi en el código:
+
+Al fusionar, construir un Map derivado: nombrePrecio = new Map(watchlist.map(w => [normalize(w.name), snapshotMásReciente(w.id)])), recalculado cada vez que cambian watchlist o snapshots.
+En renderShoppingList(), para cada [name, qty] de totals, buscar nombrePrecio.get(normalize(name)). Si hay precio → mostrar qty × precio y sumar un total. Si no hay → mostrar "sin precio" en vez de un 0 engañoso.
+El emparejamiento sigue siendo por nombre exacto (normalizado), como ya haces en el Recetario con pickPreferred(name) — no hay IDs de Ankama en juego en ninguno de los dos lados, así que no hay forma de evitarlo sin recablear ambas fuentes de datos.
+Consecuencia directa: si un material de una receta no tiene una entrada idéntica en watchlist.name, no tendrá coste. Vale la pena, cuando fusionemos, correr una comprobación de qué materiales de las 9 profesiones no calzan con ningún nombre de la watchlist actual, para que sepas qué te falta añadir al Broker.
+4. Persistencia
+
+Unificar a window.storage. Motivos:
+
+Ya es shared:false, ya tiene import/export con overwrite completo — el Recetario podría vivir dentro de esas mismas claves sin fricción (recetario_data, recetario_seleccion como nuevas keys, mismo patrón que watchlist/snapshots).
+localStorage no tiene export/import ni protección anti-negativos; ya reconstruiste esa infraestructura una vez para el Broker, no tiene sentido mantenerla duplicada.
+Riesgo real a vigilar: el Recetario hoy carga los JSON de recetas por archivo/carpeta cada sesión (no los persiste en localStorage, solo cachea metadata) — eso no cambia, sigue siendo carga manual de archivo. Solo migran LS_DATA_KEY/LS_SELECTION_KEY (selección y qué carpeta se cargó), no las recetas en sí.
+5. Sistema de diseño
+
+El Recetario se adapta al del Broker, no al revés — es el que está documentado y validado en tus instrucciones. Cambios concretos necesarios: cargar Fraunces + IBM Plex Sans/Mono, sustituir la paleta --bg/--accent/--green/--red del Recetario por --ink/--gold/--up/--down del Broker, y pasar los números (qty, futuro precio) a IBM Plex Mono tabular, que hoy el Recetario no usa en ningún sitio.
+
+Dime si me confirmas estas 5 decisiones (o me corriges alguna) y si me pasas el HANDOFF real — con eso empiezo el str_replace quirúrgico agrupado, como pide la metodología del proyecto.
