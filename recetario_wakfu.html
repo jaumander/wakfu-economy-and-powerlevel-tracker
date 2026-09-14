@@ -6,23 +6,25 @@
 <title>Recetario — Proyecto Wakfu Leveling</title>
 <style>
   :root{
-    --bg:#14171a;
-    --bg-elevated:#191d20;
-    --panel:#1e2225;
-    --panel-alt:#22262a;
-    --border:#2c3236;
-    --border-soft:#252a2e;
-    --text:#e9e6dd;
-    --text-dim:#97a09a;
-    --text-faint:#5f6b66;
-    --accent:#d9954a;
-    --accent-strong:#e8a95c;
-    --accent-soft:rgba(217,149,74,0.14);
-    --green:#7fae6a;
-    --green-soft:rgba(127,174,106,0.14);
-    --red:#c1594f;
-    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    /* Paleta unificada con The Broker of Wakfu Street (wakfu-economy-tracker.html) */
+    --bg:#14171c;
+    --bg-elevated:#1b1f26;
+    --panel:#20252d;
+    --panel-alt:#262b33;
+    --border:#2c323c;
+    --border-soft:#242931;
+    --text:#e8e6df;
+    --text-dim:#9a9ea6;
+    --text-faint:#6b7178;
+    --accent:#c9a227;
+    --accent-strong:#e0b93a;
+    --accent-soft:rgba(201,162,39,0.14);
+    --green:#5fa777;
+    --green-soft:rgba(95,167,119,0.14);
+    --red:#c1554b;
+    --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --serif: 'Fraunces', Georgia, serif;
     --radius: 5px;
   }
   *{box-sizing:border-box;}
@@ -39,7 +41,7 @@
     padding:22px 28px 16px; border-bottom:1px solid var(--border);
     background:var(--bg-elevated);
   }
-  header h1{ margin:0; font-size:22px; font-weight:650; letter-spacing:0.2px; color:var(--text); }
+  header h1{ margin:0; font-size:22px; font-weight:600; letter-spacing:0.2px; color:var(--text); font-family:var(--serif); }
   header h1 span{ color:var(--accent-strong); }
   header .subtitle{ margin:4px 0 0; color:var(--text-dim); font-size:13px; }
 
@@ -49,7 +51,7 @@
   }
   .file-btn{
     position:relative; display:inline-flex; align-items:center; gap:8px;
-    padding:8px 14px; background:var(--accent); color:#1a1408; font-weight:600;
+    padding:8px 14px; background:var(--accent); color:var(--bg); font-weight:600;
     border-radius:var(--radius); cursor:pointer; font-size:13px;
   }
   .file-btn:hover{ background:var(--accent-strong); }
@@ -78,23 +80,23 @@
   }
   @media (max-width: 1040px){ main.columns{ grid-template-columns:1fr; } }
   .panel{ background:var(--panel); padding:18px 20px 22px; display:flex; flex-direction:column; min-height:320px; }
-  .panel h2{ margin:0; font-size:14px; font-weight:650; border-left:3px solid var(--accent); padding-left:9px; }
+  .panel h2{ margin:0; font-size:14px; font-weight:600; border-left:3px solid var(--accent); padding-left:9px; font-family:var(--serif); }
   .panel-header-row{ display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
   h3.subheading{ font-size:12px; color:var(--text-faint); margin:0; font-weight:600; }
 
   .search-controls{ display:flex; flex-direction:column; gap:8px; margin:14px 0 8px; }
   .level-range{ display:flex; align-items:center; gap:8px; color:var(--text-dim); }
-  .level-range span{ font-family:var(--mono); }
+  .level-range span{ font-family:var(--mono); font-variant-numeric:tabular-nums; }
   input[type="number"], input[type="text"], select{
     background:var(--panel-alt); border:1px solid var(--border); color:var(--text);
     padding:7px 9px; border-radius:var(--radius); font-size:13px; font-family:var(--sans);
   }
-  input[type="number"]{ width:84px; font-family:var(--mono); }
+  input[type="number"]{ width:84px; font-family:var(--mono); font-variant-numeric:tabular-nums; }
   select{ width:100%; }
   input[type="text"]{ width:100%; }
 
   .results-count, .selection-count, .shopping-count{
-    color:var(--text-faint); font-size:12px; margin:6px 0 8px; font-family:var(--mono);
+    color:var(--text-faint); font-size:12px; margin:6px 0 8px; font-family:var(--mono); font-variant-numeric:tabular-nums;
   }
 
   ul{ list-style:none; margin:0; padding:0; overflow-y:auto; }
@@ -140,7 +142,7 @@
   .row-controls{ display:flex; align-items:center; gap:8px; flex:none; }
 
   .xp-total{ margin-top:12px; padding-top:12px; border-top:1px solid var(--border); color:var(--text-dim); font-size:13px; }
-  .xp-total b{ color:var(--accent-strong); font-family:var(--mono); }
+  .xp-total b{ color:var(--accent-strong); font-family:var(--mono); font-variant-numeric:tabular-nums; }
 
   .subrecipe-row{ padding:8px 0; border-bottom:1px solid var(--border-soft); }
   .subrecipe-row .head{ display:flex; align-items:center; gap:8px; }
@@ -155,7 +157,7 @@
   }
   .shopping-row .left{ display:flex; align-items:center; gap:9px; min-width:0; }
   .shopping-row .name{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .shopping-row .qty{ color:var(--accent-strong); font-weight:600; font-family:var(--mono); flex:none; }
+  .shopping-row .qty{ color:var(--accent-strong); font-weight:600; font-family:var(--mono); font-variant-numeric:tabular-nums; flex:none; }
 
   .surplus-box{ margin-top:10px; font-size:12px; color:var(--text-faint); }
   .surplus-box .surplus-title{ color:var(--green); font-weight:600; }
@@ -240,12 +242,13 @@
 </main>
 
 <footer>
-  Nada sale de tu navegador: los datos se cargan desde los archivos <code>*_recetas_completas.json</code> e
+  Los datos se cargan desde los archivos <code>*_recetas_completas.json</code> e
   <code>iconos.json</code> generados por <code>wakfu_recipe_extractor.py</code> — usa "Cargar carpeta completa"
   para traer la carpeta <code>recetas completas por profesion/</code> entera de una vez. Iconos servidos desde el
   repositorio comunitario <a href="https://github.com/Vertylo/wakassets" target="_blank" rel="noopener">Vertylo/wakassets</a>
   (si uno falla, el hueco queda vacío en vez de romper la fila). Los datos cargados y tu selección se guardan
-  en este navegador (localStorage) para no tener que repetir la carga cada vez — "Vaciar datos cargados" lo borra todo.
+  en tu almacenamiento de Claude (el mismo mecanismo que usa The Broker of Wakfu Street, ligado a tu cuenta,
+  no al navegador) para no tener que repetir la carga cada vez — "Vaciar datos cargados" lo borra todo.
   Punto de partida pensado para extenderse con precios y coste neto más adelante.
 </footer>
 
@@ -270,30 +273,18 @@
    'surplusBox','copyBtn','clearSelectionBtn','subrecipeList','expandAllBtn','collapseAllBtn','storageNote'
   ].forEach(id => els[id] = document.getElementById(id));
 
-  // ---------- persistencia local (localStorage) ----------
+  // ---------- persistencia (window.storage) ----------
   // Guarda los datos cargados y la selección actual para no tener que
   // repetir la carga de archivos cada vez que se abre el Recetario.
-  // Si el navegador bloquea localStorage (p.ej. algunos abren el .html
-  // como file:// con restricciones estrictas), se desactiva en silencio
-  // y se avisa una sola vez — el Recetario sigue funcionando igual,
-  // simplemente sin recordar nada entre sesiones.
-  const LS_DATA_KEY = 'recetario_wakfu:data:v1';
-  const LS_SELECTION_KEY = 'recetario_wakfu:selection:v1';
-  let storageOk = true;
+  // Antes usaba localStorage (aislado a este navegador); ahora comparte
+  // window.storage con The Broker of Wakfu Street (shared:false, ligado
+  // a la cuenta de Claude, no al navegador) — mismo mecanismo, mismo
+  // patrón try/catch best-effort en ambas herramientas del proyecto.
+  const STORAGE_DATA_KEY = 'recetario_data';
+  const STORAGE_SELECTION_KEY = 'recetario_seleccion';
 
-  function tryStorage(fn){
-    if(!storageOk) return null;
-    try{ return fn(); }
-    catch(e){
-      storageOk = false;
-      if(els.storageNote) els.storageNote.textContent =
-        '⚠ Este navegador no permite guardar datos localmente aquí (modo archivo local). El Recetario funciona igual, pero tendrás que volver a cargar los archivos cada vez.';
-      return null;
-    }
-  }
-
-  function saveDataSnapshot(){
-    tryStorage(()=>{
+  async function saveDataSnapshot(){
+    try{
       const sources = [];
       // Reconstruimos por fuente para poder restaurar los chips igual que quedaron.
       const bySourceRecipes = new Map();
@@ -310,53 +301,58 @@
       if(iconMap.size){
         sources.push({ type:'iconos', label: iconSources[0] || 'Iconos', obj: Object.fromEntries(iconMap) });
       }
-      localStorage.setItem(LS_DATA_KEY, JSON.stringify({ v:1, savedAt: Date.now(), sources }));
-    });
+      const result = await window.storage.set(STORAGE_DATA_KEY, JSON.stringify({ v:1, savedAt: Date.now(), sources }));
+      if(!result && els.storageNote) els.storageNote.textContent =
+        '⚠ No se pudo guardar (puede que los datos cargados superen el límite de tamaño). El Recetario sigue funcionando, pero tendrás que volver a cargar los archivos la próxima vez.';
+    }catch(e){
+      if(els.storageNote) els.storageNote.textContent =
+        '⚠ No se pudieron guardar los datos cargados. El Recetario sigue funcionando, pero tendrás que volver a cargar los archivos la próxima vez.';
+    }
   }
 
-  function loadDataSnapshot(){
-    return tryStorage(()=>{
-      const raw = localStorage.getItem(LS_DATA_KEY);
-      if(!raw) return null;
-      const parsed = JSON.parse(raw);
+  async function loadDataSnapshot(){
+    try{
+      const r = await window.storage.get(STORAGE_DATA_KEY);
+      if(!r) return null;
+      const parsed = JSON.parse(r.value);
       (parsed.sources||[]).forEach(s=>{
         if(s.type === 'recetas') ingestRecipes(s.rows, s.label);
         else if(s.type === 'iconos') ingestIcons(s.obj, s.label);
       });
       return parsed.savedAt || null;
-    });
+    }catch(e){
+      return null; // sin datos guardados todavía (primera vez) o error de lectura
+    }
   }
 
-  function saveSelectionSnapshot(){
-    tryStorage(()=>{
-      localStorage.setItem(LS_SELECTION_KEY, JSON.stringify({
+  async function saveSelectionSnapshot(){
+    try{
+      await window.storage.set(STORAGE_SELECTION_KEY, JSON.stringify({
         v:1,
         selection: [...selection.entries()].map(([id,e])=>[id, e.qty]),
         expansionEnabled: [...expansionEnabled.entries()],
         variantChoice: [...variantChoice.entries()],
       }));
-    });
+    }catch(e){ /* guardado best-effort de la selección, no bloquea la interfaz */ }
   }
 
-  function loadSelectionSnapshot(){
-    tryStorage(()=>{
-      const raw = localStorage.getItem(LS_SELECTION_KEY);
-      if(!raw) return;
-      const parsed = JSON.parse(raw);
+  async function loadSelectionSnapshot(){
+    try{
+      const r = await window.storage.get(STORAGE_SELECTION_KEY);
+      if(!r) return;
+      const parsed = JSON.parse(r.value);
       (parsed.selection||[]).forEach(([id,qty])=>{
         const recipe = allRecipes.find(r=>r.recipeId===id);
         if(recipe) selection.set(id, { recipe, qty });
       });
       (parsed.expansionEnabled||[]).forEach(([k,v])=> expansionEnabled.set(k,v));
       (parsed.variantChoice||[]).forEach(([k,v])=> variantChoice.set(k,v));
-    });
+    }catch(e){ /* sin selección guardada todavía */ }
   }
 
-  function clearStorage(){
-    tryStorage(()=>{
-      localStorage.removeItem(LS_DATA_KEY);
-      localStorage.removeItem(LS_SELECTION_KEY);
-    });
+  async function clearStorage(){
+    try{ await window.storage.delete(STORAGE_DATA_KEY); }catch(e){}
+    try{ await window.storage.delete(STORAGE_SELECTION_KEY); }catch(e){}
   }
 
   // ---------- utilidades ----------
@@ -403,7 +399,7 @@
     if(!pending) return;
     files.forEach(file=>{
       const reader = new FileReader();
-      reader.onload = () => {
+      reader.onload = async () => {
         try{
           const raw = JSON.parse(reader.result);
           if(Array.isArray(raw)){
@@ -423,7 +419,7 @@
             renderProfesionOptions();
             runSearch();
             renderSelection();
-            saveDataSnapshot();
+            await saveDataSnapshot();
           }
         }
       };
@@ -493,10 +489,10 @@
     return list[0];
   }
 
-  els.clearDataBtn.addEventListener('click', ()=>{
+  els.clearDataBtn.addEventListener('click', async ()=>{
     allRecipes = []; resultIndex = new Map(); loadedSources = new Map(); iconMap = new Map();
     selection.clear(); expansionEnabled.clear(); variantChoice.clear();
-    clearStorage();
+    await clearStorage();
     if(els.storageNote) els.storageNote.textContent = '';
     renderSourceChips(); renderProfesionOptions(); runSearch(); renderSelection();
   });
@@ -793,19 +789,21 @@
   });
 
   // ---------- estado inicial ----------
-  const restoredAt = loadDataSnapshot();
-  if(allRecipes.length){
-    rebuildIndex();
-    loadSelectionSnapshot();
-    if(restoredAt && els.storageNote){
-      const d = new Date(restoredAt);
-      els.storageNote.textContent = `Datos restaurados (guardados el ${d.toLocaleDateString('es-ES')} ${d.toLocaleTimeString('es-ES')})`;
+  (async function initApp(){
+    const restoredAt = await loadDataSnapshot();
+    if(allRecipes.length){
+      rebuildIndex();
+      await loadSelectionSnapshot();
+      if(restoredAt && els.storageNote){
+        const d = new Date(restoredAt);
+        els.storageNote.textContent = `Datos restaurados (guardados el ${d.toLocaleDateString('es-ES')} ${d.toLocaleTimeString('es-ES')})`;
+      }
     }
-  }
-  renderSourceChips();
-  renderProfesionOptions();
-  runSearch();
-  renderSelection();
+    renderSourceChips();
+    renderProfesionOptions();
+    runSearch();
+    renderSelection();
+  })();
 })();
 </script>
 </body>
