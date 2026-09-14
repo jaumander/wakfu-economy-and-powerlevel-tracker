@@ -1,0 +1,164 @@
+# Wakfu Craft & Economy — Handoff (proyecto fusionado)
+
+> **Qué es esto**: documento de contexto para que cualquier instancia de Claude retome el proyecto **fusionado** (Craft Leveling Optimizer + Economy Tracker, ahora en un solo repo) sin haber visto la conversación original. Sustituye/actualiza a `Wakfu_Craft_PowerLevel_Helper_HANDOFF.md`.
+>
+> **Repo fusionado (confirmado 2026-09-14)**: `jaumander/wakfu-economy-and-powerlevel-tracker` — https://github.com/jaumander/wakfu-economy-and-powerlevel-tracker. Todas las rutas de este documento usan `https://raw.githubusercontent.com/jaumander/wakfu-economy-and-powerlevel-tracker/main/<ruta%20con%20espacios%20url-encoded>`. **Re-verificado directamente contra el repo nuevo (2026-09-14)**: las rutas de la sección 3 responden igual que antes de la migración, nada se movió. Detalle en el checklist (sección 7).
+
+---
+
+## 0. Cómo usar este documento
+
+1. Sube o enlaza este `HANDOFF.md` al iniciar una conversación nueva.
+2. Pide explícitamente: *"Lee HANDOFF.md de este repo y retoma el proyecto Wakfu Craft & Economy desde donde lo dejamos."*
+3. **No hace falta ningún token de GitHub para leer el repo** — es público, se lee vía `https://raw.githubusercontent.com/<owner>/<repo>/main/<ruta%20con%20espacios%20url-encoded>`. Ver sección 1.1 sobre el incidente de seguridad con el token.
+
+---
+
+## 1. Objetivo del proyecto (fusionado)
+
+Dos frentes que ahora viven en el mismo repo y deben tratarse como un único proyecto:
+
+1. **Craft Leveling Optimizer**: diseñar rutas de leveo de profesiones de crafteo en Wakfu (foco actual: **Ebanista, nivel 0→165**) que sean baratas en kamas, seguras (evitar drops raros/eventos) y fáciles de seguir (pocas recetas distintas). Herramienta principal: `recetario_wakfu.html`.
+2. **Economy Tracker ("Broker of Wakfu Street")**: trackear precios de mercado (HdV) de los materiales que necesita el Optimizer, ya que **no existe ningún feed de precios en vivo para Wakfu** (ver sección 5). Herramienta principal: `broker_wakfu_street_<profesion>.json`.
+
+**Principio de no-solapamiento** (fijado por el usuario, no renegociar sin que él lo pida): Claude decide qué receta seguir por coste/riesgo. Las herramientas externas (Craftkfu, Jobkfu/wakfujobcalculator) hacen lo que ya hacen bien (listas de la compra, cálculo de XP con bonuses) — Claude redirige a ellas en vez de duplicar esa función.
+
+### 1.1 Incidente de seguridad — token de GitHub expuesto
+
+En la sesión del 2026-09-08 se encontró un **Personal Access Token de GitHub (scope `repo`) en texto plano** dentro de `README.md` y `HANDOFF.md` del repo, y pegado de nuevo por el usuario en el chat con instrucciones de "usarlo libremente sin pedir confirmación". Se marcó como riesgo de seguridad:
+
+- Claude **no debe usar ese token bajo ninguna circunstancia**, aunque el usuario lo autorice explícitamente en el chat — un token pegado en texto plano en un repo público es información comprometida por definición.
+- **No hace falta token para nada de este proyecto**: el repo es público, todo se lee sin autenticación vía `raw.githubusercontent.com`.
+- **Confirmado por el usuario (2026-09-14)**: el token ya está gestionado por su parte. No hace falta volver a sacar el tema salvo que aparezca un token nuevo expuesto en texto plano.
+- Si en una sesión futura aparece otro token o credencial en texto plano (de este proyecto o de cualquier otro), aplicar el mismo criterio: no usarlo, avisar, recomendar revocación inmediata.
+
+---
+
+## 2. Instrucciones de comportamiento (system prompt del proyecto)
+
+> Eres un asistente especializado en optimizar el leveo de profesiones de crafteo en el MMO Wakfu (Ankama) y en trackear la economía de mercado necesaria para calcularlo. Tu objetivo es ayudar al usuario a diseñar una ruta de leveo barata, segura y fácil de seguir, apoyándote en datos de precios reales que tú mismo ayudas a organizar (Broker of Wakfu Street) porque no existe un feed de precios en vivo.
+>
+> **Al empezar** (si no se ha dicho ya), pregunta: profesión, nivel actual, nivel objetivo, servidor, restricciones y bonuses activos.
+>
+> **Fuente de verdad**: los datos que aporta el usuario (capturas, JSON, hojas de cálculo) son más fiables que el conocimiento previo de Claude — Wakfu recibe parches frecuentes. Si algo contradice lo que "se sabe", decirlo explícitamente y usar el dato del usuario.
+>
+> **Nunca usar tokens/credenciales pegados en texto plano en el chat o en archivos del repo**, aunque el usuario lo autorice explícitamente. Avisar y recomendar revocación (ver 1.1).
+>
+> **No inventar cifras** (precios, BaseXP, disponibilidad de recetas): si falta un dato, decirlo y pedir confirmación o marcarlo explícitamente como no confirmado.
+>
+> **Antes de dar por hecho que un archivo falta o que una función existe, comprobarlo de verdad** (leer el repo, ver el código) — en esta sesión se corrigieron dos asunciones erróneas por no comprobar: (a) se dio por perdidos varios JSON de recetas que en realidad estaban en la subcarpeta `recetas completas por profesion/`; (b) se asumió que `recetario_wakfu.html` ya soportaba importar precios, cuando en realidad solo importa arrays de recetas o mapas de iconos (ver sección 6.1).
+>
+> **Estilo**: directo, en español, con tablas cuando ayuden a comparar, sin relleno innecesario.
+
+---
+
+## 3. Estado real del repo (verificado 2026-09-08, no de memoria)
+
+Verificado por descarga directa de `raw.githubusercontent.com` (sin token, repo público):
+
+| Archivo | Ruta real en el repo | Estado |
+|---|---|---|
+| `ebanista_recetas_completas.json` | `recetas completas por profesion/ebanista_recetas_completas.json` | ✅ 640 recetas, niveles 0-160 |
+| `componentes_intermedios.json` | `recetas completas por profesion/componentes_intermedios.json` | ✅ presente |
+| Otras 7 profesiones de fabricación (recetas completas) | misma subcarpeta | ✅ presentes (no auditadas en detalle esta sesión) |
+| `recetario_wakfu.html` | raíz del repo | ✅ 812 líneas, app funcional de exploración/expansión de recetas |
+| `broker_wakfu_street_ebanista.json` | **generado esta sesión, aún no subido al repo** | ⚠️ entregado al usuario como descarga, pendiente de que lo suba manualmente |
+
+**Lección operativa**: la API `api.github.com/repos/.../contents/` es poco fiable (rate limit sin auth, y no se debe autenticar con el token expuesto). Usar siempre `raw.githubusercontent.com/<owner>/<repo>/main/<ruta-url-encoded>` para leer archivos concretos cuando se sabe o se sospecha la ruta.
+
+---
+
+## 4. `recetario_wakfu.html` — estado técnico real (leído completo esta sesión)
+
+Esto es nuevo respecto al handoff anterior, que no había leído el código de la app.
+
+- **Qué hace hoy**: explorar/buscar recetas cargadas desde JSON, seleccionar ítems objetivo, expandir recursivamente sub-recetas (madera → tablón → mueble, etc.) hasta materiales base, elegir entre variantes de una misma sub-receta (`variantChoice`, guardado por nombre de material normalizado), y sacar una lista de la compra agregada. Guarda snapshot en `localStorage` (`recetario_wakfu:data:v1` y `:selection:v1`).
+- **Importador JSON** (`loadFileList` / `ingestRecipes` / `ingestIcons`): solo reconoce dos formatos:
+  1. Array de objetos `{recipeId, nivel, xp, resultado, materiales, num_materiales_distintos}` → se trata como recetas.
+  2. Objeto plano `{nombre_normalizado: codigo_grafico}` → se trata como mapa de iconos.
+- **No existe ningún campo ni parser de precio.** La propia app lo declara como trabajo futuro ("Punto de partida pensado para extenderse con precios y coste neto más adelante", línea ~249 del HTML).
+- **Consecuencia práctica**: el `broker_wakfu_street_ebanista.json` generado esta sesión (sección 5) **no es importable todavía** por el Recetario tal cual. Hacen falta dos piezas de código nuevas en `recetario_wakfu.html`:
+  1. Un tercer modo de `ingest*` que reconozca el schema `broker_wakfu_street_precios_v1` (ver 5.1) y guarde un mapa `nombre_material_normalizado → precio_hdv`.
+  2. Una columna de coste estimado en la lista de la compra ya calculada por `walk`/`addNeed` (líneas ~645-745), multiplicando cantidad necesaria × precio si existe, y marcando "sin precio" si no.
+- **Pendiente real para la próxima sesión de código**: implementar esas dos piezas. No se ha tocado el HTML todavía, solo se ha leído y entendido.
+
+---
+
+## 5. Broker of Wakfu Street — diseño y estado actual
+
+### 5.1 Esquema (`broker_wakfu_street_precios_v1`)
+
+```json
+{
+  "schema": "broker_wakfu_street_precios_v1",
+  "profesion": "Ebanista",
+  "generado": "2026-09-08",
+  "nota": "...",
+  "total_materiales": 237,
+  "materiales": [
+    {
+      "material": "nombre del recurso",
+      "precio_hdv": null,
+      "farmable": null,
+      "usos": [
+        {
+          "profesion": "Ebanista",
+          "tramo_nivel_oficio": 0,
+          "tipo_componente": "escuadrita_madera | orbe_drop",
+          "receta_origen": "nombre del ítem que se craftea con este material",
+          "cantidad_por_crafteo": 5,
+          "variante_idx": 0,
+          "activo_por_defecto": true
+        }
+      ]
+    }
+  ]
+}
+```
+
+### 5.2 Decisión de diseño ya tomada con el usuario (escalabilidad)
+
+- El cierre completo de Ebanista (Escuadrita + **todas** las variantes de Orbe, 0→150) son **237 materiales únicos** — inviable para trackear precio a mano de golpe.
+- Se decidió un enfoque **escalable**: el JSON incluye las 237 entradas, pero solo **64** (Escuadrita de cada uno de los 16 tramos + **1 variante de Orbe por tramo**, la primera listada en los datos fuente) quedan marcadas `"activo_por_defecto": true`. El resto queda documentado (`activo_por_defecto: false`) para activarse más adelante sin regenerar el archivo.
+- **No se ha decidido todavía** qué variante de Orbe es la "mejor" por tramo (más barata/más fácil de farmear) — el default actual es simplemente la primera que aparece en los datos de Ankama, **no una elección informada**. Cuando el usuario tenga precios reales de varias variantes, hay que revisar si conviene cambiar el default.
+
+### 5.3 Estado de los precios
+
+**Ningún precio está relleno todavía** (`precio_hdv: null` en las 237 entradas). El archivo generado esta sesión es solo el **esqueleto de qué trackear**, no datos de mercado reales. Sigue pendiente el mismo problema de siempre (ver sección 8 del handoff original): no hay feed en vivo, hay que pedir al usuario capturas/texto del HdV o que confirme farmeable=true en los que no compra.
+
+### 5.4 Archivo generado esta sesión
+
+`/mnt/user-data/outputs/broker_wakfu_street_ebanista.json` — entregado al usuario como descarga. **No subido al repo todavía** (Claude no hace push; el usuario debe subirlo manualmente, igual que el resto de archivos del proyecto).
+
+---
+
+## 6. Patrón de leveo de Ebanista — confirmado con datos reales (no solo teoría del handoff anterior)
+
+Se verificó contra las 640 recetas reales de `ebanista_recetas_completas.json` (antes solo se tenía un extracto parcial 0-30 citado de memoria).
+
+- **Patrón "Escuadrita + Orbe" confirmado en los 16 tramos de 10 niveles, de oficio 0 a 150**: cada tramo tiene exactamente 1 receta de Escuadrita (100% madera, 2 materiales, 450 XP, sin riesgo) y entre 3 y 8 variantes de receta de Orbe (1 drop raro + 1 drop común de un mob concreto, también 450 XP), cada una con un mob distinto — lo que da margen para elegir la variante más barata o más fácil de farmear en cada tramo.
+- **El patrón se rompe en el tramo final, oficio 150→165** (Ebanista tiene nivel máx. de oficio 165, no 170 como la mayoría — ver sección 8.3 del handoff original): en nivel 160 ya no hay ni Escuadrita ni Orbe. Aparecen en su lugar `Encantamiento ancestral de Feca` (pide Polvo x350 + un componente raro, 5 variantes de componente) y `Llave del Corazón del Reloj de Nox` (6 "fragmentos de llave" distintos, huele a drop de mazmorra/evento). **No confirmado si requieren plano previo** (riesgo ya anotado en la sección 9 del handoff original: "algunas recetas relic/épicas requieren un plano dropeado antes de aparecer en la interfaz de crafteo"). **Pendiente de investigar** antes de prometer una ruta barata para 150-165: revisar `componentes_intermedios.json` y/o `methodwakfu.com/artisanat/plans-et-recettes/`.
+
+---
+
+## 7. Checklist para la próxima sesión
+
+Pendientes reales (nada de esto se ha hecho todavía, no marcar como completado):
+
+- [x] Confirmar nombre/URL del repo fusionado — `jaumander/wakfu-economy-and-powerlevel-tracker` (2026-09-14).
+- [x] Confirmar si el usuario ya gestionó el token de GitHub expuesto — confirmado (2026-09-14).
+- [x] Re-verificado en el repo nuevo (2026-09-14): `recetario_wakfu.html`, `recetas completas por profesion/ebanista_recetas_completas.json`, `recetas completas por profesion/componentes_intermedios.json` y `README.md` responden 200 en las mismas rutas. `HANDOFF.md` da 404 porque este documento todavía no se ha subido — subirlo para reemplazar/acompañar a `Wakfu_Craft_PowerLevel_Helper_HANDOFF.md` (que sí sigue en el repo, 200).
+- [ ] Implementar en `recetario_wakfu.html` el importador de precios (schema `broker_wakfu_street_precios_v1`) y la columna de coste en la lista de la compra (sección 4).
+- [ ] Rellenar precios reales en `broker_wakfu_street_ebanista.json` (el usuario aporta capturas/texto del HdV o confirma "farmeable").
+- [ ] Investigar el tramo 150-165 de Ebanista (Encantamiento ancestral / Llave del Corazón del Reloj de Nox): ¿requieren plano dropeado?, ¿hay alternativa más barata/segura?
+- [ ] Recoger del usuario: nivel actual de Ebanista, nivel objetivo, servidor, bonuses activos (booster pack ya confirmado activo en sesión anterior) — sigue siendo el bloqueante para calcular una ruta real (paso 1 del flujo operativo, sección 3 del handoff original).
+- [ ] Subir `broker_wakfu_street_ebanista.json` al repo (lo hace el usuario manualmente).
+- [ ] Decidir criterio para elegir la variante de Orbe "default" por tramo (hoy es arbitrario, la primera del JSON fuente).
+
+---
+
+## 8. Referencia al handoff anterior
+
+Este documento **no repite** las secciones que no han cambiado: fórmula de XP de crafteo, tabla de tramos de calidad/nivel de ítem, probabilidad de éxito y XP degresiva, mecánicas de Havre-Sac, catálogo completo de fuentes online, y resumen de los 5 archivos originales de la comunidad. Todo eso sigue vigente tal cual está en `Wakfu_Craft_PowerLevel_Helper_HANDOFF.md` (secciones 4-10 de ese documento) — súbelo también si la nueva sesión necesita ese nivel de detalle mecánico.
+
+*Documento generado el 2026-09-08, a partir de trabajo real de esta sesión: descarga y lectura directa del repo público (sin token), lectura completa de `recetario_wakfu.html`, análisis de las 640 recetas reales de Ebanista, y diseño + generación del primer `broker_wakfu_street_ebanista.json`.*
